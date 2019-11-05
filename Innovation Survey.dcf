@@ -57,7 +57,7 @@ Start=14
 Len=4
 
 [Record]
-Label=Establishment Information
+Label=Establishment Informations
 Name=ESTABLISHMENT_INFORMATION
 RecordTypeValue='2'
 RecordLen=5
