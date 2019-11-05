@@ -1,5 +1,5 @@
 ﻿[Dictionary]
-Version=CSPro 6.2
+Version=CSPro 7.3
 Label=Innovation Survey
 Name=INNOVATION_SURVEY_DICT
 RecordTypeStart=1
@@ -154,7 +154,7 @@ Value=3;Business Enterprises
 Value=4;NGOs
 
 [Record]
-Label=Ownership of Establishment 
+Label=Ownership of Establishment
 Name=OWNERSHIP_OF_ESTABLISHMENT
 RecordTypeValue='5'
 RecordLen=12
@@ -204,7 +204,7 @@ Len=4
 Label=GENERAL INFORMATION ABOUT YOUR ESTABLISHMENT
 Name=GENERAL_INFORMATION_ABOUT_YOUR_E
 RecordTypeValue='6'
-RecordLen=8
+RecordLen=37
 
 [Item]
 Label=Main Activity
@@ -337,3 +337,213 @@ Value=532;សកម្មភាពសេវាកម្មបញ្ញើ (Couri
 Value=551;សកម្មភាពសេវាកម្មស្នាក់នៅរយៈពេលខ្លី (Short term accommodation service activities)
 Value=552;កន្លែងបោះជំរុំ ចំណតយាន្តយន្តទេសចរណ៍ និងសណ្ដោង (Camping grounds, recreational vehicle parks and trailer parks)
 Value=559;ការស្នាក់នៅផ្សេងៗទៀត (Other accommodation)
+Value=561;ការផ្គត់ផ្គង់ម្ហូបអាហារដល់កម្មវិធី និងសកម្មភាពសេវាកម្មអាហារផ្សេងៗ (Event catering and other food service activities)
+Value=562;សកម្មភាពសេវាកម្មភោជនីយដ្ឋាន និងសេវាកម្មផ្គត់ផ្គង់អាហារចល័ត(Restaurants and mobile food service activities)
+Value=563;សកម្មភាពបម្រើភេសជ្ជៈ (Beverage serving activities)
+Value=581;ការបោះពុម្ពផ្សាយសៀវភៅ កាលិកបត្រ និងសកម្មភាពបោះពុម្ពផ្សាយផ្សេងទៀត (Publishing of books, periodicals and other publishing activities)
+Value=582;ការផ្សាយកម្មវិធីកុំព្យូទ័រ (Software publishing)
+Value=591;សកម្មភាពភាពយន្ត កម្មវិធីទូរទស្សន៍ និងវីដេអូ (Motion picture, video and television programmer activities)
+Value=592;សកម្មភាពថតសំឡេង និងចេញផ្សាយតន្ត្រី (Sound recording and music publishing activities)
+Value=601;ការផ្សាយវិទ្យុ (Radio broadcasting)
+Value=602;សកម្មភាពបង្កើតកម្មវិធី និងការផ្សាយទូរទស្សន៍ (Television programming and broadcasting activities)
+Value=611;សកម្មភាពទូរគមនាគមន៍មានខ្សែ (Wired telecommunications activities)
+Value=612;សកម្មភាពទូរគមនាគមន៍ឥតខ្សែ (Wireless telecommunications activities)
+Value=613;សកម្មភាពទូរគមនាគមន៍ផ្កាយរណប (Satellite telecommunications activities)
+Value=619;សកម្មភាពទូរគមនាគមន៍ផ្សេងទៀត (Other telecommunications activities)
+Value=620;សកម្មភាពបង្កើតកម្មវិធីកុំព្យូទ័រ ពិគ្រោះយោបល់ និងសកម្មភាពពាក់ព័ន្ធ (Computer programming, consultancy and related activities)
+Value=631;ការបំប្លែងទិន្នន័យ ការដាក់ដំណើរការលើអ៊ីនធឺណែតនិងសកម្មភាពពាក់ព័ន្ធនិងប្រព័ន្ធស្វែងរកតាមអ៊ីនធឺណែត (Data processing, hosting and related activities; web portals)
+Value=639;សកម្មភាពសេវាកម្មព័ត៌មានផ្សេងទៀត (Other information service activities)
+Value=641;អន្តរការីរូបិយវត្ថុ (Monetary intermediation)
+Value=642;សកម្មភាពរបស់ក្រុមហ៊ុនភាគហ៊ុន (Activities of holding companies)
+Value=643;មូលនិធិវិនិយោគ មូលនិធិ និងស្ថាប័នហិរញ្ញវត្ថុប្រហាក់ប្រហែល (Trusts, funds and similar financial entities)
+Value=649;សកម្មភាពសេវាកម្មហិរញ្ញវត្ថុផ្សេងទៀត លើកលែងតែសកម្មភាពធានារ៉ាប់រង និងមូលនិធិសោធននិវត្តន៍ (Other financial service activities, except insurance and pension funding activities)
+Value=651;ការធានារ៉ាប់រង (Insurance)
+Value=652;ការធានារ៉ាប់រងបន្ត (Reinsurance)
+Value=653;មូលនិធិសោធននិវត្តន៍ (Pension funding)
+Value=661;សកម្មភាពគាំទ្រដល់សកម្មភាពសេវាកម្មហិរញ្ញវត្ថុ លើកលែងតែការធានារ៉ាប់រង និងមូលនិធិសោធននិវត្តន៍ (Activities auxiliary to financial service activities, except insurance and pension funding)
+Value=662;សកម្មភាពគាំទ្រដល់សេវាកម្មធានារ៉ាប់រង និងមូលនិធិសោធននិវត្តន៍ (Activities auxiliary to insurance and pension funding)
+Value=663;សកម្មភាពគ្រប់គ្រងមូលនិធិ (Fund management activities)
+Value=681;សកម្មភាពអចលនៈទ្រព្យដោយប្រើអចលនៈទ្រព្យផ្ទាល់ខ្លួនឬជួលពីគេ (Real estate activities with own or leased property)
+Value=682;សកម្មភាពអចលនៈទ្រព្យដោយយកថ្លៃឈ្នួលជាក់ស្ដែងឬតាមកិច្ចសន្យា (Real estate activities on a fee or contract basis)
+Value=699;សកម្មភាពផ្នែកច្បាប់ (legal activities)
+Value=692;សកម្មភាពគណនេយ្យ ការកត់ត្រាគណនេយ្យនិងសវនកម្ម ការពិគ្រោះយោបល់ពន្ធដារ (Accounting, bookkeeping and auditing activities; tax consultancy)
+Value=701;សកម្មភាពរបស់ការិយាល័យកណ្តាល (Activities of head offices)
+Value=702;សកម្មភាពពិគ្រោះយោបល់ផ្នែកគ្រប់គ្រង (Management consultancy activities)
+Value=711;សកម្មភាពស្ថាបត្យកម្ម និងវិស្វកម្ម និងការពិគ្រោះយោបល់បច្ចេកទេសពាក់ព័ន្ធ (Architectural and engineering activities and related technical consultancy)
+Value=712;ការពិសោធ និងវិភាគបច្ចេកទេស (Technical testing and analysis)
+Value=721;ការស្រាវជ្រាវនិងអភិវឌ្ឍបែបពិសោធន៍លើវិទ្យាសាស្រ្តធម្មជាតិនិងវិស្វកម្ម (Research and experimental development on natural sciences and engineering)
+Value=722;ការស្រាវជ្រាវនិងអភិវឌ្ឍបែបពិសោធន៍លើវិទ្យាសាស្រ្តសង្គម និងមនុស្សសាស្ត្រ (Research and experimental development on social sciences and humanities)
+Value=731;ការផ្សាយពាណិជ្ជកម្ម (Advertising)
+Value=732;ការស្រាវជ្រាវទីផ្សារ និងការស្ទង់មតិសាធារណៈ (Market research and public opinion polling)
+Value=741;សកម្មភាពរចនាឯកទេស (Specialized design activities)
+Value=742;សកម្មភាពថតរូប (Photographic activities)
+Value=749;សកម្មភាពវិជ្ជាជីវៈ វិទ្យាសាស្រ្តនិងបច្ចេកទេសផ្សេងទៀតដែលពុំបានរាប់បញ្ចូល (Other professional, scientific and technical activities n.e.c.)
+Value=750;សកម្មភាពបសុព្យាបាល (Veterinary activities)
+Value=771;ការជួល និងភតិសន្យាយានយន្ត (Renting and leasing of motor vehicles)
+Value=772;ការជួល និងភតិសន្យាទំនិញប្រើប្រាស់ផ្ទាល់ខ្លួន និងសម្រាប់គ្រួសារ (Renting and leasing of personal and household goods)
+Value=773;ការជួល និងភតិសន្យាគ្រឿងយន្ត ឧបករណ៍ និងទំនិញរូបីយ៍ផ្សេងទៀត (Renting and leasing of other machinery, equipment and tangible goods)
+Value=774;ភតិសន្យាផលិតផលកម្មសិទ្ធិបញ្ញា និងផលិតផលប្រហាក់ប្រហែលលើកលែងតែការងាររក្សាសិទ្ធិ (Leasing of intellectual property and similar products, except copyrighted works)
+Value=781;សកម្មភាពទីភ្នាក់ងារស្វែងរកការងារ (Activities of employment placement agencies)
+Value=782;សកម្មភាពទីភ្នាក់ងារស្វែងរកការងារបណ្តោះអាសន្ន (Temporary employment agency activities)
+Value=783;ការផ្តល់សេវាកម្មធនធានមនុស្សផ្សេងទៀត (Other human resources provision)
+Value=791;សកម្មភាពរបស់ទីភ្នាក់ងារទេសចរណ៍ និងប្រតិបត្តិករទេសចរណ៍ (Travel agency and tour operator activities)
+Value=799;សកម្មភាពកក់បម្រុងទុកផ្សេងទៀតនិងសកម្មភាពពាក់ព័ន្ធនានា (Other reservation service and related activities)
+Value=801;សកម្មភាពរក្សាសន្ដិសុខឯកជន (Private security activities)
+Value=802;សកម្មភាពសេវាកម្មប្រព័ន្ធសុវត្ថិភាព (Security systems service activities)
+Value=803;សកម្មភាពស៊ើបអង្កេត (Investigation activities) 
+Value=811;សកម្មភាពគាំទ្រហេដ្ឋារចនាសម្ព័ន្ធចម្រុះ (Combined facilities support activities)
+Value=812;សេវាកម្មសម្អាត (Cleaning activities)
+Value=813;សេវាកម្មរៀបចំ និងថែរក្សាសោភ័ណភាព (Landscape care and maintenance service activities)
+Value=821;សកម្មភាពខាងរដ្ឋបាលការិយាល័យ និងសកម្មភាពគាំទ្រការិយាល័យ (Office administrative and support activities)
+Value=822;សកម្មភាពរបស់មជ្ឈមណ្ឌលហៅទូរស័ព្ទ (Activities of call centers)
+Value=823;សកម្មភាពរៀបចំសន្និបាត និងពិព័រណ៍ពាណិជ្ជកម្ម (Organization of conventions and trade shows)
+Value=829;សកម្មភាពសេវាគាំទ្រដល់អាជីវកម្មដទៃទៀតដែលពុំបានរាប់បញ្ចូល (Business support service activities n.e.c)
+Value=841;ការគ្រប់គ្រងរដ្ឋ និងគោលនយោបាយសេដ្ឋកិច្ច និងសង្គមរបស់សហគមន៍ (Administration of the state and the economic and social policy of the community)
+Value=842;ការផ្តល់សេវាកម្មដល់សហគមន៍ទាំងមូល (Provision of services to the community as a whole)
+Value=843;សកម្មភាពកាតព្វកិច្ចសន្តិសុខសង្គម (Compulsory social security activities)
+Value=851;មត្តេយ្យសិក្សា និងបឋមសិក្សា (Pre-primary and primary education)
+Value=852;មធ្យមសិក្សា (Secondary education) 
+Value=853;ឧត្តមសិក្សា (Higher education) 
+Value=854;ការអប់រំផ្សេងទៀត (Other education) 
+Value=855;សកម្មភាពគាំទ្រការអប់រំ (Educational support activities) 
+Value=861;សកម្មភាពរបស់មន្ទីរពេទ្យ (Hospital activities)
+Value=862;សកម្មភាពព្យាបាលជំងឺទូទៅ និងមាត់ធ្មេញ (Medical and dental practice activities) 
+Value=869;សកម្មភាពថែទាំសុខភាពផ្សេងទៀត (Other human health activities)
+Value=871;សកម្មភាពឬសម្ភារ:ថែទាំសុខភាពនៅតាមលំនៅដ្ឋាន (Residential nursing care facilities and activities)
+Value=872;សកម្មភាពថែទាំតាមផ្ទះសម្រាប់អ្នកមានប្រាជ្ញាអន់ សុខភាពផ្លូវចិត្ត និងការប្រើប្រាស់គ្រឿងញឿន (Residential care activities for mental retardation, mental health and substance abuse)
+Value=873;សកម្មភាពថែទាំសុខភាពតាមលំនៅដ្ឋានសម្រាប់មនុស្សចាស់ និងជនពិការ (Residential care activities for the elderly and disabled)
+Value=879;សកម្មភាពថែទាំតាមលំនៅដ្ឋានផ្សេងទៀត (Other residential care activities) 
+Value=881;សកម្មភាពការងារសង្គមកិច្ចសម្រាប់មនុស្សចាស់ និងជនពិការដោយមិនផ្តល់កន្លែងស្នាក់នៅ (Social work activities without accommodation for the elderly and disabled)
+Value=889;សកម្មភាពការងារសង្គមកិច្ចដែលមិនផ្ដល់កន្លែងស្នាក់នៅដទៃទៀតដែលពុំបានរាប់បញ្ចូល (Other social work activities without accommodation n.e.c)
+Value=900;សកម្មភាពច្នៃប្រឌិត សិល្បៈ និងការកម្សាន្ត (Creative, arts and entertainment activities)
+Value=910;សកម្មភាពបណ្ណាល័យ ប័ណ្ណាសារដ្ឋាន សារមន្ទីរ និងសកម្មភាពវប្បធម៌ដទៃទៀត (Libraries, archives, museums and other cultural activities)
+Value=920;សកម្មភាពលេងល្បែង និងភ្នាល់ (Gambling and betting activities)
+Value=931;សកម្មភាពកីឡា (Sports activities) 
+Value=932;សកម្មភាពល្បែងកម្សាន្តនិងការសម្រាកដទៃទៀត (Other amusement and recreation activities)
+Value=941;សកម្មភាពរបស់ធុរកិច្ច និយោជិក និងអង្គការដែលសមាជិកមានជំនាញវិជ្ជាជីវៈ (Activities of business, employers and professional membership organizations)
+Value=942;សកម្មភាពរបស់សហជីពពាណិជ្ជកម្ម (Activities of trade unions) 
+Value=949;សកម្មភាពរបស់អង្គការសមាជិកផ្សេងៗ (Activities of other membership organizations) 
+Value=951;ការជួសជុលកុំព្យូទ័រ និងបរិក្ខារគមនាគមន៍ (Repair of computers and communication equipment)
+Value=952;ការជួសជុលទំនិញប្រើប្រាស់ផ្ទាល់ខ្លួននិងក្នុងផ្ទះ (Repair of personal and household goods)
+Value=960;សកម្មភាពសេវាកម្មផ្ទាល់ខ្លួនផ្សេងទៀត (Other personal service activities) 
+Value=990;សកម្មភាពរបស់អង្គការនិងស្ថាប័នក្រៅរដ្ឋាភិបាល (activities of Extraterritorial Organizations and bodies)
+
+[Item]
+Label=part of a company group
+Name=PART_OF_A_COMPANY_GROUP
+Start=9
+Len=1
+
+[ValueSet]
+Label=part of a company group
+Name=PART_OF_A_COMPANY_GROUP_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=location of the head office
+Name=LOCATION_OF_THE_HEAD_OFFICE
+Start=10
+Len=1
+
+[ValueSet]
+Label=location of the head office
+Name=LOCATION_OF_THE_HEAD_OFFICE_VS1
+Value=1;Cambodia
+Value=2;Not Cambodia
+
+[Item]
+Label=Turnover 2016
+Name=TURNOVER_2016
+Start=11
+Len=6
+
+[Item]
+Label=Percentage derived from exports 2016
+Name=PERCENTAGE_DERIVED_FROM_EXPORTS_2016
+Start=17
+Len=3
+
+[Item]
+Label=Turnover 2017
+Name=TURNOVER_2017
+Start=20
+Len=6
+
+[Item]
+Label=Percentage derived from exports 2017
+Name=PERCENTAGE_DERIVED_FROM_EXPORTS_2017
+Start=26
+Len=3
+
+[Item]
+Label=Turnover 2018
+Name=TURNOVER_2018
+Start=29
+Len=6
+
+[Item]
+Label=Percentage derived from exports 2018
+Name=PERCENTAGE_DERIVED_FROM_EXPORTS_2018
+Start=35
+Len=3
+
+[Record]
+Label=RESEARCH AND DEVELOPMENT  ACTIVITIES
+Name=RESEARCH_AND_DEVELOPMENT_ACTIVITIES
+RecordTypeValue='7'
+RecordLen=5
+
+[Record]
+Label=INNOVATION ACTIVITIES
+Name=INNOVATION_ACTIVITIES
+RecordTypeValue='8'
+RecordLen=5
+
+[Record]
+Label=ON-GOING OR ABANDONED INNOVATION ACTIVITIES
+Name=ON_GOING_OR_ABANDONED_INNOVATION_ACTIVITIES
+RecordTypeValue='9'
+RecordLen=5
+
+[Record]
+Label=INNOVATION ACTIVITIES AND EXPENDITURE
+Name=INNOVATION_ACTIVITIES_AND_EXPENDITURE
+RecordTypeValue='A'
+RecordLen=5
+
+[Record]
+Label=OBJECTIVES AND EFFECTS OF INNOVATION
+Name=OBJECTIVES_AND_EFFECTS_OF_INNOVATION
+RecordTypeValue='B'
+RecordLen=5
+
+[Record]
+Label=GOVERNMENT SUPPORT FOR INNOVATION
+Name=GOVERNMENT_SUPPORT_FOR_INNOVATION
+RecordTypeValue='C'
+RecordLen=5
+
+[Record]
+Label=FUNDING
+Name=FUNDING
+RecordTypeValue='D'
+RecordLen=5
+
+[Record]
+Label=INNOVATION CO-OPERATION
+Name=INNOVATION_CO_OPERATION
+RecordTypeValue='E'
+RecordLen=5
+
+[Record]
+Label=SOURCES OF INFORMATION FOR INNOVATION
+Name=SOURCES_OF_INFORMATION_FOR_INNOVATION
+RecordTypeValue='F'
+RecordLen=5
+
+[Record]
+Label=PATENT & OTHER PROTECTION METHODS
+Name=PATENT_OTHER_PROTECTION_METHODS
+RecordTypeValue='G'
+RecordLen=5
