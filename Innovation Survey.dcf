@@ -1,0 +1,160 @@
+﻿[Dictionary]
+Version=CSPro 6.2
+Label=Innovation Survey
+Name=INNOVATION_SURVEY_DICT
+RecordTypeStart=1
+RecordTypeLen=1
+Positions=Relative
+ZeroFill=No
+DecimalChar=Yes
+
+[Level]
+Label=Innovation Survey questionnaire
+Name=INNOVATION_SURVEY_QUEST
+
+[IdItems]
+
+[Item]
+Label=IDENTIFICATION INFORMATION
+Name=IDENTIFICATION_INFORMATION
+Start=2
+Len=4
+
+[Record]
+Label=Area information
+Name=AREA_INFORMATION
+RecordTypeValue='1'
+RecordLen=17
+
+[Item]
+Label=Province ID
+Name=PROVINCE_IE
+Start=6
+Len=2
+
+[Item]
+Label=District ID
+Name=DISTRICT_ID
+Start=8
+Len=2
+
+[Item]
+Label=Commune ID
+Name=COMMUNE_ID
+Start=10
+Len=2
+
+[Item]
+Label=Village ID
+Name=VILLAGE_ID
+Start=12
+Len=2
+
+[Item]
+Label=Serial Number of Establishment
+Name=SERIAL_NUMBER_OF_ESTABLISHMENT
+Start=14
+Len=4
+
+[Record]
+Label=Establishment Information
+Name=ESTABLISHMENT_INFORMATION
+RecordTypeValue='2'
+RecordLen=5
+
+[Record]
+Label=Establishment's Profile
+Name=ESTABLISHMENT_S_PROFILE
+RecordTypeValue='3'
+RecordLen=19
+
+[Item]
+Label=Year of Establishment
+Name=YEAR_OF_ESTABLISHMENT
+Start=6
+Len=4
+
+[Item]
+Label=Establishment Reg No
+Name=ESTABLISHMENT_REG_NO
+Start=10
+Len=4
+
+[Item]
+Label=Ownership Local
+Name=OWNERSHIP_LOCAL
+Start=14
+Len=3
+
+[Item]
+Label=Ownership foriegn
+Name=OWNERSHIP_FORIEGN
+Start=17
+Len=3
+
+[Record]
+Label=Type of Establishment
+Name=TYPE_OF_ESTABLISHMENT
+RecordTypeValue='4'
+RecordLen=6
+
+[Item]
+Label=Type of Establishment
+Name=TYPE_OF_ESTABLISHMENU
+Start=6
+Len=1
+
+[ValueSet]
+Label=Type of Establishment
+Name=TYPE_OF_ESTABLISHMENU_VS1
+Value=1;Government and Research Institutes
+Value=2;Institutions of Higher Learning
+Value=3;Business Enterprises
+Value=4;NGOs
+
+[Record]
+Label=Ownership of Establishment 
+Name=OWNERSHIP_OF_ESTABLISHMENT
+RecordTypeValue='5'
+RecordLen=12
+
+[Item]
+Label=Ownership of Establishment
+Name=OWNERSHIP_OF_ESTABLISHMENU
+Start=6
+Len=2
+
+[ValueSet]
+Label=Ownership of Establishment
+Name=OWNERSHIP_OF_ESTABLISHMENU_VS1
+Value=1;Individual proprietor (with no registration)
+Value=2;Sole Proprietorship (with registration)
+Value=3;General Partnership
+Value=4;Limited Partnership
+Value=5;Private limited company
+Value=6;Public Limited company
+Value=7;Subsidiary of foreign company
+Value=8;Branch of foreign company
+Value=9;Commercial representative office foreign company
+Value=10;Cooperative
+Value=11;State-owned organization
+Value=12;NGO
+Value=13;Others
+
+[Item]
+Label=Sector
+Name=SECTOR
+Start=8
+Len=1
+
+[ValueSet]
+Label=Sector
+Name=SECTOR_VS1
+Value=1;Manufacturing
+Value=2;Services
+
+[Item]
+Label=Number of employees
+Name=NUMBER_OF_EMPLOYEES
+Start=9
+Len=4
