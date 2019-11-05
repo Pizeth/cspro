@@ -60,7 +60,48 @@ Len=4
 Label=Establishment Informations
 Name=ESTABLISHMENT_INFORMATION
 RecordTypeValue='2'
-RecordLen=5
+RecordLen=235
+
+[Item]
+Label=Name of Establishment
+Name=NAME_OF_ESTABLISHMENT
+Start=6
+Len=100
+DataType=Alpha
+
+[Item]
+Label=Name of Interviewee
+Name=NAME_OF_INTERVIEWEE
+Start=106
+Len=25
+DataType=Alpha
+
+[Item]
+Label=Job Title
+Name=JOB_TITLE
+Start=131
+Len=20
+DataType=Alpha
+
+[Item]
+Label=Telephone Number
+Name=TELEPHONE_NUMBER
+Start=151
+Len=10
+
+[Item]
+Label=Email Address
+Name=EMAIL_ADDRESS
+Start=161
+Len=25
+DataType=Alpha
+
+[Item]
+Label=Physical Address
+Name=PHYSICAL_ADDRESS
+Start=186
+Len=50
+DataType=Alpha
 
 [Record]
 Label=Establishment's Profile
@@ -158,3 +199,141 @@ Label=Number of employees
 Name=NUMBER_OF_EMPLOYEES
 Start=9
 Len=4
+
+[Record]
+Label=GENERAL INFORMATION ABOUT YOUR ESTABLISHMENT
+Name=GENERAL_INFORMATION_ABOUT_YOUR_E
+RecordTypeValue='6'
+RecordLen=8
+
+[Item]
+Label=Main Activity
+Name=MAIN_ACTIVITY
+Start=6
+Len=3
+
+[ValueSet]
+Label=Main Activity
+Name=MAIN_ACTIVITY_VS1
+Value=101;Processing and preserving of meat
+Value=102;Processing and preserving of fish, crustaceans and mollusks
+Value=103;Processing and preserving of fruit and vegetables
+Value=104;Manufacture of vegetable and animal oils and fats
+Value=105;Manufacture of dairy products
+Value=106;Manufacture of grain mill products, starches and starch products
+Value=107;Manufacture of other food products
+Value=108;Manufacture of prepared animal feeds
+Value=110;Manufacture of beverages
+Value=120;Manufacture of tobacco products
+Value=131;Spinning, weaving and finishing of textiles
+Value=139;Manufacture of other textiles
+Value=141;Manufacture of wearing apparel, except fur apparel
+Value=142;Manufacture of articles of fur
+Value=143;Manufacture of knitted and crocheted apparel
+Value=151;Tanning and dressing of leather; manufacture of luggage, handbags, saddlery and harness; dressing and dyeing of fur
+Value=152;Manufacture of footwear
+Value=161;Sawmilling and planning of wood
+Value=162;Manufacture of products of wood, cork, straw and plaiting materials
+Value=170;Manufacture of paper and paper products
+Value=181;Printing and service activities related to printing
+Value=182;Reproduction of recorded media
+Value=191;Manufacture of coke oven products
+Value=192;Manufacture of refined petroleum products
+Value=201;(Manufacture of basic chemicals, fertilizers and nitrogen compounds, plastics and synthetic rubber in primary forms
+Value=202;Manufacture of other chemical products
+Value=203;Manufacture of man-made fibers
+Value=210;Manufacture of pharmaceuticals, medicinal chemical and botanical products
+Value=221;Manufacture of rubber products
+Value=222;Manufacture of plastics products
+Value=231;Manufacture of glass and glass products
+Value=239;Manufacture of non-metallic mineral products
+Value=241;Manufacture of basic iron and steel
+Value=242;Manufacture of basic precious and other non-ferrous metals
+Value=243;Casting of metals
+Value=251;Manufacture of structural metal products, tanks, reservoirs and steam generators
+Value=252;Manufacture of weapons and ammunition
+Value=259;Manufacture of other fabricated metal products; metalworking service activities
+Value=261;Manufacture of electronic components
+Value=262;Manufacture of computers and peripheral equipment
+Value=263;Manufacture of communication equipment
+Value=264;Manufacture of consumer electronics
+Value=265;Manufacture of measuring, testing, navigating and control equipment; watches and clocks
+Value=266;Manufacture of irradiation, electro-medical and electrotherapeutic equipment
+Value=267;Manufacture of optical instruments and equipment
+Value=268;Manufacture of magnetic and optical media
+Value=271;Manufacture of electric motors, generators, transformers and electricity distribution and control apparatus
+Value=272;Manufacture of batteries and accumulators
+Value=273;Manufacture of wiring and wiring devices
+Value=274;Manufacture of electric lighting equipment
+Value=275;Manufacture of domestic appliances
+Value=279;Manufacture of other electrical equipment
+Value=281;Manufacture of general-purpose machinery
+Value=282;Manufacture of special-purpose machinery
+Value=291;Manufacture of motor vehicles
+Value=292;Manufacture of bodies (coachwork) for motor vehicles; manufacture of trailers and semi-trailers
+Value=293;Manufacture of parts and accessories for motor vehicles
+Value=301;Building of ships and boats
+Value=302;Manufacture of railway locomotives and rolling stock
+Value=303;Manufacture of air and spacecraft and related machinery
+Value=304;Manufacture of military fighting vehicles
+Value=309;Manufacture of transport equipment n.e.c
+Value=310;Manufacture of furniture
+Value=321;Manufacture of jewelry, bijouterie and related articles
+Value=322;Manufacture of musical instruments
+Value=323;Manufacture of sports goods
+Value=324;Manufacture of games and toys
+Value=325;Manufacture of medical and dental instruments and supplies
+Value=329;Other manufacturing n.e.c
+Value=331;Repair of fabricated metal products, machinery and equipment
+Value=332;Installation of industrial machinery and equipment
+Value=351;Electric power generation, transmission and distribution
+Value=352;Manufacture of gas, distribution of gaseous fuels through mains
+Value=353;Steam and air conditioning supply
+Value=360;Water collection, treatment and supply
+Value=370;Sewerage
+Value=381;Waste collection
+Value=382;Waste treatment and disposal
+Value=383;Materials recovery
+Value=390;Remediation activities and other waste management services
+Value=410;Construction of buildings
+Value=421;Construction of roads and railways
+Value=422;Construction of utility projects
+Value=429;Construction of other civil engineering projects
+Value=431;Demolition and site preparation
+Value=432;Electrical, plumbing and other construction installation activities
+Value=433;Building completion and finishing
+Value=439;សកម្មភាពសំណង់ឯកទេសដទៃទៀត (Other Specialized construction activities)
+Value=451;ការលក់យានយន្ត (Sales of motor vehicles)
+Value=452;ការថែទាំ និងការជួសជុលយានយន្ត (Maintenance and repair of motor vehicles)
+Value=453;ការលក់គ្រឿងបន្លាស់យានយន្តនិងគ្រឿងបន្ទាប់បន្សំ (Sale of motor vehicle parts and accessories)
+Value=454;ការលក់ ថែទាំ និងជួសជុលទោចក្រយានយន្ត និងគ្រឿងបន្លាស់និងគ្រឿងបន្ទាប់បន្សំដែលពាក់ព័ន្ធ (Sale, maintenance and repairs of motorcycles and related parts and accessories)
+Value=461;ការលក់ដុំដោយផ្អែកលើថ្លៃសេវា ឬផ្អែកលើកិច្ចសន្យា (Wholesale on a fee or contract basis)
+Value=462;ការលក់ដុំវត្ថុធាតុដើមកសិកម្មនិងសត្វរស់ (Wholesale of agricultural raw material and live animals)
+Value=463;ការលក់ដុំ អាហារ ភេសជ្ជៈ និងថ្នាំជក់ (Wholesale of food, beverages and tobacco)
+Value=464;ការលក់ដុំនូវទំនិញប្រើប្រាស់ក្នុងផ្ទះ (Wholesale of household goods)
+Value=465;ការលក់ដុំគ្រឿងម៉ាស៊ីន ឧបករណ៍ និងសម្ភារះផ្គត់ផ្គង់ផ្សេងៗ (Wholesale of machinery, equipment and supplies)
+Value=466;ការលក់ដុំឯកទេសផ្សេងៗ (Other specialized wholesale)
+Value=467;ជំនួញលក់ដុំដោយមិនមានឯកទេស (Non-specialized wholesale trade)
+Value=471;ការលក់រាយនៅក្នុងហាងមិនឯកទេស (Retail sale in non-specialized stores)
+Value=472;ការលក់រាយអាហារ ភេសជ្ជៈ និងថ្នាំជក់នៅក្នុងហាងឯកទេស (Retail sale of food, beverages and tobacco in specialized stores)
+Value=473;ការលក់រាយប្រេងឥន្ធនៈយានយន្តនៅក្នុងហាងឯកទេស (Retail sale of automotive fuel in specialized stores)
+Value=474;ការលក់រាយឧបករណ៍ផ្នែកព័ត៌មាន និងទំនាក់ទំនង នៅក្នុងហាងឯកទេស (Retail sale of information and communications equipment in specialized stores)
+Value=475;ការលក់ដុំគ្រឿងម៉ាស៊ីន ឧបករណ៍ និងសម្ភារៈផ្គត់ផ្គង់ផ្សេងៗ នៅក្នុងហាងឯកទេស (Retail sale of other household equipment in specialized stores)
+Value=476;ការលក់រាយទំនិញវប្បធម៌ និងកម្សាន្តនៅក្នុងហាងឯកទេស (Retail sale of cultural and recreation goods in specialized store)
+Value=477;ការលក់រាយទំនិញផ្សេងៗនៅក្នុងហាងឯកទេស (Retail sale of other goods in specialized store)
+Value=478;ការលក់រាយនៅតាមតូប និងទីផ្សារ (Retail sale via stalls and markets)
+Value=479;ការលក់រាយមិននៅក្នុងហាង តូប ឬទីផ្សារ (Retail trade not in stores, stalls or markets)
+Value=491;ការដឹកជញ្ជូនតាមផ្លូវដែក (Transport via railways)
+Value=492;ការដឹកជញ្ជូនតាមផ្លូវគោកផ្សេងទៀត (Other land transport)
+Value=493;ការដឹកជញ្ជូនតាមប្រព័ន្ធបំពង់ (Transport via pipeline)
+Value=501;ការដឹកជញ្ជូនតាមសមុទ្រទឹកជ្រៅ និងក្បែតំបន់ឆ្នេរ (Sea and coastal water transport)
+Value=502;ការដឹកជញ្ជូនតាមផ្លូវទឹក និងផ្លូវគោក (Inland and water transport)
+Value=511;ការដឹកជញ្ជូនអ្នកដំណើរតាមផ្លូវអាកាស (Passenger air transport)
+Value=512;ការដឹកជញ្ជូនទំនិញតាមផ្លូវអាកាស (Freight air transport)
+Value=521;ការស្តុកទំនិញក្នុងឃ្លាំង និងការស្តុកទុក (Warehousing and storage)
+Value=512;សកម្មភាពគាំទ្រការដឹកជញ្ជូន (Support activities for transportation)
+Value=531;សកម្មភាពសេវាកម្មប្រៃសណីយ៍ (Postal activities)
+Value=532;សកម្មភាពសេវាកម្មបញ្ញើ (Courier activities)
+Value=551;សកម្មភាពសេវាកម្មស្នាក់នៅរយៈពេលខ្លី (Short term accommodation service activities)
+Value=552;កន្លែងបោះជំរុំ ចំណតយាន្តយន្តទេសចរណ៍ និងសណ្ដោង (Camping grounds, recreational vehicle parks and trailer parks)
+Value=559;ការស្នាក់នៅផ្សេងៗទៀត (Other accommodation)
