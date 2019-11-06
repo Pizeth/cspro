@@ -390,7 +390,7 @@ Value=791;សកម្មភាពរបស់ទីភ្នាក់ងារ�
 Value=799;សកម្មភាពកក់បម្រុងទុកផ្សេងទៀតនិងសកម្មភាពពាក់ព័ន្ធនានា (Other reservation service and related activities)
 Value=801;សកម្មភាពរក្សាសន្ដិសុខឯកជន (Private security activities)
 Value=802;សកម្មភាពសេវាកម្មប្រព័ន្ធសុវត្ថិភាព (Security systems service activities)
-Value=803;សកម្មភាពស៊ើបអង្កេត (Investigation activities) 
+Value=803;សកម្មភាពស៊ើបអង្កេត (Investigation activities)
 Value=811;សកម្មភាពគាំទ្រហេដ្ឋារចនាសម្ព័ន្ធចម្រុះ (Combined facilities support activities)
 Value=812;សេវាកម្មសម្អាត (Cleaning activities)
 Value=813;សេវាកម្មរៀបចំ និងថែរក្សាសោភ័ណភាព (Landscape care and maintenance service activities)
@@ -402,30 +402,30 @@ Value=841;ការគ្រប់គ្រងរដ្ឋ និងគោលន
 Value=842;ការផ្តល់សេវាកម្មដល់សហគមន៍ទាំងមូល (Provision of services to the community as a whole)
 Value=843;សកម្មភាពកាតព្វកិច្ចសន្តិសុខសង្គម (Compulsory social security activities)
 Value=851;មត្តេយ្យសិក្សា និងបឋមសិក្សា (Pre-primary and primary education)
-Value=852;មធ្យមសិក្សា (Secondary education) 
-Value=853;ឧត្តមសិក្សា (Higher education) 
-Value=854;ការអប់រំផ្សេងទៀត (Other education) 
-Value=855;សកម្មភាពគាំទ្រការអប់រំ (Educational support activities) 
+Value=852;មធ្យមសិក្សា (Secondary education)
+Value=853;ឧត្តមសិក្សា (Higher education)
+Value=854;ការអប់រំផ្សេងទៀត (Other education)
+Value=855;សកម្មភាពគាំទ្រការអប់រំ (Educational support activities)
 Value=861;សកម្មភាពរបស់មន្ទីរពេទ្យ (Hospital activities)
-Value=862;សកម្មភាពព្យាបាលជំងឺទូទៅ និងមាត់ធ្មេញ (Medical and dental practice activities) 
+Value=862;សកម្មភាពព្យាបាលជំងឺទូទៅ និងមាត់ធ្មេញ (Medical and dental practice activities)
 Value=869;សកម្មភាពថែទាំសុខភាពផ្សេងទៀត (Other human health activities)
 Value=871;សកម្មភាពឬសម្ភារ:ថែទាំសុខភាពនៅតាមលំនៅដ្ឋាន (Residential nursing care facilities and activities)
 Value=872;សកម្មភាពថែទាំតាមផ្ទះសម្រាប់អ្នកមានប្រាជ្ញាអន់ សុខភាពផ្លូវចិត្ត និងការប្រើប្រាស់គ្រឿងញឿន (Residential care activities for mental retardation, mental health and substance abuse)
 Value=873;សកម្មភាពថែទាំសុខភាពតាមលំនៅដ្ឋានសម្រាប់មនុស្សចាស់ និងជនពិការ (Residential care activities for the elderly and disabled)
-Value=879;សកម្មភាពថែទាំតាមលំនៅដ្ឋានផ្សេងទៀត (Other residential care activities) 
+Value=879;សកម្មភាពថែទាំតាមលំនៅដ្ឋានផ្សេងទៀត (Other residential care activities)
 Value=881;សកម្មភាពការងារសង្គមកិច្ចសម្រាប់មនុស្សចាស់ និងជនពិការដោយមិនផ្តល់កន្លែងស្នាក់នៅ (Social work activities without accommodation for the elderly and disabled)
 Value=889;សកម្មភាពការងារសង្គមកិច្ចដែលមិនផ្ដល់កន្លែងស្នាក់នៅដទៃទៀតដែលពុំបានរាប់បញ្ចូល (Other social work activities without accommodation n.e.c)
 Value=900;សកម្មភាពច្នៃប្រឌិត សិល្បៈ និងការកម្សាន្ត (Creative, arts and entertainment activities)
 Value=910;សកម្មភាពបណ្ណាល័យ ប័ណ្ណាសារដ្ឋាន សារមន្ទីរ និងសកម្មភាពវប្បធម៌ដទៃទៀត (Libraries, archives, museums and other cultural activities)
 Value=920;សកម្មភាពលេងល្បែង និងភ្នាល់ (Gambling and betting activities)
-Value=931;សកម្មភាពកីឡា (Sports activities) 
+Value=931;សកម្មភាពកីឡា (Sports activities)
 Value=932;សកម្មភាពល្បែងកម្សាន្តនិងការសម្រាកដទៃទៀត (Other amusement and recreation activities)
 Value=941;សកម្មភាពរបស់ធុរកិច្ច និយោជិក និងអង្គការដែលសមាជិកមានជំនាញវិជ្ជាជីវៈ (Activities of business, employers and professional membership organizations)
-Value=942;សកម្មភាពរបស់សហជីពពាណិជ្ជកម្ម (Activities of trade unions) 
-Value=949;សកម្មភាពរបស់អង្គការសមាជិកផ្សេងៗ (Activities of other membership organizations) 
+Value=942;សកម្មភាពរបស់សហជីពពាណិជ្ជកម្ម (Activities of trade unions)
+Value=949;សកម្មភាពរបស់អង្គការសមាជិកផ្សេងៗ (Activities of other membership organizations)
 Value=951;ការជួសជុលកុំព្យូទ័រ និងបរិក្ខារគមនាគមន៍ (Repair of computers and communication equipment)
 Value=952;ការជួសជុលទំនិញប្រើប្រាស់ផ្ទាល់ខ្លួននិងក្នុងផ្ទះ (Repair of personal and household goods)
-Value=960;សកម្មភាពសេវាកម្មផ្ទាល់ខ្លួនផ្សេងទៀត (Other personal service activities) 
+Value=960;សកម្មភាពសេវាកម្មផ្ទាល់ខ្លួនផ្សេងទៀត (Other personal service activities)
 Value=990;សកម្មភាពរបស់អង្គការនិងស្ថាប័នក្រៅរដ្ឋាភិបាល (activities of Extraterritorial Organizations and bodies)
 
 [Item]
@@ -498,7 +498,124 @@ RecordLen=5
 Label=INNOVATION ACTIVITIES
 Name=INNOVATION_ACTIVITIES
 RecordTypeValue='8'
-RecordLen=5
+RecordLen=35
+
+[Item]
+Label=PRODUCT INNOVATIONS
+Name=PRODUCT_INNOVATIONS
+Start=6
+Len=1
+
+[Item]
+Label=PROCESS INNOVATIONS
+Name=PROCESS_INNOVATIONS
+Start=7
+Len=1
+
+[Item]
+Label=ORGANISATIONAL INNOVATIONS
+Name=ORGANISATIONAL_INNOVATIONS
+Start=8
+Len=1
+
+[Item]
+Label=MARKETING INNOVATIONS
+Name=MARKETING_INNOVATIONS
+Start=9
+Len=1
+
+[Item]
+Label=improved products
+Name=IMPROVED_PRODUCTS
+Start=10
+Len=1
+
+[Item]
+Label=improved services
+Name=IMPROVED_SERVICES
+Start=11
+Len=1
+
+[Item]
+Label=Establishment or company group
+Name=ESTABLISHMENT_OR_COMPANY_GROUP
+Start=12
+Len=2
+DataType=Alpha
+
+[Item]
+Label=Establishment together with other establishments
+Name=ESTABLISHMENT_TOGETHER_WITH_OTHER_ESTABLISHMENTS
+Start=14
+Len=2
+DataType=Alpha
+
+[Item]
+Label=Mainly other establishments
+Name=MAINLY_OTHER_ESTABLISHMENTS
+Start=16
+Len=2
+DataType=Alpha
+
+[Item]
+Label=Short description
+Name=SHORT_DESCRIPTION
+Start=18
+Len=3
+
+[Item]
+Label=New to the world
+Name=NEW_TO_THE_WORLD
+Start=21
+Len=1
+
+[Item]
+Label=New to your market
+Name=NEW_TO_YOUR_MARKET
+Start=22
+Len=1
+
+[Item]
+Label=Only new to your establishment
+Name=ONLY_NEW_TO_YOUR_ESTABLISHMENT
+Start=23
+Len=1
+
+[Item]
+Label=Products introduced new to your market
+Name=PRODUCTS_INTRODUCED_NEW_TO_YOUR_MARKET
+Start=24
+Len=3
+
+[Item]
+Label=Products introduced new to your establishment but not new to your market
+Name=PRODUCTS_INTRODUCED_NEW_TO_YOUR_ESTABLISHMENT_BU
+Start=27
+Len=3
+
+[Item]
+Label=Products that were unchanged
+Name=PRODUCTS_THAT_WERE_UNCHANGED
+Start=30
+Len=3
+
+[Item]
+Label=New or significantly improved methods
+Name=NEW_OR_SIGNIFICANTLY_IMPROVED_METHODS
+Start=33
+Len=1
+
+[Item]
+Label=New or significantly improved logistics
+Name=NEW_OR_SIGNIFICANTLY_IMPROVED_LOGISTICS
+Start=34
+Len=1
+
+[Item]
+Label=New or significantly improved supporting activities
+Name=NEW_OR_SIGNIFICANTLY_IMPROVED_SUPPORTING_ACTIVIT
+Start=35
+Len=1
 
 [Record]
 Label=ON-GOING OR ABANDONED INNOVATION ACTIVITIES
