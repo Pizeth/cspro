@@ -492,7 +492,73 @@ Len=3
 Label=RESEARCH AND DEVELOPMENT  ACTIVITIES
 Name=RESEARCH_AND_DEVELOPMENT_ACTIVITIES
 RecordTypeValue='7'
-RecordLen=5
+RecordLen=53
+
+[Item]
+Label=establishment carry out any research and development
+Name=ESTABLISHMENT_CARRY_OUT_ANY_RESEARCH_AND_DEVELOP
+Start=6
+Len=3
+
+[Item]
+Label=Description of your R&D activities
+Name=DESCRIPTION_OF_YOUR_R_D_ACTIVITIES
+Start=9
+Len=3
+
+[Item]
+Label=Researchers Male
+Name=RESEARCHERS_MALE
+Start=12
+Len=4
+
+[Item]
+Label=Researchers Female
+Name=RESEARCHERS_FEMALE
+Start=16
+Len=4
+
+[Item]
+Label=Technicians Male
+Name=TECHNICIANS_MALE
+Start=20
+Len=4
+
+[Item]
+Label=Technicians Female
+Name=TECHNICIANS_FEMALE
+Start=24
+Len=4
+
+[Item]
+Label=Other support staff Male
+Name=OTHER_SUPPORT_STAFF_MALE
+Start=28
+Len=4
+
+[Item]
+Label=Other support staff Female
+Name=OTHER_SUPPORT_STAFF_FEMALE
+Start=32
+Len=4
+
+[Item]
+Label=Total R&D expenditure 2016
+Name=TOTAL_R_D_EXPENDITURE_2016
+Start=36
+Len=6
+
+[Item]
+Label=Total R&D expenditure 2017
+Name=TOTAL_R_D_EXPENDITURE_2017
+Start=42
+Len=6
+
+[Item]
+Label=Total R&D expenditure 2018
+Name=TOTAL_R_D_EXPENDITURE_2018
+Start=48
+Len=6
 
 [Record]
 Label=INNOVATION ACTIVITIES
@@ -621,7 +687,43 @@ Len=1
 Label=ON-GOING OR ABANDONED INNOVATION ACTIVITIES
 Name=ON_GOING_OR_ABANDONED_INNOVATION_ACTIVITIES
 RecordTypeValue='9'
-RecordLen=5
+RecordLen=11
+
+[Item]
+Label=Abandoned or suspended before completion
+Name=ABANDONED_OR_SUSPENDED_BEFORE_COMPLETION
+Start=6
+Len=1
+
+[Item]
+Label=Still on-going at the end of 2018
+Name=STILL_ON_GOING_AT_THE_END_OF_2018
+Start=7
+Len=1
+
+[Item]
+Label=Getting new products to the market quickly
+Name=GETTING_NEW_PRODUCTS_TO_THE_MARKET_QUICKLY
+Start=8
+Len=1
+
+[Item]
+Label=Making efficient use of R&D expenditure
+Name=MAKING_EFFICIENT_USE_OF_R_D_EXPENDITURE
+Start=9
+Len=1
+
+[Item]
+Label=Coming up with breakthrough/radical technologies
+Name=COMING_UP_WITH_BREAKTHROUGH_RADICAL_TECHNOLOGIES
+Start=10
+Len=1
+
+[Item]
+Label=Bringing breakthrough technologies to the market
+Name=BRINGING_BREAKTHROUGH_TECHNOLOGIES_TO_THE_MARKET
+Start=11
+Len=1
 
 [Record]
 Label=INNOVATION ACTIVITIES AND EXPENDITURE
