@@ -1,0 +1,15 @@
+﻿[CSPro Application]
+Version=CSPro 7.3
+Label=INNOVATION_SURVEY_DATAENTRY
+Name=INNOVATION_SURVEY_DATAENTRY
+AppType=DataEntry
+[AppCode]
+File=.\Innovation Survey DataEntry.ent.apc
+[Message]
+File=.\Innovation Survey DataEntry.ent.mgf
+[Help]
+File=.\Innovation Survey DataEntry.ent.qsf
+[Forms]
+File=.\Innovation Survey DataEntry.fmf
+[Dictionary Types]
+Dict-Type=.\Innovation Survey.dcf,Input,.\Innovation Survey DataEntry.fmf
