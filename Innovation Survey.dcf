@@ -201,7 +201,7 @@ Start=9
 Len=4
 
 [Record]
-Label=GENERAL INFORMATION ABOUT YOUR ESTABLISHMENT
+Label=2-GENERAL INFORMATION ABOUT YOUR ESTABLISHMENT
 Name=GENERAL_INFORMATION_ABOUT_YOUR_E
 RecordTypeValue='6'
 RecordLen=37
@@ -489,7 +489,7 @@ Start=35
 Len=3
 
 [Record]
-Label=RESEARCH AND DEVELOPMENT  ACTIVITIES
+Label=3-RESEARCH AND DEVELOPMENT  ACTIVITIES
 Name=RESEARCH_AND_DEVELOPMENT_ACTIVITIES
 RecordTypeValue='7'
 RecordLen=53
@@ -561,10 +561,10 @@ Start=48
 Len=6
 
 [Record]
-Label=INNOVATION ACTIVITIES
+Label=4-INNOVATION ACTIVITIES
 Name=INNOVATION_ACTIVITIES
 RecordTypeValue='8'
-RecordLen=35
+RecordLen=50
 
 [Item]
 Label=PRODUCT INNOVATIONS
@@ -683,11 +683,89 @@ Name=NEW_OR_SIGNIFICANTLY_IMPROVED_SUPPORTING_ACTIVIT
 Start=35
 Len=1
 
+[Item]
+Label=Mainly your establishment or company group
+Name=MAINLY_YOUR_ESTABLISHMENT_OR_COMPANY_GROUP
+Start=36
+Len=1
+
+[Item]
+Label=Your establishment together with other establishments
+Name=YOUR_ESTABLISHMENT_TOGETHER_WITH_OTHER_ESTABLISH
+Start=37
+Len=1
+
+[Item]
+Label=Mainly other establishments
+Name=MAINLY_OTHER_ESTABLISHMENTS1
+Start=38
+Len=1
+
+[Item]
+Label=most important process innovation
+Name=MOST_IMPORTANT_PROCESS_INNOVATION
+Start=39
+Len=3
+
+[Item]
+Label=New or significantly improved methods of product design or packaging
+Name=NEW_OR_SIGNIFICANTLY_IMPROVED_METHODS_OF_PRODUCT
+Start=42
+Len=1
+
+[Item]
+Label=New or significantly improved product distribution/placement
+Name=NEW_OR_SIGNIFICANTLY_IMPROVED_PRODUCT_DISTRIBUTI
+Start=43
+Len=1
+
+[Item]
+Label=New or significantly improved product promotion or pricing
+Name=NEW_OR_SIGNIFICANTLY_IMPROVED_PRODUCT_PROMOTION
+Start=44
+Len=1
+
+[Item]
+Label=Mainly your establishment or company group
+Name=MAINLY_YOUR_ESTABLISHMENT_OR_COMPANY_GROUP1
+Start=45
+Len=1
+
+[Item]
+Label=Your establishment together with other establishments
+Name=YOUR_ESTABLISHMENT_TOGETHER_WITH_OTHER_ESTABLISH1
+Start=46
+Len=1
+
+[Item]
+Label=Mainly other establishments
+Name=MAINLY_OTHER_ESTABLISHMENTS2
+Start=47
+Len=1
+
+[Item]
+Label=significantly improved methods in the firm’s business practices
+Name=SIGNIFICANTLY_IMPROVED_METHODS_IN_THE_FIRM_S_BUS
+Start=48
+Len=1
+
+[Item]
+Label=New or significantly improved workplace organization
+Name=NEW_OR_SIGNIFICANTLY_IMPROVED_WORKPLACE_ORGANIZA
+Start=49
+Len=1
+
+[Item]
+Label=New or significantly improved workplace organization
+Name=NEW_OR_SIGNIFICANTLY_IMPROVED_WORKPLACE_ORGANIZA1
+Start=50
+Len=1
+
 [Record]
-Label=ON-GOING OR ABANDONED INNOVATION ACTIVITIES
+Label=5-ON-GOING OR ABANDONED INNOVATION ACTIVITIES
 Name=ON_GOING_OR_ABANDONED_INNOVATION_ACTIVITIES
 RecordTypeValue='9'
-RecordLen=11
+RecordLen=7
 
 [Item]
 Label=Abandoned or suspended before completion
@@ -701,68 +779,885 @@ Name=STILL_ON_GOING_AT_THE_END_OF_2018
 Start=7
 Len=1
 
+[Record]
+Label=6-INNOVATION ACTIVITIES AND EXPENDITURE
+Name=INNOVATION_ACTIVITIES_AND_EXPENDITURE
+RecordTypeValue='A'
+RecordLen=28
+
 [Item]
 Label=Getting new products to the market quickly
 Name=GETTING_NEW_PRODUCTS_TO_THE_MARKET_QUICKLY
-Start=8
+Start=6
 Len=1
 
 [Item]
 Label=Making efficient use of R&D expenditure
 Name=MAKING_EFFICIENT_USE_OF_R_D_EXPENDITURE
-Start=9
+Start=7
 Len=1
 
 [Item]
 Label=Coming up with breakthrough/radical technologies
 Name=COMING_UP_WITH_BREAKTHROUGH_RADICAL_TECHNOLOGIES
-Start=10
+Start=8
 Len=1
 
 [Item]
 Label=Bringing breakthrough technologies to the market
 Name=BRINGING_BREAKTHROUGH_TECHNOLOGIES_TO_THE_MARKET
+Start=9
+Len=1
+
+[Item]
+Label=In-house R&D Creative work undertaken within your establishment on an occasional
+Name=IN_HOUSE_R_D_CREATIVE_WORK_UNDERTAKEN_WITHIN_YOU
+Start=10
+Len=1
+
+[Item]
+Label=In-house R&D establishment perform R&D
+Name=IN_HOUSE_R_D_ESTABLISHMENT_PERFORM_R_D
 Start=11
 Len=1
 
-[Record]
-Label=INNOVATION ACTIVITIES AND EXPENDITURE
-Name=INNOVATION_ACTIVITIES_AND_EXPENDITURE
-RecordTypeValue='A'
-RecordLen=5
+[Item]
+Label=In-house R&D Estimation amount 
+Name=IN_HOUSE_R_D_ESTIMATION_AMOUNT
+Start=12
+Len=1
+
+[Item]
+Label=Acquisition of R&D
+Name=ACQUISITION_OF_R_D
+Start=13
+Len=1
+
+[Item]
+Label=Acquisition of R&D  Estimation amount 
+Name=ACQUISITION_OF_R_D_ESTIMATION_AMOUNT
+Start=14
+Len=1
+
+[Item]
+Label=Acquisition of machinery, equipment and software
+Name=ACQUISITION_OF_MACHINERY_EQUIPMENT_AND_SOFTWARE
+Start=15
+Len=1
+
+[Item]
+Label=Acquisition of machinery, equipment and software Estimation amount 
+Name=ACQUISITION_OF_MACHINERY_EQUIPMENT_AND_SOFTWARE1
+Start=16
+Len=1
+
+[Item]
+Label=Acquisition of external knowledge
+Name=ACQUISITION_OF_EXTERNAL_KNOWLEDGE
+Start=17
+Len=1
+
+[Item]
+Label=Acquisition of external knowledge Estimation amount 
+Name=ACQUISITION_OF_EXTERNAL_KNOWLEDGE_ESTIMATION_AMO
+Start=18
+Len=1
+
+[Item]
+Label=Trainning
+Name=TRAINNING
+Start=19
+Len=1
+
+[Item]
+Label=Trainning Estimation amount 
+Name=TRAINNING_ESTIMATION_AMOUNT
+Start=20
+Len=1
+
+[Item]
+Label=Market introduction of innovations
+Name=MARKET_INTRODUCTION_OF_INNOVATIONS
+Start=21
+Len=1
+
+[Item]
+Label=Market introduction of innovations Estimated amount
+Name=MARKET_INTRODUCTION_OF_INNOVATIONS_ESTIMATED_AMO
+Start=22
+Len=1
+
+[Item]
+Label=All forms of design
+Name=ALL_FORMS_OF_DESIGN
+Start=23
+Len=1
+
+[Item]
+Label=All forms of design Estimated amount
+Name=ALL_FORMS_OF_DESIGN_ESTIMATED_AMOUNT
+Start=24
+Len=1
+
+[Item]
+Label= Preparation for marketing innovation
+Name=PREPARATION_FOR_MARKETING_INNOVATION
+Start=25
+Len=1
+
+[Item]
+Label=Preparation for marketing innovation Estimated amount
+Name=PREPARATION_FOR_MARKETING_INNOVATION_ESTIMATED_A
+Start=26
+Len=1
+
+[Item]
+Label=Preparation for organizational innovation
+Name=PREPARATION_FOR_ORGANIZATIONAL_INNOVATION
+Start=27
+Len=1
+
+[Item]
+Label=Preparation for organizational innovation Estimated amount
+Name=PREPARATION_FOR_ORGANIZATIONAL_INNOVATION_ESTIMA
+Start=28
+Len=1
 
 [Record]
-Label=OBJECTIVES AND EFFECTS OF INNOVATION
+Label=7-OBJECTIVES AND EFFECTS OF INNOVATION
 Name=OBJECTIVES_AND_EFFECTS_OF_INNOVATION
 RecordTypeValue='B'
-RecordLen=5
+RecordLen=31
+
+[Item]
+Label=To replace products being phased out
+Name=TO_REPLACE_PRODUCTS_BEING_PHASED_OUT
+Start=6
+Len=1
+
+[Item]
+Label=To improve product quality
+Name=TO_IMPROVE_PRODUCT_QUALITY
+Start=7
+Len=1
+
+[Item]
+Label=To extend product range
+Name=TO_EXTEND_PRODUCT_RANGE
+Start=8
+Len=1
+
+[Item]
+Label=To open up new markets or increase market share
+Name=TO_OPEN_UP_NEW_MARKETS_OR_INCREASE_MARKET_SHARE
+Start=9
+Len=1
+
+[Item]
+Label=To fulfill regulation and standard
+Name=TO_FULFILL_REGULATION_AND_STANDARD
+Start=10
+Len=1
+
+[Item]
+Label=To reduce labor costs
+Name=TO_REDUCE_LABOR_COSTS
+Start=11
+Len=1
+
+[Item]
+Label=To reduce materials consumption
+Name=TO_REDUCE_MATERIALS_CONSUMPTION
+Start=12
+Len=1
+
+[Item]
+Label=To reduce energy consumption
+Name=TO_REDUCE_ENERGY_CONSUMPTION
+Start=13
+Len=1
+
+[Item]
+Label=To reduce environmental damage
+Name=TO_REDUCE_ENVIRONMENTAL_DAMAGE
+Start=14
+Len=1
+
+[Item]
+Label=To utilize incentives, grants, loan, etc.
+Name=TO_UTILIZE_INCENTIVES_GRANTS_LOAN_ETC
+Start=15
+Len=1
+
+[Item]
+Label=please specify
+Name=PLEASE_SPECIFY
+Start=16
+Len=1
+
+[Item]
+Label=Increased range of products
+Name=INCREASED_RANGE_OF_PRODUCTS
+Start=17
+Len=1
+
+[Item]
+Label=Entered new markets or increased market share
+Name=ENTERED_NEW_MARKETS_OR_INCREASED_MARKET_SHARE
+Start=18
+Len=1
+
+[Item]
+Label=Improved quality of goods or services
+Name=IMPROVED_QUALITY_OF_GOODS_OR_SERVICES
+Start=19
+Len=1
+
+[Item]
+Label=Improved flexibility of production or service provision
+Name=IMPROVED_FLEXIBILITY_OF_PRODUCTION_OR_SERVICE_PR
+Start=20
+Len=1
+
+[Item]
+Label=Increased capacity for production or service provision
+Name=INCREASED_CAPACITY_FOR_PRODUCTION_OR_SERVICE_PRO
+Start=21
+Len=1
+
+[Item]
+Label=Reduced labour costs per unit produced or provided
+Name=REDUCED_LABOUR_COSTS_PER_UNIT_PRODUCED_OR_PROVID
+Start=22
+Len=1
+
+[Item]
+Label=Reduced materials and energy per unit produced or provided
+Name=REDUCED_MATERIALS_AND_ENERGY_PER_UNIT_PRODUCED_O
+Start=23
+Len=1
+
+[Item]
+Label=Reduced environmental impacts or improved health and safety
+Name=REDUCED_ENVIRONMENTAL_IMPACTS_OR_IMPROVED_HEALTH
+Start=24
+Len=1
+
+[Item]
+Label=Met regulations and/or standards
+Name=MET_REGULATIONS_AND_OR_STANDARDS
+Start=25
+Len=1
+
+[Item]
+Label=Increased value added
+Name=INCREASED_VALUE_ADDED
+Start=26
+Len=1
+
+[Item]
+Label=please specify effect
+Name=PLEASE_SPECIFY_EFFECT
+Start=27
+Len=1
+
+[Item]
+Label=Reduced time to respond to customer or supplier needs
+Name=REDUCED_TIME_TO_RESPOND_TO_CUSTOMER_OR_SUPPLIER
+Start=28
+Len=1
+
+[Item]
+Label=Improved quality of goods or services
+Name=IMPROVED_QUALITY_OF_GOODS_OR_SERVICES1
+Start=29
+Len=1
+
+[Item]
+Label=Reduced costs per unit of output or service
+Name=REDUCED_COSTS_PER_UNIT_OF_OUTPUT_OR_SERVICE
+Start=30
+Len=1
+
+[Item]
+Label=please specify other
+Name=PLEASE_SPECIFY_OTHER
+Start=31
+Len=1
 
 [Record]
-Label=GOVERNMENT SUPPORT FOR INNOVATION
+Label=8-GOVERNMENT SUPPORT FOR INNOVATION
 Name=GOVERNMENT_SUPPORT_FOR_INNOVATION
 RecordTypeValue='C'
-RecordLen=5
+RecordLen=24
+
+[Item]
+Label=Technical consultancy services
+Name=TECHNICAL_CONSULTANCY_SERVICES
+Start=6
+Len=1
+
+[Item]
+Label=Technical consultancy services reason
+Name=TECHNICAL_CONSULTANCY_SERVICES_REASON
+Start=7
+Len=1
+
+[Item]
+Label=Technical support service
+Name=TECHNICAL_SUPPORT_SERVICE
+Start=8
+Len=1
+
+[Item]
+Label=Technical support service Reason
+Name=TECHNICAL_SUPPORT_SERVICE_REASON
+Start=9
+Len=1
+
+[Item]
+Label=Duty  free importation of machinery or equipment
+Name=DUTY_FREE_IMPORTATION_OF_MACHINERY_OR_EQUIPMENT
+Start=10
+Len=1
+
+[Item]
+Label=Duty  free importation of machinery or equipment Reason
+Name=DUTY_FREE_IMPORTATION_OF_MACHINERY_OR_EQUIPMENT1
+Start=11
+Len=1
+
+[Item]
+Label=Commercialization of R&D Fund
+Name=COMMERCIALIZATION_OF_R_D_FUND
+Start=12
+Len=1
+
+[Item]
+Label=Commercialization of R&D Fund Reason
+Name=COMMERCIALIZATION_OF_R_D_FUND_REASON
+Start=13
+Len=1
+
+[Item]
+Label=Tax incentive
+Name=TAX_INCENTIVE
+Start=14
+Len=1
+
+[Item]
+Label=Tax incentive Reason
+Name=TAX_INCENTIVE_REASON
+Start=15
+Len=1
+
+[Item]
+Label=R&D grant
+Name=R_D_GRANT
+Start=16
+Len=1
+
+[Item]
+Label=R&D grant Reason
+Name=R_D_GRANT_REASON
+Start=17
+Len=1
+
+[Item]
+Label=Innovation grant
+Name=INNOVATION_GRANT
+Start=18
+Len=1
+
+[Item]
+Label=Innovation grant Reason
+Name=INNOVATION_GRANT_REASON
+Start=19
+Len=1
+
+[Item]
+Label=please specify 2016-2018
+Name=PLEASE_SPECIFY_2016_2018
+Start=20
+Len=1
+
+[Item]
+Label=usefulness of government support for your innovative activities
+Name=USEFULNESS_OF_GOVERNMENT_SUPPORT_FOR_YOUR_INNOVA
+Start=21
+Len=1
+
+[Item]
+Label=government encourage innovation further in Cambodia
+Name=GOVERNMENT_ENCOURAGE_INNOVATION_FURTHER_IN_CAMBO
+Start=22
+Len=3
 
 [Record]
-Label=FUNDING
+Label=9-FUNDING
 Name=FUNDING
 RecordTypeValue='D'
-RecordLen=5
+RecordLen=25
+
+[Item]
+Label=Own Source
+Name=OWN_SOURCE
+Start=6
+Len=5
+DataType=Alpha
+
+[Item]
+Label=Private Source
+Name=PRIVATE_SOURCE
+Start=11
+Len=5
+DataType=Alpha
+
+[Item]
+Label=Public Source
+Name=PUBLIC_SOURCE
+Start=16
+Len=5
+DataType=Alpha
+
+[Item]
+Label=Other Source
+Name=OTHER_SOURCE
+Start=21
+Len=5
+DataType=Alpha
 
 [Record]
-Label=INNOVATION CO-OPERATION
+Label=10-INNOVATION CO-OPERATION
 Name=INNOVATION_CO_OPERATION
 RecordTypeValue='E'
-RecordLen=5
+RecordLen=87
+
+[Item]
+Label=co-operation arrangements on innovation activities with other companies 
+Name=CO_OPERATION_ARRANGEMENTS_ON_INNOVATION_ACTIVITI
+Start=6
+Len=1
+
+[Item]
+Label=Other establishment within your company group
+Name=OTHER_ESTABLISHMENT_WITHIN_YOUR_COMPANY_GROUP
+Start=7
+Len=8
+DataType=Alpha
+
+[Item]
+Label=Suppliers of equipment, materials, components, services or software
+Name=SUPPLIERS_OF_EQUIPMENT_MATERIALS_COMPONENTS_SERV
+Start=15
+Len=8
+DataType=Alpha
+
+[Item]
+Label=Clients or customers
+Name=CLIENTS_OR_CUSTOMERS
+Start=23
+Len=8
+DataType=Alpha
+
+[Item]
+Label=Competitors and other establishments in your industry
+Name=COMPETITORS_AND_OTHER_ESTABLISHMENTS_IN_YOUR_IND
+Start=31
+Len=8
+DataType=Alpha
+
+[Item]
+Label=Consultants
+Name=CONSULTANTS
+Start=39
+Len=8
+DataType=Alpha
+
+[Item]
+Label=Commercial laboratories and private R&D establishment
+Name=COMMERCIAL_LABORATORIES_AND_PRIVATE_R_D_ESTABLIS
+Start=47
+Len=8
+DataType=Alpha
+
+[Item]
+Label=Universities or other higher education institutes
+Name=UNIVERSITIES_OR_OTHER_HIGHER_EDUCATION_INSTITUTE
+Start=55
+Len=8
+DataType=Alpha
+
+[Item]
+Label=Government or public research institutes
+Name=GOVERNMENT_OR_PUBLIC_RESEARCH_INSTITUTES
+Start=63
+Len=8
+DataType=Alpha
+
+[Item]
+Label=Specify Type of partner
+Name=SPECIFY_TYPE_OF_PARTNER
+Start=71
+Len=8
+DataType=Alpha
+
+[Item]
+Label=Other establishment within your company group
+Name=OTHER_ESTABLISHMENT_WITHIN_YOUR_COMPANY_GROUP1
+Start=79
+Len=1
+
+[Item]
+Label=software (Suppliers of equipment, materials, components, services or software
+Name=SOFTWARE_SUPPLIERS_OF_EQUIPMENT_MATERIALS_COMPON
+Start=80
+Len=1
+
+[Item]
+Label=Clients or customers
+Name=CLIENTS_OR_CUSTOMERS1
+Start=81
+Len=1
+
+[Item]
+Label=Competitors and other establishments in your industry
+Name=COMPETITORS_AND_OTHER_ESTABLISHMENTS_IN_YOUR_IND1
+Start=82
+Len=1
+
+[Item]
+Label=Consultants
+Name=CONSULTANTS1
+Start=83
+Len=1
+
+[Item]
+Label=Commercial laboratories and private R&D establishment
+Name=COMMERCIAL_LABORATORIES_AND_PRIVATE_R_D_ESTABLIS1
+Start=84
+Len=1
+
+[Item]
+Label=Universities or other higher education institutes
+Name=UNIVERSITIES_OR_OTHER_HIGHER_EDUCATION_INSTITUTE1
+Start=85
+Len=1
+
+[Item]
+Label=Government or public research institutes
+Name=GOVERNMENT_OR_PUBLIC_RESEARCH_INSTITUTES1
+Start=86
+Len=1
+
+[Item]
+Label=Specify Importance of partner
+Name=SPECIFY_IMPORTANCE_OF_PARTNER
+Start=87
+Len=1
 
 [Record]
-Label=SOURCES OF INFORMATION FOR INNOVATION
+Label=11-SOURCES OF INFORMATION FOR INNOVATION
 Name=SOURCES_OF_INFORMATION_FOR_INNOVATION
 RecordTypeValue='F'
-RecordLen=5
+RecordLen=19
+
+[Item]
+Label=Within the establishment
+Name=WITHIN_THE_ESTABLISHMENT
+Start=6
+Len=1
+
+[Item]
+Label=Other establishment  within the companies group
+Name=OTHER_ESTABLISHMENT_WITHIN_THE_COMPANIES_GROUP
+Start=7
+Len=1
+
+[Item]
+Label=software (Suppliers of equipment, materials, services or software
+Name=SOFTWARE_SUPPLIERS_OF_EQUIPMENT_MATERIALS_SERVIC
+Start=8
+Len=1
+
+[Item]
+Label=Clients or customers
+Name=CLIENTS_OR_CUSTOMERS2
+Start=9
+Len=1
+
+[Item]
+Label=Competitors and other establishment in your industry
+Name=COMPETITORS_AND_OTHER_ESTABLISHMENT_IN_YOUR_INDU
+Start=10
+Len=1
+
+[Item]
+Label=Consultants
+Name=CONSULTANTS2
+Start=11
+Len=1
+
+[Item]
+Label=Commercial laboratories and private R&D institutes
+Name=COMMERCIAL_LABORATORIES_AND_PRIVATE_R_D_INSTITUT
+Start=12
+Len=1
+
+[Item]
+Label=Universities or other higher education institutes
+Name=UNIVERSITIES_OR_OTHER_HIGHER_EDUCATION_INSTITUTE2
+Start=13
+Len=1
+
+[Item]
+Label=Government   or public research institutes
+Name=GOVERNMENT_OR_PUBLIC_RESEARCH_INSTITUTES2
+Start=14
+Len=1
+
+[Item]
+Label=Conferences, trade fairs, exhibitions
+Name=CONFERENCES_TRADE_FAIRS_EXHIBITIONS
+Start=15
+Len=1
+
+[Item]
+Label=Scientific journals and trade / technical publications
+Name=SCIENTIFIC_JOURNALS_AND_TRADE_TECHNICAL_PUBLICAT
+Start=16
+Len=1
+
+[Item]
+Label=Professional and industry associations
+Name=PROFESSIONAL_AND_INDUSTRY_ASSOCIATIONS
+Start=17
+Len=1
+
+[Item]
+Label=Technical, industry or service standards
+Name=TECHNICAL_INDUSTRY_OR_SERVICE_STANDARDS
+Start=18
+Len=1
+
+[Item]
+Label=Specify Degree of Importance
+Name=SPECIFY_DEGREE_OF_IMPORTANCE
+Start=19
+Len=1
 
 [Record]
-Label=PATENT & OTHER PROTECTION METHODS
+Label=12-PATENT & OTHER PROTECTION METHODS
 Name=PATENT_OTHER_PROTECTION_METHODS
 RecordTypeValue='G'
-RecordLen=5
+RecordLen=44
+
+[Item]
+Label=Patents Applied
+Name=PATENTS_APPLIED
+Start=6
+Len=1
+
+[Item]
+Label=Patents Granted
+Name=PATENTS_GRANTED
+Start=7
+Len=1
+
+[Item]
+Label=Industrial Design Applied
+Name=INDUSTRIAL_DESIGN_APPLIED
+Start=8
+Len=1
+
+[Item]
+Label=Industrial Design Granted
+Name=INDUSTRIAL_DESIGN_GRANTED
+Start=9
+Len=1
+
+[Item]
+Label=Trademark Applied
+Name=TRADEMARK_APPLIED
+Start=10
+Len=1
+
+[Item]
+Label=Trademark Granted
+Name=TRADEMARK_GRANTED
+Start=11
+Len=1
+
+[Item]
+Label=Copyright Applied
+Name=COPYRIGHT_APPLIED
+Start=12
+Len=1
+
+[Item]
+Label=Copyright Granted
+Name=COPYRIGHT_GRANTED
+Start=13
+Len=1
+
+[Item]
+Label=the title of the Patents
+Name=THE_TITLE_OF_THE_PATENTS
+Start=14
+Len=3
+
+[Item]
+Label=Percent of turnover of owned patents
+Name=PERCENT_OF_TURNOVER_OF_OWNED_PATENTS
+Start=17
+Len=3
+
+[Item]
+Label=Cost too high
+Name=COST_TOO_HIGH
+Start=20
+Len=1
+
+[Item]
+Label=Lack of funds within the establishment
+Name=LACK_OF_FUNDS_WITHIN_THE_ESTABLISHMENT
+Start=21
+Len=1
+
+[Item]
+Label=Lack of finance  from sources outside the establishment
+Name=LACK_OF_FINANCE_FROM_SOURCES_OUTSIDE_THE_ESTABLI
+Start=22
+Len=1
+
+[Item]
+Label=Excessive perceived risk
+Name=EXCESSIVE_PERCEIVED_RISK
+Start=23
+Len=1
+
+[Item]
+Label=Lack of qualified personnel
+Name=LACK_OF_QUALIFIED_PERSONNEL
+Start=24
+Len=1
+
+[Item]
+Label=Lack of information on technology
+Name=LACK_OF_INFORMATION_ON_TECHNOLOGY
+Start=25
+Len=1
+
+[Item]
+Label=Lack of information on markets
+Name=LACK_OF_INFORMATION_ON_MARKETS
+Start=26
+Len=1
+
+[Item]
+Label=Difficulties in finding cooperation partners for innovation
+Name=DIFFICULTIES_IN_FINDING_COOPERATION_PARTNERS_FOR
+Start=27
+Len=1
+
+[Item]
+Label=Weakness of intellectual property knowledge and rights
+Name=WEAKNESS_OF_INTELLECTUAL_PROPERTY_KNOWLEDGE_AND
+Start=28
+Len=1
+
+[Item]
+Label=Market dominated by established enterprise
+Name=MARKET_DOMINATED_BY_ESTABLISHED_ENTERPRISE
+Start=29
+Len=1
+
+[Item]
+Label=Uncertain demand for innovative goods and services
+Name=UNCERTAIN_DEMAND_FOR_INNOVATIVE_GOODS_AND_SERVIC
+Start=30
+Len=1
+
+[Item]
+Label=Innovation is easy to imitate
+Name=INNOVATION_IS_EASY_TO_IMITATE
+Start=31
+Len=1
+
+[Item]
+Label=Organisational rigidities within the enterprise
+Name=ORGANISATIONAL_RIGIDITIES_WITHIN_THE_ENTERPRISE
+Start=32
+Len=1
+
+[Item]
+Label=Attitude of personnel towards change
+Name=ATTITUDE_OF_PERSONNEL_TOWARDS_CHANGE
+Start=33
+Len=1
+
+[Item]
+Label=Attitude of managers toward change
+Name=ATTITUDE_OF_MANAGERS_TOWARD_CHANGE
+Start=34
+Len=1
+
+[Item]
+Label=Managerial structure of enterprise
+Name=MANAGERIAL_STRUCTURE_OF_ENTERPRISE
+Start=35
+Len=1
+
+[Item]
+Label=Inability to devote staffs to innovation activities due to
+Name=INABILITY_TO_DEVOTE_STAFFS_TO_INNOVATION_ACTIVIT
+Start=36
+Len=1
+
+[Item]
+Label=Lack of infrastructure
+Name=LACK_OF_INFRASTRUCTURE
+Start=37
+Len=1
+
+[Item]
+Label=Lack of facilities
+Name=LACK_OF_FACILITIES
+Start=38
+Len=1
+
+[Item]
+Label=Lack of networking with research institutions
+Name=LACK_OF_NETWORKING_WITH_RESEARCH_INSTITUTIONS
+Start=39
+Len=1
+
+[Item]
+Label=Insufficient flexibilities of regulation or standards
+Name=INSUFFICIENT_FLEXIBILITIES_OF_REGULATION_OR_STAN
+Start=40
+Len=1
+
+[Item]
+Label=Limitation of science and technology public policies
+Name=LIMITATION_OF_SCIENCE_AND_TECHNOLOGY_PUBLIC_POLI
+Start=41
+Len=1
+
+[Item]
+Label=No need to innovate due to earlier innovations
+Name=NO_NEED_TO_INNOVATE_DUE_TO_EARLIER_INNOVATIONS
+Start=42
+Len=1
+
+[Item]
+Label=No need because lack of demand for innovations
+Name=NO_NEED_BECAUSE_LACK_OF_DEMAND_FOR_INNOVATIONS
+Start=43
+Len=1
+
+[Item]
+Label=Other
+Name=OTHER
+Start=44
+Len=1
