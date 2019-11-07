@@ -235,12 +235,13 @@ Item=GOVERNMENT_ENCOURAGE_INNOVATION_FURTHER_IN_CAMBO
 Name=FORM009
 Label=9-FUNDING
 Level=1
-Size=1508,300
+Size=332,280
   
-Item=OWN_SOURCE
-Item=PRIVATE_SOURCE
-Item=PUBLIC_SOURCE
-Item=OTHER_SOURCE
+Item=PRODUCT
+Item=PROCESS
+Item=ORGANIZATIONAL
+Item=MARKETING
+Item=R_D
   
 [EndForm]
   
@@ -619,7 +620,7 @@ Max=1
   
 [Field]
 Name=MAIN_ACTIVITY
-Position=313,27,3282,47
+Position=313,27,9218,47
 Item=MAIN_ACTIVITY,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=CheckBox
@@ -2232,55 +2233,68 @@ LogicControl=No
 Max=1
   
 [Field]
-Name=OWN_SOURCE
-Position=199,27,270,47
-Item=OWN_SOURCE,INNOVATION_SURVEY_DICT
+Name=PRODUCT
+Position=250,115,307,135
+Item=PRODUCT,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=CheckBox
 Form=10
   
 [Text]
-Position=50,30,161,46
-Text=9.1.1-Own Source
+Position=101,118,183,134
+Text=9.1.1-Product
  
   
 [Field]
-Name=PRIVATE_SOURCE
-Position=199,57,270,77
-Item=PRIVATE_SOURCE,INNOVATION_SURVEY_DICT
+Name=PROCESS
+Position=250,145,307,165
+Item=PROCESS,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=CheckBox
 Form=10
   
 [Text]
-Position=50,60,177,76
-Text=9.1.2-Private Source
+Position=101,148,183,164
+Text=9.1.2-Process
  
   
 [Field]
-Name=PUBLIC_SOURCE
-Position=199,87,270,107
-Item=PUBLIC_SOURCE,INNOVATION_SURVEY_DICT
+Name=ORGANIZATIONAL
+Position=250,175,307,195
+Item=ORGANIZATIONAL,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=CheckBox
 Form=10
   
 [Text]
-Position=50,90,172,106
-Text=9.1.3-Public Source
+Position=101,178,228,194
+Text=9.1.3-Organizational
  
   
 [Field]
-Name=OTHER_SOURCE
-Position=199,117,270,137
-Item=OTHER_SOURCE,INNOVATION_SURVEY_DICT
+Name=MARKETING
+Position=250,205,307,225
+Item=MARKETING,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=CheckBox
 Form=10
   
 [Text]
-Position=50,120,167,136
-Text=9.1.4-Other Source
+Position=101,208,197,224
+Text=9.1.4-Marketing
+ 
+  
+[Field]
+Name=R_D
+Position=250,235,307,255
+Item=R_D,INNOVATION_SURVEY_DICT
+FieldLabelType=DictionaryLabel
+DataCaptureType=CheckBox
+Form=10
+  
+[Text]
+Position=101,238,161,254
+Text=9.1.5-R&D
  
 [EndGroup]
   
