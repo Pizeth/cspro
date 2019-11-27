@@ -23,7 +23,7 @@ Item=IDENTIFICATION_INFORMATION
 Name=FORM001
 Label=1-IDENTIFICATION INFORMATION
 Level=1
-Size=1508,600
+Size=1721,1249
   
 Item=PROVINCE_IE
 Item=DISTRICT_ID
@@ -45,6 +45,22 @@ Item=OWNERSHIP_OF_ESTABLISHMENU
 Item=SECTOR
 Item=NUMBER_OF_EMPLOYEES
   
+Box=52,155,939,651,Thick
+Box=88,365,442,536,Raised
+Box=786,154,936,543,Raised
+Box=44,340,773,608,Raised
+Box=967,121,1696,164,Raised
+Box=61,160,934,265,Raised
+Box=1065,357,1196,470,Etched
+Box=1075,227,1349,302,Thin
+  
+[Text]
+Name=TEXT1
+Position=52,75,769,119
+Text=ផ្នែកទី១៖ ព័ត៌មានសម្គាល់ (SECTION 1: IDENTIFICATION INFORMATION)
+Form=2
+Font=-021 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0002 Khmer Mool1
+ 
 [EndForm]
   
 [Form]
@@ -375,238 +391,222 @@ Max=1
   
 [Field]
 Name=PROVINCE_IE
-Position=272,27,301,47
+Position=271,664,300,684
 Item=PROVINCE_IE,INNOVATION_SURVEY_DICT
-FieldLabelType=DictionaryLabel
 Form=2
   
 [Text]
-Position=50,30,123,46
-Text=Province ID
+Position=49,667,281,691
+Text=រាជធានី/ខេត្ត (Municipality/Province)
+Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0002 Khmer OS Battambang
  
   
 [Field]
 Name=DISTRICT_ID
-Position=272,57,301,77
+Position=271,694,300,714
 Item=DISTRICT_ID,INNOVATION_SURVEY_DICT
-FieldLabelType=DictionaryLabel
 Form=2
   
 [Text]
-Position=50,60,110,76
-Text=District ID
+Position=49,697,229,713
+Text=ក្រុង/ស្រុក/ខណ្ឌ (City/District/Khan)
  
   
 [Field]
 Name=COMMUNE_ID
-Position=272,87,301,107
+Position=271,724,300,744
 Item=COMMUNE_ID,INNOVATION_SURVEY_DICT
-FieldLabelType=DictionaryLabel
 Form=2
   
 [Text]
-Position=50,90,132,106
-Text=Commune ID
+Position=49,727,223,743
+Text=ឃុំ/សង្កាត់ (Commune/Sangkat) 
  
   
 [Field]
 Name=VILLAGE_ID
-Position=272,117,301,137
+Position=271,754,300,774
 Item=VILLAGE_ID,INNOVATION_SURVEY_DICT
-FieldLabelType=DictionaryLabel
 Form=2
   
 [Text]
-Position=50,120,112,136
-Text=Village ID
+Position=49,757,207,773
+Text=ភូមិ/មណ្ឌល (Village/Mondol )
  
   
 [Field]
 Name=SERIAL_NUMBER_OF_ESTABLISHMENT
-Position=272,147,329,167
+Position=271,784,328,804
 Item=SERIAL_NUMBER_OF_ESTABLISHMENT,INNOVATION_SURVEY_DICT
-FieldLabelType=DictionaryLabel
 Form=2
   
 [Text]
-Position=50,150,250,166
-Text=Serial Number of Establishment
+Position=49,787,327,803
+Text=លេខរៀងគ្រឹះស្ថាន (Serial Number of Establishment)
  
   
 [Field]
 Name=NAME_OF_ESTABLISHMENT
-Position=272,177,1082,197
+Position=271,814,1081,834
 Item=NAME_OF_ESTABLISHMENT,INNOVATION_SURVEY_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 Form=2
   
 [Text]
-Position=50,180,195,196
-Text=Name of Establishment
+Position=49,817,258,833
+Text=ឈ្មោះគ្រឹះស្ថាន (Name of Establishment)
  
   
 [Field]
 Name=NAME_OF_INTERVIEWEE
-Position=272,207,482,227
+Position=271,844,481,864
 Item=NAME_OF_INTERVIEWEE,INNOVATION_SURVEY_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 Form=2
   
 [Text]
-Position=50,210,182,226
-Text=Name of Interviewee
+Position=49,847,269,863
+Text=ឈ្មោះអ្នកផ្តល់ចម្លើយ (Name of Interviewee)
  
   
 [Field]
 Name=JOB_TITLE
-Position=272,237,442,257
+Position=271,874,441,894
 Item=JOB_TITLE,INNOVATION_SURVEY_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 Form=2
   
 [Text]
-Position=50,240,105,256
-Text=Job Title
+Position=49,877,195,893
+Text=តួនាទីអ្នកផ្តល់ចម្លើយ (Job Title)
  
   
 [Field]
 Name=TELEPHONE_NUMBER
-Position=272,267,413,287
+Position=271,904,412,924
 Item=TELEPHONE_NUMBER,INNOVATION_SURVEY_DICT
-FieldLabelType=DictionaryLabel
 Form=2
   
 [Text]
-Position=50,270,172,286
-Text=Telephone Number
+Position=49,907,226,923
+Text=លេខទូរស័ព្ទ (Telephone Number)
  
   
 [Field]
 Name=EMAIL_ADDRESS
-Position=272,297,482,317
+Position=271,934,481,954
 Item=EMAIL_ADDRESS,INNOVATION_SURVEY_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 Form=2
   
 [Text]
-Position=50,300,140,316
-Text=Email Address
+Position=49,937,215,953
+Text=សារអេឡិចត្រូនិក (Email Address)
  
   
 [Field]
 Name=PHYSICAL_ADDRESS
-Position=272,327,682,347
+Position=271,964,681,984
 Item=PHYSICAL_ADDRESS,INNOVATION_SURVEY_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 Form=2
   
 [Text]
-Position=50,330,157,346
-Text=Physical Address
+Position=49,967,244,983
+Text=អាសយដ្ឋានបច្ចុប្បន្ន (Physical Address)
  
   
 [Field]
 Name=YEAR_OF_ESTABLISHMENT
-Position=272,357,329,377
+Position=271,994,328,1014
 Item=YEAR_OF_ESTABLISHMENT,INNOVATION_SURVEY_DICT
-FieldLabelType=DictionaryLabel
 Form=2
   
 [Text]
-Position=50,360,187,376
-Text=Year of Establishment
+Position=49,997,311,1013
+Text=គ្រឹះស្ថានបង្កើតឡើងនៅឆ្នាំណា (Year of Establishment)
  
   
 [Field]
 Name=ESTABLISHMENT_REG_NO
-Position=272,387,329,407
+Position=271,1024,328,1044
 Item=ESTABLISHMENT_REG_NO,INNOVATION_SURVEY_DICT
-FieldLabelType=DictionaryLabel
 Form=2
   
 [Text]
-Position=50,390,188,406
-Text=Establishment Reg No
+Position=49,1027,302,1043
+Text=លេខចុះបញ្ជីរបស់គ្រឹះស្ថាន(Establishment Reg. No.)
  
   
 [Field]
 Name=OWNERSHIP_LOCAL
-Position=272,417,315,437
+Position=271,1054,314,1074
 Item=OWNERSHIP_LOCAL,INNOVATION_SURVEY_DICT
-FieldLabelType=DictionaryLabel
 Form=2
   
 [Text]
-Position=50,420,157,436
-Text=Ownership Local
+Position=49,1057,123,1073
+Text=ក្នុងស្រុក (local)
  
   
 [Field]
 Name=OWNERSHIP_FORIEGN
-Position=272,447,315,467
+Position=271,1084,314,1104
 Item=OWNERSHIP_FORIEGN,INNOVATION_SURVEY_DICT
-FieldLabelType=DictionaryLabel
 Form=2
   
 [Text]
-Position=50,450,167,466
-Text=Ownership foriegn
+Position=49,1087,134,1103
+Text=បរទេស (foreign)
  
   
 [Field]
 Name=TYPE_OF_ESTABLISHMENU
-Position=272,477,287,497
+Position=271,1114,286,1134
 Item=TYPE_OF_ESTABLISHMENU,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=2
   
 [Text]
-Position=50,480,189,496
+Position=49,1117,188,1133
 Text=Type of Establishment
  
   
 [Field]
 Name=OWNERSHIP_OF_ESTABLISHMENU
-Position=272,507,301,527
+Position=271,1144,300,1164
 Item=OWNERSHIP_OF_ESTABLISHMENU,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=2
   
 [Text]
-Position=50,510,226,526
+Position=49,1147,225,1163
 Text=Ownership of Establishment
  
   
 [Field]
 Name=SECTOR
-Position=272,537,287,557
+Position=271,1174,286,1194
 Item=SECTOR,INNOVATION_SURVEY_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=2
   
 [Text]
-Position=50,540,91,556
-Text=Sector
+Position=49,1177,136,1193
+Text=14-វិស័យ (Sector)
  
   
 [Field]
 Name=NUMBER_OF_EMPLOYEES
-Position=272,567,329,587
+Position=271,1204,328,1224
 Item=NUMBER_OF_EMPLOYEES,INNOVATION_SURVEY_DICT
-FieldLabelType=DictionaryLabel
 Form=2
   
 [Text]
-Position=50,570,189,586
-Text=Number of employees
+Position=49,1207,268,1223
+Text=15-ចំនួននិយោជិត (Number of employees)
  
 [EndGroup]
   
