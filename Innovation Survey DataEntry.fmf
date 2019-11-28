@@ -23,7 +23,7 @@ Item=IDENTIFICATION_INFORMATION
 Name=FORM001
 Label=1-IDENTIFICATION INFORMATION
 Level=1
-Size=1721,1249
+Size=1113,1498
   
 Item=PROVINCE_IE
 Item=DISTRICT_ID
@@ -45,14 +45,29 @@ Item=OWNERSHIP_OF_ESTABLISHMENU
 Item=SECTOR
 Item=NUMBER_OF_EMPLOYEES
   
-Box=52,155,939,651,Thick
-Box=88,365,442,536,Raised
-Box=786,154,936,543,Raised
-Box=44,340,773,608,Raised
-Box=967,121,1696,164,Raised
-Box=61,160,934,265,Raised
-Box=1065,357,1196,470,Etched
-Box=1075,227,1349,302,Thin
+Box=52,121,867,167,Thick
+Box=52,167,460,213,Thick
+Box=460,168,866,214,Thick
+Box=52,212,460,258,Thick
+Box=460,213,866,259,Thick
+Box=52,257,460,303,Thick
+Box=460,258,866,304,Thick
+Box=52,302,460,348,Thick
+Box=460,302,866,348,Thick
+Box=52,348,460,394,Thick
+Box=460,349,730,395,Thick
+Box=731,349,798,395,Thick
+Box=799,349,865,395,Thick
+Box=866,121,975,167,Thick
+Box=866,166,975,394,Thick
+Box=53,444,974,490,Thick
+Box=53,490,512,536,Thick
+Box=53,536,512,582,Thick
+Box=53,583,512,629,Thick
+Box=53,629,512,675,Thick
+Box=53,675,512,721,Thick
+Box=53,721,512,767,Thick
+Box=512,490,973,535,Thick
   
 [Text]
 Name=TEXT1
@@ -391,221 +406,221 @@ Max=1
   
 [Field]
 Name=PROVINCE_IE
-Position=271,664,300,684
+Position=277,912,306,932
 Item=PROVINCE_IE,INNOVATION_SURVEY_DICT
 Form=2
   
 [Text]
-Position=49,667,281,691
+Position=38,915,270,939
 Text=រាជធានី/ខេត្ត (Municipality/Province)
 Font=-013 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0002 Khmer OS Battambang
  
   
 [Field]
 Name=DISTRICT_ID
-Position=271,694,300,714
+Position=277,943,306,963
 Item=DISTRICT_ID,INNOVATION_SURVEY_DICT
 Form=2
   
 [Text]
-Position=49,697,229,713
+Position=55,946,235,962
 Text=ក្រុង/ស្រុក/ខណ្ឌ (City/District/Khan)
  
   
 [Field]
 Name=COMMUNE_ID
-Position=271,724,300,744
+Position=277,973,306,993
 Item=COMMUNE_ID,INNOVATION_SURVEY_DICT
 Form=2
   
 [Text]
-Position=49,727,223,743
-Text=ឃុំ/សង្កាត់ (Commune/Sangkat) 
+Position=55,976,225,992
+Text=ឃុំ/សង្កាត់ (Commune/Sangkat)
  
   
 [Field]
 Name=VILLAGE_ID
-Position=271,754,300,774
+Position=277,1003,306,1023
 Item=VILLAGE_ID,INNOVATION_SURVEY_DICT
 Form=2
   
 [Text]
-Position=49,757,207,773
+Position=55,1006,213,1022
 Text=ភូមិ/មណ្ឌល (Village/Mondol )
  
   
 [Field]
 Name=SERIAL_NUMBER_OF_ESTABLISHMENT
-Position=271,784,328,804
+Position=277,1033,334,1053
 Item=SERIAL_NUMBER_OF_ESTABLISHMENT,INNOVATION_SURVEY_DICT
 Form=2
   
 [Text]
-Position=49,787,327,803
+Position=55,1036,333,1052
 Text=លេខរៀងគ្រឹះស្ថាន (Serial Number of Establishment)
  
   
 [Field]
 Name=NAME_OF_ESTABLISHMENT
-Position=271,814,1081,834
+Position=278,1062,1088,1082
 Item=NAME_OF_ESTABLISHMENT,INNOVATION_SURVEY_DICT
 UseUnicodeTextBox=Yes
 Form=2
   
 [Text]
-Position=49,817,258,833
+Position=56,1065,265,1081
 Text=ឈ្មោះគ្រឹះស្ថាន (Name of Establishment)
  
   
 [Field]
 Name=NAME_OF_INTERVIEWEE
-Position=271,844,481,864
+Position=277,1093,487,1113
 Item=NAME_OF_INTERVIEWEE,INNOVATION_SURVEY_DICT
 UseUnicodeTextBox=Yes
 Form=2
   
 [Text]
-Position=49,847,269,863
+Position=55,1096,275,1112
 Text=ឈ្មោះអ្នកផ្តល់ចម្លើយ (Name of Interviewee)
  
   
 [Field]
 Name=JOB_TITLE
-Position=271,874,441,894
+Position=277,1123,447,1143
 Item=JOB_TITLE,INNOVATION_SURVEY_DICT
 UseUnicodeTextBox=Yes
 Form=2
   
 [Text]
-Position=49,877,195,893
+Position=55,1126,201,1142
 Text=តួនាទីអ្នកផ្តល់ចម្លើយ (Job Title)
  
   
 [Field]
 Name=TELEPHONE_NUMBER
-Position=271,904,412,924
+Position=277,1153,418,1173
 Item=TELEPHONE_NUMBER,INNOVATION_SURVEY_DICT
 Form=2
   
 [Text]
-Position=49,907,226,923
+Position=55,1156,232,1172
 Text=លេខទូរស័ព្ទ (Telephone Number)
  
   
 [Field]
 Name=EMAIL_ADDRESS
-Position=271,934,481,954
+Position=277,1183,487,1203
 Item=EMAIL_ADDRESS,INNOVATION_SURVEY_DICT
 UseUnicodeTextBox=Yes
 Form=2
   
 [Text]
-Position=49,937,215,953
+Position=55,1186,221,1202
 Text=សារអេឡិចត្រូនិក (Email Address)
  
   
 [Field]
 Name=PHYSICAL_ADDRESS
-Position=271,964,681,984
+Position=277,1213,687,1233
 Item=PHYSICAL_ADDRESS,INNOVATION_SURVEY_DICT
 UseUnicodeTextBox=Yes
 Form=2
   
 [Text]
-Position=49,967,244,983
+Position=55,1216,250,1232
 Text=អាសយដ្ឋានបច្ចុប្បន្ន (Physical Address)
  
   
 [Field]
 Name=YEAR_OF_ESTABLISHMENT
-Position=271,994,328,1014
+Position=277,1243,334,1263
 Item=YEAR_OF_ESTABLISHMENT,INNOVATION_SURVEY_DICT
 Form=2
   
 [Text]
-Position=49,997,311,1013
+Position=55,1246,317,1262
 Text=គ្រឹះស្ថានបង្កើតឡើងនៅឆ្នាំណា (Year of Establishment)
  
   
 [Field]
 Name=ESTABLISHMENT_REG_NO
-Position=271,1024,328,1044
+Position=277,1273,334,1293
 Item=ESTABLISHMENT_REG_NO,INNOVATION_SURVEY_DICT
 Form=2
   
 [Text]
-Position=49,1027,302,1043
+Position=55,1276,308,1292
 Text=លេខចុះបញ្ជីរបស់គ្រឹះស្ថាន(Establishment Reg. No.)
  
   
 [Field]
 Name=OWNERSHIP_LOCAL
-Position=271,1054,314,1074
+Position=277,1303,320,1323
 Item=OWNERSHIP_LOCAL,INNOVATION_SURVEY_DICT
 Form=2
   
 [Text]
-Position=49,1057,123,1073
+Position=55,1306,129,1322
 Text=ក្នុងស្រុក (local)
  
   
 [Field]
 Name=OWNERSHIP_FORIEGN
-Position=271,1084,314,1104
+Position=277,1333,320,1353
 Item=OWNERSHIP_FORIEGN,INNOVATION_SURVEY_DICT
 Form=2
   
 [Text]
-Position=49,1087,134,1103
+Position=55,1336,140,1352
 Text=បរទេស (foreign)
  
   
 [Field]
 Name=TYPE_OF_ESTABLISHMENU
-Position=271,1114,286,1134
+Position=277,1363,292,1383
 Item=TYPE_OF_ESTABLISHMENU,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=2
   
 [Text]
-Position=49,1117,188,1133
+Position=55,1366,194,1382
 Text=Type of Establishment
  
   
 [Field]
 Name=OWNERSHIP_OF_ESTABLISHMENU
-Position=271,1144,300,1164
+Position=277,1393,306,1413
 Item=OWNERSHIP_OF_ESTABLISHMENU,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=2
   
 [Text]
-Position=49,1147,225,1163
+Position=55,1396,231,1412
 Text=Ownership of Establishment
  
   
 [Field]
 Name=SECTOR
-Position=271,1174,286,1194
+Position=277,1423,292,1443
 Item=SECTOR,INNOVATION_SURVEY_DICT
 DataCaptureType=RadioButton
 Form=2
   
 [Text]
-Position=49,1177,136,1193
+Position=55,1426,142,1442
 Text=14-វិស័យ (Sector)
  
   
 [Field]
 Name=NUMBER_OF_EMPLOYEES
-Position=271,1204,328,1224
+Position=277,1453,334,1473
 Item=NUMBER_OF_EMPLOYEES,INNOVATION_SURVEY_DICT
 Form=2
   
 [Text]
-Position=49,1207,268,1223
+Position=55,1456,274,1472
 Text=15-ចំនួននិយោជិត (Number of employees)
  
 [EndGroup]
@@ -2649,8 +2664,8 @@ DataCaptureType=RadioButton
 Form=12
   
 [Text]
-Position=50,210,451,226
-Text=11.1.3.2+3.3-Commercial laboratories and private R&D institutes
+Position=50,210,425,226
+Text=11.1.3.2-Commercial laboratories and private R&D institutes
  
   
 [Field]
