@@ -1,0 +1,15 @@
+﻿[CSPro Application]
+Version=CSPro 7.3
+Label=NEW_INNOVATION_DATA_ENTRY
+Name=NEW_INNOVATION_DATA_ENTRY
+AppType=DataEntry
+[AppCode]
+File=.\New Innovation Data Entry.ent.apc
+[Message]
+File=.\New Innovation Data Entry.ent.mgf
+[Help]
+File=.\New Innovation Data Entry.ent.qsf
+[Forms]
+File=.\New Innovation Data Entry.fmf
+[Dictionary Types]
+Dict-Type=.\Innovation Survey.dcf,Input,.\New Innovation Data Entry.fmf
