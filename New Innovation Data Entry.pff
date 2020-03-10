@@ -4,4 +4,4 @@ AppType=Entry
 
 [Files]
 Application=.\New Innovation Data Entry.ent
-InputData=..\..\Project\CSPro\Innovation Survey\DB\innovation survey.csdb
+InputData=.\DB\innovation survey.csdb
