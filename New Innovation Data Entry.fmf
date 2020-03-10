@@ -803,6 +803,18 @@ Text=Email Address
  
   
 [Field]
+Name=YEAR_OF_ESTABLISHMENT
+Position=500,586,557,606
+Item=YEAR_OF_ESTABLISHMENT,INNOVATION_SURVEY_DICT
+FieldLabelType=DictionaryLabel
+Form=2
+  
+[Text]
+Position=58,587,195,603
+Text=Year of Establishment
+ 
+  
+[Field]
 Name=PHYSICAL_ADDRESS
 Position=494,477,836,497
 Item=PHYSICAL_ADDRESS,INNOVATION_SURVEY_DICT
@@ -813,18 +825,6 @@ Form=2
 [Text]
 Position=51,478,158,494
 Text=Physical Address
- 
-  
-[Field]
-Name=YEAR_OF_ESTABLISHMENT
-Position=500,586,557,606
-Item=YEAR_OF_ESTABLISHMENT,INNOVATION_SURVEY_DICT
-FieldLabelType=DictionaryLabel
-Form=2
-  
-[Text]
-Position=58,587,195,603
-Text=Year of Establishment
  
   
 [Field]

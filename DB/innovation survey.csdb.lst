@@ -83,3 +83,57 @@ System messages:
 
 CSPRO Executor Normal End
 ------------------------------------------------------------------------------------------------------------------------
+Application     E:\Project\CSPro\Innovation Survey\New Innovation Data Entry.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> E:\Project\CSPro\Innovation Survey\DB\innovation survey.csdb
+
+Date            Mar 10, 2020
+Start Time      11:14:45
+End Time        11:25:05
+
+CSPRO Process Summary
+
+CSPRO Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     E:\Project\CSPro\Innovation Survey\New Innovation Data Entry.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> E:\Project\CSPro\Innovation Survey\DB\innovation survey.csdb
+
+Date            Mar 10, 2020
+Start Time      15:02:35
+End Time        15:03:26
+
+CSPRO Process Summary
+
+CSPRO Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     E:\Project\CSPro\Innovation Survey\New Innovation Data Entry.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> E:\Project\CSPro\Innovation Survey\DB\innovation survey.csdb
+
+Date            Mar 10, 2020
+Start Time      15:04:35
+End Time        15:05:10
+
+CSPRO Process Summary
+
+System messages:
+
+ Number    Frequency   Message text
+ ------    ---------   ------------
+  99990            1   Operator entered a value out of range                                                 
+
+CSPRO Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     E:\Project\CSPro\Innovation Survey\New Innovation Data Entry.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> E:\Project\CSPro\Innovation Survey\DB\innovation survey.csdb
+
+Date            Mar 10, 2020
+Start Time      15:32:44
+End Time        15:36:04
+
+CSPRO Process Summary
+
+CSPRO Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
