@@ -137,3 +137,245 @@ CSPRO Process Summary
 
 CSPRO Executor Normal End
 ------------------------------------------------------------------------------------------------------------------------
+Application     E:\Project\CSPro\Innovation Survey\New Innovation Data Entry.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> E:\Project\CSPro\Innovation Survey\DB\innovation survey.csdb
+
+Date            Mar 10, 2020
+Start Time      19:26:23
+End Time        19:27:43
+
+CSPRO Process Summary
+
+System messages:
+
+ Number    Frequency   Message text
+ ------    ---------   ------------
+  99990            2   Operator entered a value out of range                                                 
+
+User unnumbered messages:
+
+   Line    Freq  Pct.  Message text                                                                                Denom
+   ----    ----  ----  ------------                                                                                -----
+     15       1    -   Please input a valid year.                                                                      -
+
+CSPRO Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     E:\Project\CSPro\Innovation Survey\New Innovation Data Entry.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> E:\Project\CSPro\Innovation Survey\DB\innovation survey.csdb
+
+Date            Mar 10, 2020
+Start Time      19:32:29
+End Time        19:33:41
+
+CSPRO Process Summary
+
+User unnumbered messages:
+
+   Line    Freq  Pct.  Message text                                                                                Denom
+   ----    ----  ----  ------------                                                                                -----
+     23       1    -   Please input a valid year.                                                                      -
+
+CSPRO Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     E:\Project\CSPro\Innovation Survey\New Innovation Data Entry.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> E:\Project\CSPro\Innovation Survey\DB\innovation survey.csdb
+
+Date            Mar 10, 2020
+Start Time      19:45:06
+End Time        20:21:52
+
+CSPRO Process Summary
+
+System messages:
+
+ Number    Frequency   Message text
+ ------    ---------   ------------
+  99990            5   Operator entered a value out of range                                                 
+
+CSPRO Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     E:\Project\CSPro\Innovation Survey\New Innovation Data Entry.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> E:\Project\CSPro\Innovation Survey\DB\innovation survey.csdb
+
+Date            Mar 10, 2020
+Start Time      20:26:57
+End Time        20:33:20
+
+CSPRO Process Summary
+
+System messages:
+
+ Number    Frequency   Message text
+ ------    ---------   ------------
+   1010            1   Application error: protected field %n out of range - value is %f                      
+  99990            4   Operator entered a value out of range                                                 
+
+User unnumbered messages:
+
+   Line    Freq  Pct.  Message text                                                                                Denom
+   ----    ----  ----  ------------                                                                                -----
+     14       1    -   The percentage must be between 0 - 100.                                                         -
+     30       1    -   Please input a valid year.                                                                      -
+
+CSPRO Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     E:\Project\CSPro\Innovation Survey\New Innovation Data Entry.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> E:\Project\CSPro\Innovation Survey\DB\innovation survey.csdb
+
+Date            Mar 10, 2020
+Start Time      20:52:05
+End Time        20:53:14
+
+CSPRO Process Summary
+
+System messages:
+
+ Number    Frequency   Message text
+ ------    ---------   ------------
+   1010            1   Application error: protected field %n out of range - value is %f                      
+  99990            5   Operator entered a value out of range                                                 
+
+CSPRO Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     E:\Project\CSPro\Innovation Survey\New Innovation Data Entry.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> E:\Project\CSPro\Innovation Survey\DB\innovation survey.csdb
+
+Date            Mar 10, 2020
+Start Time      22:00:29
+End Time        22:05:13
+
+CSPRO Process Summary
+
+System messages:
+
+ Number    Frequency   Message text
+ ------    ---------   ------------
+  99990            7   Operator entered a value out of range                                                 
+
+User unnumbered messages:
+
+   Line    Freq  Pct.  Message text                                                                                Denom
+   ----    ----  ----  ------------                                                                                -----
+     30       1    -   Please input a valid year.                                                                      -
+
+CSPRO Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     E:\Project\CSPro\Innovation Survey\New Innovation Data Entry.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> E:\Project\CSPro\Innovation Survey\DB\innovation survey.csdb
+
+Date            Mar 11, 2020
+Start Time      00:43:42
+End Time        00:45:14
+
+CSPRO Process Summary
+
+System messages:
+
+ Number    Frequency   Message text
+ ------    ---------   ------------
+   1010            1   Application error: protected field %n out of range - value is %f                      
+  99990            3   Operator entered a value out of range                                                 
+
+CSPRO Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     E:\Project\CSPro\Innovation Survey\New Innovation Data Entry.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> E:\Project\CSPro\Innovation Survey\DB\innovation survey.csdb
+
+Date            Mar 11, 2020
+Start Time      00:47:05
+End Time        00:48:26
+
+CSPRO Process Summary
+
+System messages:
+
+ Number    Frequency   Message text
+ ------    ---------   ------------
+   1010            1   Application error: protected field %n out of range - value is %f                      
+  99990            2   Operator entered a value out of range                                                 
+
+CSPRO Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     E:\Project\CSPro\Innovation Survey\New Innovation Data Entry.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> E:\Project\CSPro\Innovation Survey\DB\innovation survey.csdb
+
+Date            Mar 11, 2020
+Start Time      00:57:29
+End Time        01:04:46
+
+CSPRO Process Summary
+
+System messages:
+
+ Number    Frequency   Message text
+ ------    ---------   ------------
+  99990            9   Operator entered a value out of range                                                 
+
+CSPRO Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     E:\Project\CSPro\Innovation Survey\New Innovation Data Entry.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> E:\Project\CSPro\Innovation Survey\DB\innovation survey.csdb
+
+Date            Mar 11, 2020
+Start Time      01:04:54
+End Time        01:07:22
+
+CSPRO Process Summary
+
+System messages:
+
+ Number    Frequency   Message text
+ ------    ---------   ------------
+   1010            1   Application error: protected field %n out of range - value is %f                      
+  99990            4   Operator entered a value out of range                                                 
+
+CSPRO Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     E:\Project\CSPro\Innovation Survey\New Innovation Data Entry.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> E:\Project\CSPro\Innovation Survey\DB\innovation survey.csdb
+
+Date            Mar 11, 2020
+Start Time      01:07:46
+End Time        01:09:19
+
+CSPRO Process Summary
+
+System messages:
+
+ Number    Frequency   Message text
+ ------    ---------   ------------
+   1010            1   Application error: protected field %n out of range - value is %f                      
+  99990            5   Operator entered a value out of range                                                 
+
+CSPRO Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     E:\Project\CSPro\Innovation Survey\New Innovation Data Entry.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> E:\Project\CSPro\Innovation Survey\DB\innovation survey.csdb
+
+Date            Mar 11, 2020
+Start Time      01:28:12
+End Time        01:29:39
+
+CSPRO Process Summary
+
+System messages:
+
+ Number    Frequency   Message text
+ ------    ---------   ------------
+   1010            1   Application error: protected field %n out of range - value is %f                      
+  99990            5   Operator entered a value out of range                                                 
+
+CSPRO Executor Normal End
+------------------------------------------------------------------------------------------------------------------------

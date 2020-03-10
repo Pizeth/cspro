@@ -803,18 +803,6 @@ Text=Email Address
  
   
 [Field]
-Name=YEAR_OF_ESTABLISHMENT
-Position=500,586,557,606
-Item=YEAR_OF_ESTABLISHMENT,INNOVATION_SURVEY_DICT
-FieldLabelType=DictionaryLabel
-Form=2
-  
-[Text]
-Position=58,587,195,603
-Text=Year of Establishment
- 
-  
-[Field]
 Name=PHYSICAL_ADDRESS
 Position=494,477,836,497
 Item=PHYSICAL_ADDRESS,INNOVATION_SURVEY_DICT
@@ -825,6 +813,18 @@ Form=2
 [Text]
 Position=51,478,158,494
 Text=Physical Address
+ 
+  
+[Field]
+Name=YEAR_OF_ESTABLISHMENT
+Position=500,586,557,606
+Item=YEAR_OF_ESTABLISHMENT,INNOVATION_SURVEY_DICT
+FieldLabelType=DictionaryLabel
+Form=2
+  
+[Text]
+Position=58,587,195,603
+Text=Year of Establishment
  
   
 [Field]
@@ -1289,10 +1289,10 @@ Text=4.1.1.2-improved services
   
 [Field]
 Name=NEW_OR_SIGNIFICANTLY_IMPROVED_PRODUCTS
-Position=913,237,956,257
+Position=913,236,956,256
 Item=NEW_OR_SIGNIFICANTLY_IMPROVED_PRODUCTS,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
-DataCaptureType=RadioButton
+DataCaptureType=CheckBox
 Form=5
   
 [Text]
@@ -1305,7 +1305,7 @@ Name=NEW_OR_SIGNIFICANTLY_IMPROVED_SERVICES
 Position=913,267,956,287
 Item=NEW_OR_SIGNIFICANTLY_IMPROVED_SERVICES,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
-DataCaptureType=RadioButton
+DataCaptureType=CheckBox
 Form=5
   
 [Text]
@@ -1444,7 +1444,7 @@ Name=METHODS_OF_MANUFACTURING_OR_PRODUCING_GOODS_OR_SERVICES
 Position=913,597,956,617
 Item=METHODS_OF_MANUFACTURING_OR_PRODUCING_GOODS_OR_SERVICES,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
-DataCaptureType=RadioButton
+DataCaptureType=CheckBox
 Form=5
   
 [Text]
@@ -1457,7 +1457,7 @@ Name=LOGISTICS_DELIVERY_OR_DISTRIBUTION_METHODS_FOR_YOUR_INPUTS_GOODS_OR_SERVICE
 Position=913,627,956,647
 Item=LOGISTICS_DELIVERY_OR_DISTRIBUTION_METHODS_FOR_YOUR_INPUTS_GOODS_OR_SERVICES,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
-DataCaptureType=RadioButton
+DataCaptureType=CheckBox
 Form=5
   
 [Text]
@@ -1467,10 +1467,10 @@ Text=4.2.2.2-Logistics, delivery or distribution methods for your inputs, goods 
   
 [Field]
 Name=SUPPORTING_ACTIVITIES_FOR_YOUR_PROCESSES_SUCH_AS_MAINTENANCE_SYSTEMS_OR_OPERATIONS_FOR_PURCHASING_ACCOUNTING_OR_COMPUTING
-Position=913,657,956,677
+Position=912,657,955,677
 Item=SUPPORTING_ACTIVITIES_FOR_YOUR_PROCESSES_SUCH_AS_MAINTENANCE_SYSTEMS_OR_OPERATIONS_FOR_PURCHASING_ACCOUNTING_OR_COMPUTING,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
-DataCaptureType=RadioButton
+DataCaptureType=CheckBox
 Form=5
   
 [Text]
@@ -1534,7 +1534,7 @@ Name=PRODUCT_DESIGN_OR_PACKAGING
 Position=913,807,956,827
 Item=PRODUCT_DESIGN_OR_PACKAGING,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
-DataCaptureType=RadioButton
+DataCaptureType=CheckBox
 Form=5
   
 [Text]
@@ -1544,10 +1544,10 @@ Text=(4.3.1)-1-Product design or packaging
   
 [Field]
 Name=PRODUCT_DISTRIBUTION_PLACEMENT
-Position=913,837,956,857
+Position=914,837,957,857
 Item=PRODUCT_DISTRIBUTION_PLACEMENT,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
-DataCaptureType=RadioButton
+DataCaptureType=CheckBox
 Form=5
   
 [Text]
@@ -1560,7 +1560,7 @@ Name=PRODUCT_PROMOTION_OR_PRICING
 Position=913,867,956,887
 Item=PRODUCT_PROMOTION_OR_PRICING,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
-DataCaptureType=RadioButton
+DataCaptureType=CheckBox
 Form=5
   
 [Text]
