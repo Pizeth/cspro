@@ -24,7 +24,7 @@ Len=4
 Label=1-IDENTIFICATION INFORMATION
 Name=AREA_INFORMATION
 RecordTypeValue='1'
-RecordLen=269
+RecordLen=271
 
 [Item]
 Label=Province ID
@@ -107,24 +107,24 @@ Len=4
 Label=Establishment Reg No
 Name=ESTABLISHMENT_REG_NO
 Start=252
-Len=4
+Len=6
 
 [Item]
 Label=Ownership Local
 Name=OWNERSHIP_LOCAL
-Start=256
+Start=258
 Len=3
 
 [Item]
 Label=Ownership foriegn
 Name=OWNERSHIP_FORIEGN
-Start=259
+Start=261
 Len=3
 
 [Item]
 Label=Type of Establishment
 Name=TYPE_OF_ESTABLISHMENU
-Start=262
+Start=264
 Len=1
 
 [ValueSet]
@@ -138,7 +138,7 @@ Value=4;NGOs
 [Item]
 Label=Ownership of Establishment
 Name=OWNERSHIP_OF_ESTABLISHMENU
-Start=263
+Start=265
 Len=2
 
 [ValueSet]
@@ -161,7 +161,7 @@ Value=13;Others
 [Item]
 Label=Sector
 Name=SECTOR
-Start=265
+Start=267
 Len=1
 
 [ValueSet]
@@ -173,242 +173,25 @@ Value=2;Services
 [Item]
 Label=Number of employees
 Name=NUMBER_OF_EMPLOYEES
-Start=266
+Start=268
 Len=4
 
 [Record]
 Label=2-GENERAL INFORMATION ABOUT YOUR ESTABLISHMENT
 Name=GENERAL_INFORMATION_ABOUT_YOUR_E
 RecordTypeValue='6'
-RecordLen=673
+RecordLen=43
 
 [Item]
 Label=Main Activity
 Name=MAIN_ACTIVITY
 Start=6
-Len=636
-DataType=Alpha
-
-[ValueSet]
-Label=Main Activity
-Name=MAIN_ACTIVITY_VS1
-Value='101                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Processing and preserving of meat
-Value='102                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Processing and preserving of fish, crustaceans and mollusks
-Value='103                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Processing and preserving of fruit and vegetables
-Value='104                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Manufacture of vegetable and animal oils and fats
-Value='105                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Manufacture of dairy products
-Value='106                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Manufacture of grain mill products, starches and starch products
-Value='107                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Manufacture of other food products
-Value='108                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Manufacture of prepared animal feeds
-Value='110                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Manufacture of beverages
-Value='120                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Manufacture of tobacco products
-Value='131                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Spinning, weaving and finishing of textiles
-Value='139                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Manufacture of other textiles
-Value='141                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Manufacture of wearing apparel, except fur apparel
-Value='142                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Manufacture of articles of fur
-Value='143                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Manufacture of knitted and crocheted apparel
-Value='151                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Tanning and dressing of leather; manufacture of luggage, handbags, saddlery and harness; dressing and dyeing of fur
-Value='152                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Manufacture of footwear
-Value='161                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Sawmilling and planning of wood
-Value='162                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Manufacture of products of wood, cork, straw and plaiting materials
-Value='170                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Manufacture of paper and paper products
-Value='181                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Printing and service activities related to printing
-Value='182                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Reproduction of recorded media
-Value='191                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Manufacture of coke oven products
-Value='192                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Manufacture of refined petroleum products
-Value='201                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';(Manufacture of basic chemicals, fertilizers and nitrogen compounds, plastics and synthetic rubber in primary forms
-Value='202                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Manufacture of other chemical products
-Value='203                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Manufacture of man-made fibers
-Value='210                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Manufacture of pharmaceuticals, medicinal chemical and botanical products
-Value='221                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Manufacture of rubber products
-Value='222                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Manufacture of plastics products
-Value='231                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Manufacture of glass and glass products
-Value='239                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Manufacture of non-metallic mineral products
-Value='241                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Manufacture of basic iron and steel
-Value='242                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Manufacture of basic precious and other non-ferrous metals
-Value='243                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Casting of metals
-Value='251                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Manufacture of structural metal products, tanks, reservoirs and steam generators
-Value='252                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Manufacture of weapons and ammunition
-Value='259                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Manufacture of other fabricated metal products; metalworking service activities
-Value='261                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Manufacture of electronic components
-Value='262                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Manufacture of computers and peripheral equipment
-Value='263                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Manufacture of communication equipment
-Value='264                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Manufacture of consumer electronics
-Value='265                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Manufacture of measuring, testing, navigating and control equipment; watches and clocks
-Value='266                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Manufacture of irradiation, electro-medical and electrotherapeutic equipment
-Value='267                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Manufacture of optical instruments and equipment
-Value='268                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Manufacture of magnetic and optical media
-Value='271                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Manufacture of electric motors, generators, transformers and electricity distribution and control apparatus
-Value='272                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Manufacture of batteries and accumulators
-Value='273                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Manufacture of wiring and wiring devices
-Value='274                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Manufacture of electric lighting equipment
-Value='275                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Manufacture of domestic appliances
-Value='279                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Manufacture of other electrical equipment
-Value='281                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Manufacture of general-purpose machinery
-Value='282                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Manufacture of special-purpose machinery
-Value='291                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Manufacture of motor vehicles
-Value='292                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Manufacture of bodies (coachwork) for motor vehicles; manufacture of trailers and semi-trailers
-Value='293                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Manufacture of parts and accessories for motor vehicles
-Value='301                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Building of ships and boats
-Value='302                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Manufacture of railway locomotives and rolling stock
-Value='303                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Manufacture of air and spacecraft and related machinery
-Value='304                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Manufacture of military fighting vehicles
-Value='309                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Manufacture of transport equipment n.e.c
-Value='310                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Manufacture of furniture
-Value='321                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Manufacture of jewelry, bijouterie and related articles
-Value='322                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Manufacture of musical instruments
-Value='323                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Manufacture of sports goods
-Value='324                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Manufacture of games and toys
-Value='325                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Manufacture of medical and dental instruments and supplies
-Value='329                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Other manufacturing n.e.c
-Value='331                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Repair of fabricated metal products, machinery and equipment
-Value='332                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Installation of industrial machinery and equipment
-Value='351                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Electric power generation, transmission and distribution
-Value='352                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Manufacture of gas, distribution of gaseous fuels through mains
-Value='353                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Steam and air conditioning supply
-Value='360                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Water collection, treatment and supply
-Value='370                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Sewerage
-Value='381                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Waste collection
-Value='382                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Waste treatment and disposal
-Value='383                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Materials recovery
-Value='390                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Remediation activities and other waste management services
-Value='410                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Construction of buildings
-Value='421                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Construction of roads and railways
-Value='422                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Construction of utility projects
-Value='429                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Construction of other civil engineering projects
-Value='431                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Demolition and site preparation
-Value='432                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Electrical, plumbing and other construction installation activities
-Value='433                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';Building completion and finishing
-Value='439                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពសំណង់ឯកទេសដទៃទៀត (Other Specialized construction activities)
-Value='451                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';ការលក់យានយន្ត (Sales of motor vehicles)
-Value='452                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';ការថែទាំ និងការជួសជុលយានយន្ត (Maintenance and repair of motor vehicles)
-Value='453                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';ការលក់គ្រឿងបន្លាស់យានយន្តនិងគ្រឿងបន្ទាប់បន្សំ (Sale of motor vehicle parts and accessories)
-Value='454                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';ការលក់ ថែទាំ និងជួសជុលទោចក្រយានយន្ត និងគ្រឿងបន្លាស់និងគ្រឿងបន្ទាប់បន្សំដែលពាក់ព័ន្ធ (Sale, maintenance and repairs of motorcycles and related parts and accessories)
-Value='461                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';ការលក់ដុំដោយផ្អែកលើថ្លៃសេវា ឬផ្អែកលើកិច្ចសន្យា (Wholesale on a fee or contract basis)
-Value='462                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';ការលក់ដុំវត្ថុធាតុដើមកសិកម្មនិងសត្វរស់ (Wholesale of agricultural raw material and live animals)
-Value='463                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';ការលក់ដុំ អាហារ ភេសជ្ជៈ និងថ្នាំជក់ (Wholesale of food, beverages and tobacco)
-Value='464                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';ការលក់ដុំនូវទំនិញប្រើប្រាស់ក្នុងផ្ទះ (Wholesale of household goods)
-Value='465                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';ការលក់ដុំគ្រឿងម៉ាស៊ីន ឧបករណ៍ និងសម្ភារះផ្គត់ផ្គង់ផ្សេងៗ (Wholesale of machinery, equipment and supplies)
-Value='466                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';ការលក់ដុំឯកទេសផ្សេងៗ (Other specialized wholesale)
-Value='467                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';ជំនួញលក់ដុំដោយមិនមានឯកទេស (Non-specialized wholesale trade)
-Value='471                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';ការលក់រាយនៅក្នុងហាងមិនឯកទេស (Retail sale in non-specialized stores)
-Value='472                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';ការលក់រាយអាហារ ភេសជ្ជៈ និងថ្នាំជក់នៅក្នុងហាងឯកទេស (Retail sale of food, beverages and tobacco in specialized stores)
-Value='473                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';ការលក់រាយប្រេងឥន្ធនៈយានយន្តនៅក្នុងហាងឯកទេស (Retail sale of automotive fuel in specialized stores)
-Value='474                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';ការលក់រាយឧបករណ៍ផ្នែកព័ត៌មាន និងទំនាក់ទំនង នៅក្នុងហាងឯកទេស (Retail sale of information and communications equipment in specialized stores)
-Value='475                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';ការលក់ដុំគ្រឿងម៉ាស៊ីន ឧបករណ៍ និងសម្ភារៈផ្គត់ផ្គង់ផ្សេងៗ នៅក្នុងហាងឯកទេស (Retail sale of other household equipment in specialized stores)
-Value='476                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';ការលក់រាយទំនិញវប្បធម៌ និងកម្សាន្តនៅក្នុងហាងឯកទេស (Retail sale of cultural and recreation goods in specialized store)
-Value='477                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';ការលក់រាយទំនិញផ្សេងៗនៅក្នុងហាងឯកទេស (Retail sale of other goods in specialized store)
-Value='478                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';ការលក់រាយនៅតាមតូប និងទីផ្សារ (Retail sale via stalls and markets)
-Value='479                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';ការលក់រាយមិននៅក្នុងហាង តូប ឬទីផ្សារ (Retail trade not in stores, stalls or markets)
-Value='491                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';ការដឹកជញ្ជូនតាមផ្លូវដែក (Transport via railways)
-Value='492                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';ការដឹកជញ្ជូនតាមផ្លូវគោកផ្សេងទៀត (Other land transport)
-Value='493                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';ការដឹកជញ្ជូនតាមប្រព័ន្ធបំពង់ (Transport via pipeline)
-Value='501                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';ការដឹកជញ្ជូនតាមសមុទ្រទឹកជ្រៅ និងក្បែតំបន់ឆ្នេរ (Sea and coastal water transport)
-Value='502                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';ការដឹកជញ្ជូនតាមផ្លូវទឹក និងផ្លូវគោក (Inland and water transport)
-Value='511                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';ការដឹកជញ្ជូនអ្នកដំណើរតាមផ្លូវអាកាស (Passenger air transport)
-Value='512                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';ការដឹកជញ្ជូនទំនិញតាមផ្លូវអាកាស (Freight air transport)
-Value='521                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';ការស្តុកទំនិញក្នុងឃ្លាំង និងការស្តុកទុក (Warehousing and storage)
-Value='512                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពគាំទ្រការដឹកជញ្ជូន (Support activities for transportation)
-Value='531                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពសេវាកម្មប្រៃសណីយ៍ (Postal activities)
-Value='532                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពសេវាកម្មបញ្ញើ (Courier activities)
-Value='551                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពសេវាកម្មស្នាក់នៅរយៈពេលខ្លី (Short term accommodation service activities)
-Value='552                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';កន្លែងបោះជំរុំ ចំណតយាន្តយន្តទេសចរណ៍ និងសណ្ដោង (Camping grounds, recreational vehicle parks and trailer parks)
-Value='559                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';ការស្នាក់នៅផ្សេងៗទៀត (Other accommodation)
-Value='561                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';ការផ្គត់ផ្គង់ម្ហូបអាហារដល់កម្មវិធី និងសកម្មភាពសេវាកម្មអាហារផ្សេងៗ (Event catering and other food service activities)
-Value='562                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពសេវាកម្មភោជនីយដ្ឋាន និងសេវាកម្មផ្គត់ផ្គង់អាហារចល័ត(Restaurants and mobile food service activities)
-Value='563                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពបម្រើភេសជ្ជៈ (Beverage serving activities)
-Value='581                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';ការបោះពុម្ពផ្សាយសៀវភៅ កាលិកបត្រ និងសកម្មភាពបោះពុម្ពផ្សាយផ្សេងទៀត (Publishing of books, periodicals and other publishing activities)
-Value='582                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';ការផ្សាយកម្មវិធីកុំព្យូទ័រ (Software publishing)
-Value='591                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពភាពយន្ត កម្មវិធីទូរទស្សន៍ និងវីដេអូ (Motion picture, video and television programmer activities)
-Value='592                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពថតសំឡេង និងចេញផ្សាយតន្ត្រី (Sound recording and music publishing activities)
-Value='601                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';ការផ្សាយវិទ្យុ (Radio broadcasting)
-Value='602                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពបង្កើតកម្មវិធី និងការផ្សាយទូរទស្សន៍ (Television programming and broadcasting activities)
-Value='611                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពទូរគមនាគមន៍មានខ្សែ (Wired telecommunications activities)
-Value='612                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពទូរគមនាគមន៍ឥតខ្សែ (Wireless telecommunications activities)
-Value='613                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពទូរគមនាគមន៍ផ្កាយរណប (Satellite telecommunications activities)
-Value='619                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពទូរគមនាគមន៍ផ្សេងទៀត (Other telecommunications activities)
-Value='620                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពបង្កើតកម្មវិធីកុំព្យូទ័រ ពិគ្រោះយោបល់ និងសកម្មភាពពាក់ព័ន្ធ (Computer programming, consultancy and related activities)
-Value='631                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';ការបំប្លែងទិន្នន័យ ការដាក់ដំណើរការលើអ៊ីនធឺណែតនិងសកម្មភាពពាក់ព័ន្ធនិងប្រព័ន្ធស្វែងរកតាមអ៊ីនធឺណែត (Data processing, hosting and related activities; web portals)
-Value='639                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពសេវាកម្មព័ត៌មានផ្សេងទៀត (Other information service activities)
-Value='641                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';អន្តរការីរូបិយវត្ថុ (Monetary intermediation)
-Value='642                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពរបស់ក្រុមហ៊ុនភាគហ៊ុន (Activities of holding companies)
-Value='643                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';មូលនិធិវិនិយោគ មូលនិធិ និងស្ថាប័នហិរញ្ញវត្ថុប្រហាក់ប្រហែល (Trusts, funds and similar financial entities)
-Value='649                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពសេវាកម្មហិរញ្ញវត្ថុផ្សេងទៀត លើកលែងតែសកម្មភាពធានារ៉ាប់រង និងមូលនិធិសោធននិវត្តន៍ (Other financial service activities, except insurance and pension funding activities)
-Value='651                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';ការធានារ៉ាប់រង (Insurance)
-Value='652                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';ការធានារ៉ាប់រងបន្ត (Reinsurance)
-Value='653                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';មូលនិធិសោធននិវត្តន៍ (Pension funding)
-Value='661                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពគាំទ្រដល់សកម្មភាពសេវាកម្មហិរញ្ញវត្ថុ លើកលែងតែការធានារ៉ាប់រង និងមូលនិធិសោធននិវត្តន៍ (Activities auxiliary to financial service activities, except insurance and pension funding)
-Value='662                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពគាំទ្រដល់សេវាកម្មធានារ៉ាប់រង និងមូលនិធិសោធននិវត្តន៍ (Activities auxiliary to insurance and pension funding)
-Value='663                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពគ្រប់គ្រងមូលនិធិ (Fund management activities)
-Value='681                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពអចលនៈទ្រព្យដោយប្រើអចលនៈទ្រព្យផ្ទាល់ខ្លួនឬជួលពីគេ (Real estate activities with own or leased property)
-Value='682                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពអចលនៈទ្រព្យដោយយកថ្លៃឈ្នួលជាក់ស្ដែងឬតាមកិច្ចសន្យា (Real estate activities on a fee or contract basis)
-Value='699                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពផ្នែកច្បាប់ (legal activities)
-Value='692                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពគណនេយ្យ ការកត់ត្រាគណនេយ្យនិងសវនកម្ម ការពិគ្រោះយោបល់ពន្ធដារ (Accounting, bookkeeping and auditing activities; tax consultancy)
-Value='701                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពរបស់ការិយាល័យកណ្តាល (Activities of head offices)
-Value='702                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពពិគ្រោះយោបល់ផ្នែកគ្រប់គ្រង (Management consultancy activities)
-Value='711                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពស្ថាបត្យកម្ម និងវិស្វកម្ម និងការពិគ្រោះយោបល់បច្ចេកទេសពាក់ព័ន្ធ (Architectural and engineering activities and related technical consultancy)
-Value='712                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';ការពិសោធ និងវិភាគបច្ចេកទេស (Technical testing and analysis)
-Value='721                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';ការស្រាវជ្រាវនិងអភិវឌ្ឍបែបពិសោធន៍លើវិទ្យាសាស្រ្តធម្មជាតិនិងវិស្វកម្ម (Research and experimental development on natural sciences and engineering)
-Value='722                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';ការស្រាវជ្រាវនិងអភិវឌ្ឍបែបពិសោធន៍លើវិទ្យាសាស្រ្តសង្គម និងមនុស្សសាស្ត្រ (Research and experimental development on social sciences and humanities)
-Value='731                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';ការផ្សាយពាណិជ្ជកម្ម (Advertising)
-Value='732                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';ការស្រាវជ្រាវទីផ្សារ និងការស្ទង់មតិសាធារណៈ (Market research and public opinion polling)
-Value='741                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពរចនាឯកទេស (Specialized design activities)
-Value='742                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពថតរូប (Photographic activities)
-Value='749                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពវិជ្ជាជីវៈ វិទ្យាសាស្រ្តនិងបច្ចេកទេសផ្សេងទៀតដែលពុំបានរាប់បញ្ចូល (Other professional, scientific and technical activities n.e.c.)
-Value='750                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពបសុព្យាបាល (Veterinary activities)
-Value='771                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';ការជួល និងភតិសន្យាយានយន្ត (Renting and leasing of motor vehicles)
-Value='772                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';ការជួល និងភតិសន្យាទំនិញប្រើប្រាស់ផ្ទាល់ខ្លួន និងសម្រាប់គ្រួសារ (Renting and leasing of personal and household goods)
-Value='773                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';ការជួល និងភតិសន្យាគ្រឿងយន្ត ឧបករណ៍ និងទំនិញរូបីយ៍ផ្សេងទៀត (Renting and leasing of other machinery, equipment and tangible goods)
-Value='774                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';ភតិសន្យាផលិតផលកម្មសិទ្ធិបញ្ញា និងផលិតផលប្រហាក់ប្រហែលលើកលែងតែការងាររក្សាសិទ្ធិ (Leasing of intellectual property and similar products, except copyrighted works)
-Value='781                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពទីភ្នាក់ងារស្វែងរកការងារ (Activities of employment placement agencies)
-Value='782                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពទីភ្នាក់ងារស្វែងរកការងារបណ្តោះអាសន្ន (Temporary employment agency activities)
-Value='783                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';ការផ្តល់សេវាកម្មធនធានមនុស្សផ្សេងទៀត (Other human resources provision)
-Value='791                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពរបស់ទីភ្នាក់ងារទេសចរណ៍ និងប្រតិបត្តិករទេសចរណ៍ (Travel agency and tour operator activities)
-Value='799                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពកក់បម្រុងទុកផ្សេងទៀតនិងសកម្មភាពពាក់ព័ន្ធនានា (Other reservation service and related activities)
-Value='801                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពរក្សាសន្ដិសុខឯកជន (Private security activities)
-Value='802                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពសេវាកម្មប្រព័ន្ធសុវត្ថិភាព (Security systems service activities)
-Value='803                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពស៊ើបអង្កេត (Investigation activities)
-Value='811                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពគាំទ្រហេដ្ឋារចនាសម្ព័ន្ធចម្រុះ (Combined facilities support activities)
-Value='812                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សេវាកម្មសម្អាត (Cleaning activities)
-Value='813                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សេវាកម្មរៀបចំ និងថែរក្សាសោភ័ណភាព (Landscape care and maintenance service activities)
-Value='821                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពខាងរដ្ឋបាលការិយាល័យ និងសកម្មភាពគាំទ្រការិយាល័យ (Office administrative and support activities)
-Value='822                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពរបស់មជ្ឈមណ្ឌលហៅទូរស័ព្ទ (Activities of call centers)
-Value='823                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពរៀបចំសន្និបាត និងពិព័រណ៍ពាណិជ្ជកម្ម (Organization of conventions and trade shows)
-Value='829                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពសេវាគាំទ្រដល់អាជីវកម្មដទៃទៀតដែលពុំបានរាប់បញ្ចូល (Business support service activities n.e.c)
-Value='841                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';ការគ្រប់គ្រងរដ្ឋ និងគោលនយោបាយសេដ្ឋកិច្ច និងសង្គមរបស់សហគមន៍ (Administration of the state and the economic and social policy of the community)
-Value='842                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';ការផ្តល់សេវាកម្មដល់សហគមន៍ទាំងមូល (Provision of services to the community as a whole)
-Value='843                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពកាតព្វកិច្ចសន្តិសុខសង្គម (Compulsory social security activities)
-Value='851                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';មត្តេយ្យសិក្សា និងបឋមសិក្សា (Pre-primary and primary education)
-Value='852                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';មធ្យមសិក្សា (Secondary education)
-Value='853                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';ឧត្តមសិក្សា (Higher education)
-Value='854                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';ការអប់រំផ្សេងទៀត (Other education)
-Value='855                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពគាំទ្រការអប់រំ (Educational support activities)
-Value='861                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពរបស់មន្ទីរពេទ្យ (Hospital activities)
-Value='862                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពព្យាបាលជំងឺទូទៅ និងមាត់ធ្មេញ (Medical and dental practice activities)
-Value='869                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពថែទាំសុខភាពផ្សេងទៀត (Other human health activities)
-Value='871                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពឬសម្ភារ:ថែទាំសុខភាពនៅតាមលំនៅដ្ឋាន (Residential nursing care facilities and activities)
-Value='872                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពថែទាំតាមផ្ទះសម្រាប់អ្នកមានប្រាជ្ញាអន់ សុខភាពផ្លូវចិត្ត និងការប្រើប្រាស់គ្រឿងញឿន (Residential care activities for mental retardation, mental health and substance abuse)
-Value='873                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពថែទាំសុខភាពតាមលំនៅដ្ឋានសម្រាប់មនុស្សចាស់ និងជនពិការ (Residential care activities for the elderly and disabled)
-Value='879                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពថែទាំតាមលំនៅដ្ឋានផ្សេងទៀត (Other residential care activities)
-Value='881                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពការងារសង្គមកិច្ចសម្រាប់មនុស្សចាស់ និងជនពិការដោយមិនផ្តល់កន្លែងស្នាក់នៅ (Social work activities without accommodation for the elderly and disabled)
-Value='889                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពការងារសង្គមកិច្ចដែលមិនផ្ដល់កន្លែងស្នាក់នៅដទៃទៀតដែលពុំបានរាប់បញ្ចូល (Other social work activities without accommodation n.e.c)
-Value='900                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពច្នៃប្រឌិត សិល្បៈ និងការកម្សាន្ត (Creative, arts and entertainment activities)
-Value='910                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពបណ្ណាល័យ ប័ណ្ណាសារដ្ឋាន សារមន្ទីរ និងសកម្មភាពវប្បធម៌ដទៃទៀត (Libraries, archives, museums and other cultural activities)
-Value='920                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពលេងល្បែង និងភ្នាល់ (Gambling and betting activities)
-Value='931                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពកីឡា (Sports activities)
-Value='932                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពល្បែងកម្សាន្តនិងការសម្រាកដទៃទៀត (Other amusement and recreation activities)
-Value='941                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពរបស់ធុរកិច្ច និយោជិក និងអង្គការដែលសមាជិកមានជំនាញវិជ្ជាជីវៈ (Activities of business, employers and professional membership organizations)
-Value='942                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពរបស់សហជីពពាណិជ្ជកម្ម (Activities of trade unions)
-Value='949                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពរបស់អង្គការសមាជិកផ្សេងៗ (Activities of other membership organizations)
-Value='951                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';ការជួសជុលកុំព្យូទ័រ និងបរិក្ខារគមនាគមន៍ (Repair of computers and communication equipment)
-Value='952                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';ការជួសជុលទំនិញប្រើប្រាស់ផ្ទាល់ខ្លួននិងក្នុងផ្ទះ (Repair of personal and household goods)
-Value='960                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពសេវាកម្មផ្ទាល់ខ្លួនផ្សេងទៀត (Other personal service activities)
-Value='990                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ';សកម្មភាពរបស់អង្គការនិងស្ថាប័នក្រៅរដ្ឋាភិបាល (activities of Extraterritorial Organizations and bodies)
+Len=6
 
 [Item]
 Label=part of a company group
 Name=PART_OF_A_COMPANY_GROUP
-Start=642
+Start=12
 Len=1
 
 [ValueSet]
@@ -420,7 +203,7 @@ Value=2;No
 [Item]
 Label=location of the head office
 Name=LOCATION_OF_THE_HEAD_OFFICE
-Start=643
+Start=13
 Len=1
 
 [ValueSet]
@@ -432,43 +215,43 @@ Value=2;Not Cambodia
 [Item]
 Label=Country Specify
 Name=COUNTRY_SPECIFY1
-Start=644
+Start=14
 Len=3
 
 [Item]
 Label=Turnover 2016
 Name=TURNOVER_2016
-Start=647
+Start=17
 Len=6
 
 [Item]
 Label=Percentage derived from exports 2016
 Name=PERCENTAGE_DERIVED_FROM_EXPORTS_2016
-Start=653
+Start=23
 Len=3
 
 [Item]
 Label=Turnover 2017
 Name=TURNOVER_2017
-Start=656
+Start=26
 Len=6
 
 [Item]
 Label=Percentage derived from exports 2017
 Name=PERCENTAGE_DERIVED_FROM_EXPORTS_2017
-Start=662
+Start=32
 Len=3
 
 [Item]
 Label=Turnover 2018
 Name=TURNOVER_2018
-Start=665
+Start=35
 Len=6
 
 [Item]
 Label=Percentage derived from exports 2018
 Name=PERCENTAGE_DERIVED_FROM_EXPORTS_2018
-Start=671
+Start=41
 Len=3
 
 [Record]
@@ -553,7 +336,7 @@ Len=6
 Label=4-INNOVATION ACTIVITIES
 Name=INNOVATION_ACTIVITIES
 RecordTypeValue='8'
-RecordLen=47
+RecordLen=63
 
 [Item]
 Label=4-new or significantly improved innovations
@@ -592,26 +375,26 @@ Value=1;Yes
 Value=2;No
 
 [Item]
-Label=4-4-3-ORGANISATIONAL INNOVATIONS
-Name=ORGANISATIONAL_INNOVATIONS
+Label=4-4-3-MARKETING INNOVATIONS
+Name=MARKETING_INNOVATIONS
 Start=9
 Len=1
 
 [ValueSet]
-Label=4-4-3-ORGANISATIONAL INNOVATIONS
-Name=ORGANISATIONAL_INNOVATIONS_VS1
+Label=4-4-3-MARKETING INNOVATIONS
+Name=MARKETING_INNOVATIONS_VS1
 Value=1;Yes
 Value=2;No
 
 [Item]
-Label=4.4-4-MARKETING INNOVATIONS
-Name=MARKETING_INNOVATIONS
+Label=4.4-4-ORGANISATIONAL INNOVATIONS
+Name=ORGANISATIONAL_INNOVATIONS
 Start=10
 Len=1
 
 [ValueSet]
-Label=4.4-4-MARKETING INNOVATIONS
-Name=MARKETING_INNOVATIONS_VS1
+Label=4.4-4-ORGANISATIONAL INNOVATIONS
+Name=ORGANISATIONAL_INNOVATIONS_VS1
 Value=1;Yes
 Value=2;No
 
@@ -643,38 +426,40 @@ Value=2;No
 Label=4.1.2.1-New or significantly improved products
 Name=NEW_OR_SIGNIFICANTLY_IMPROVED_PRODUCTS
 Start=13
-Len=1
+Len=3
+DataType=Alpha
 
 [ValueSet]
 Label=4.1.2.1-New or significantly improved products
 Name=NEW_OR_SIGNIFICANTLY_IMPROVED_PRODUCTS_VS1
-Value=1;Mainly your establishment or company group
-Value=2;Your establishment together with other establishments
-Value=3;Mainly other establishments
+Value='1  ';Mainly your establishment or company group
+Value='2  ';Your establishment together with other establishments
+Value='3  ';Mainly other establishments
 
 [Item]
 Label=4.1.2.2-New or significantly improved services
 Name=NEW_OR_SIGNIFICANTLY_IMPROVED_SERVICES
-Start=14
-Len=1
+Start=16
+Len=3
+DataType=Alpha
 
 [ValueSet]
 Label=4.1.2.2-New or significantly improved services
 Name=NEW_OR_SIGNIFICANTLY_IMPROVED_SERVICES_VS1
-Value=1;Mainly your establishment or company group
-Value=2;Your establishment together with other establishments
-Value=3;Mainly other establishments
+Value='1  ';Mainly your establishment or company group
+Value='2  ';Your establishment together with other establishments
+Value='3  ';Mainly other establishments
 
 [Item]
 Label=4.1.3-Short description
 Name=SHORT_DESCRIPTION
-Start=15
+Start=19
 Len=3
 
 [Item]
 Label=4.1.4.1-New to the world
 Name=NEW_TO_THE_WORLD
-Start=18
+Start=22
 Len=1
 
 [ValueSet]
@@ -686,7 +471,7 @@ Value=2;No
 [Item]
 Label=4.1.4.2-New to your market
 Name=NEW_TO_YOUR_MARKET
-Start=19
+Start=23
 Len=1
 
 [ValueSet]
@@ -698,7 +483,7 @@ Value=2;No
 [Item]
 Label=4.1.4.3-Only new to your establishment
 Name=ONLY_NEW_TO_YOUR_ESTABLISHMENT
-Start=20
+Start=24
 Len=1
 
 [ValueSet]
@@ -710,25 +495,25 @@ Value=2;No
 [Item]
 Label=4.1.5.1-Products introduced new to your market
 Name=PRODUCTS_INTRODUCED_NEW_TO_YOUR_MARKET
-Start=21
+Start=25
 Len=3
 
 [Item]
 Label=4.1.5.2-Products in troduced new to your establishment but not new to your market
 Name=PRODUCTS_INTRODUCED_NEW_TO_YOUR_ESTABLISHMENT_BU
-Start=24
+Start=28
 Len=3
 
 [Item]
 Label=4.1.5.3-Products that were unchanged
 Name=PRODUCTS_THAT_WERE_UNCHANGED
-Start=27
+Start=31
 Len=3
 
 [Item]
 Label=4.2.1.1-New or significantly improved methods
 Name=NEW_OR_SIGNIFICANTLY_IMPROVED_METHODS
-Start=30
+Start=34
 Len=1
 
 [ValueSet]
@@ -740,7 +525,7 @@ Value=2;No
 [Item]
 Label=4.2.1.2-New or significantly improved logistics
 Name=NEW_OR_SIGNIFICANTLY_IMPROVED_LOGISTICS
-Start=31
+Start=35
 Len=1
 
 [ValueSet]
@@ -752,7 +537,7 @@ Value=2;No
 [Item]
 Label=4.2.1.3-New or significantly improved supporting activities
 Name=NEW_OR_SIGNIFICANTLY_IMPROVED_SUPPORTING_ACTIVIT
-Start=32
+Start=36
 Len=1
 
 [ValueSet]
@@ -764,52 +549,55 @@ Value=2;No
 [Item]
 Label=4.2.2.1-methods of manufacturing or producing goods or services
 Name=METHODS_OF_MANUFACTURING_OR_PRODUCING_GOODS_OR_SERVICES
-Start=33
-Len=1
+Start=37
+Len=3
+DataType=Alpha
 
 [ValueSet]
 Label=4.2.2.1-methods of manufacturing or producing goods or services
 Name=METHODS_OF_MANUFACTURING_OR_PRODUCING_GOODS_OR_SERVICES_VS1
-Value=1;Mainly your establishment or company group
-Value=2;Your establishment together with other establishments
-Value=3;Mainly other establishments
+Value='1  ';Mainly your establishment or company group
+Value='2  ';Your establishment together with other establishments
+Value='3  ';Mainly other establishments
 
 [Item]
 Label=4.2.2.2-Logistics, delivery or distribution methods for your inputs, goods or services
 Name=LOGISTICS_DELIVERY_OR_DISTRIBUTION_METHODS_FOR_YOUR_INPUTS_GOODS_OR_SERVICES
-Start=34
-Len=1
+Start=40
+Len=3
+DataType=Alpha
 
 [ValueSet]
 Label=4.2.2.2-Logistics, delivery or distribution methods for your inputs, goods or services
 Name=LOGISTICS_DELIVERY_OR_DISTRIBUTION_METHODS_FOR_YOUR_INPUTS_GOODS_OR_SERVICES_VS1
-Value=1;Mainly your establishment or company group
-Value=2;Your establishment together with other establishments
-Value=3;Mainly other establishments
+Value='1  ';Mainly your establishment or company group
+Value='2  ';Your establishment together with other establishments
+Value='3  ';Mainly other establishments
 
 [Item]
 Label=4.2.2.3-Supporting activities for your processes, such as maintenance systems or operations for purchasing, accounting, or computing
 Name=SUPPORTING_ACTIVITIES_FOR_YOUR_PROCESSES_SUCH_AS_MAINTENANCE_SYSTEMS_OR_OPERATIONS_FOR_PURCHASING_ACCOUNTING_OR_COMPUTING
-Start=35
-Len=1
+Start=43
+Len=3
+DataType=Alpha
 
 [ValueSet]
 Label=4.2.2.3-Supporting activities for your processes, such as maintenance systems or operations for purchasing, accounting, or computing
 Name=SUPPORTING_ACTIVITIES_FOR_YOUR_PROCESSES_SUCH_AS_MAINTENANCE_SYSTEMS_OR_OPERATIONS_FOR_PURCHASING_ACCOUNTING_OR_COMPUTING_VS1
-Value=1;Mainly your establishment or company group
-Value=2;Your establishment together with other establishments
-Value=3;Mainly other establishments
+Value='1  ';Mainly your establishment or company group
+Value='2  ';Your establishment together with other establishments
+Value='3  ';Mainly other establishments
 
 [Item]
 Label=4.2.3-most important process innovation
 Name=MOST_IMPORTANT_PROCESS_INNOVATION
-Start=36
+Start=46
 Len=3
 
 [Item]
 Label=4.3.1.1-New or significantly improved methods of product design or packaging
 Name=NEW_OR_SIGNIFICANTLY_IMPROVED_METHODS_OF_PRODUCT
-Start=39
+Start=49
 Len=1
 
 [ValueSet]
@@ -821,7 +609,7 @@ Value=2;No
 [Item]
 Label=4.3.1.2-New or significantly improved product distribution/placement
 Name=NEW_OR_SIGNIFICANTLY_IMPROVED_PRODUCT_DISTRIBUTI
-Start=40
+Start=50
 Len=1
 
 [ValueSet]
@@ -833,7 +621,7 @@ Value=2;No
 [Item]
 Label=4.3.1.3-New or significantly improved product promotion or pricing
 Name=NEW_OR_SIGNIFICANTLY_IMPROVED_PRODUCT_PROMOTION
-Start=41
+Start=51
 Len=1
 
 [ValueSet]
@@ -845,46 +633,49 @@ Value=2;No
 [Item]
 Label=(4.3.1)-1-Product design or packaging
 Name=PRODUCT_DESIGN_OR_PACKAGING
-Start=42
-Len=1
+Start=52
+Len=3
+DataType=Alpha
 
 [ValueSet]
 Label=(4.3.1)-1-Product design or packaging
 Name=PRODUCT_DESIGN_OR_PACKAGING_VS1
-Value=1;Mainly your establishment or company group
-Value=2;Your establishment together with other establishments
-Value=3;Mainly other establishments
+Value='1  ';Mainly your establishment or company group
+Value='2  ';Your establishment together with other establishments
+Value='3  ';Mainly other establishments
 
 [Item]
 Label=(4.3.1)-2-Product distribution/Placement
 Name=PRODUCT_DISTRIBUTION_PLACEMENT
-Start=43
-Len=1
+Start=55
+Len=3
+DataType=Alpha
 
 [ValueSet]
 Label=(4.3.1)-2-Product distribution/Placement
 Name=PRODUCT_DISTRIBUTION_PLACEMENT_VS1
-Value=1;Mainly your establishment or company group
-Value=2;Your establishment together with other establishments
-Value=3;Mainly other establishments
+Value='1  ';Mainly your establishment or company group
+Value='2  ';Your establishment together with other establishments
+Value='3  ';Mainly other establishments
 
 [Item]
 Label=(4.3.1)-3-Product promotion or pricing
 Name=PRODUCT_PROMOTION_OR_PRICING
-Start=44
-Len=1
+Start=58
+Len=3
+DataType=Alpha
 
 [ValueSet]
 Label=(4.3.1)-3-Product promotion or pricing
 Name=PRODUCT_PROMOTION_OR_PRICING_VS1
-Value=1;Mainly your establishment or company group
-Value=2;Your establishment together with other establishments
-Value=3;Mainly other establishments
+Value='1  ';Mainly your establishment or company group
+Value='2  ';Your establishment together with other establishments
+Value='3  ';Mainly other establishments
 
 [Item]
 Label=4.4.1.1-significantly improved methods in the firm’s business practices
 Name=SIGNIFICANTLY_IMPROVED_METHODS_IN_THE_FIRM_S_BUS
-Start=45
+Start=61
 Len=1
 
 [ValueSet]
@@ -896,7 +687,7 @@ Value=2;No
 [Item]
 Label=4.4.1.2-New or significantly improved workplace organization
 Name=NEW_OR_SIGNIFICANTLY_IMPROVED_WORKPLACE_ORGANIZA
-Start=46
+Start=62
 Len=1
 
 [ValueSet]
@@ -908,7 +699,7 @@ Value=2;No
 [Item]
 Label=4.4.1.3-New or significantly improved workplace organization
 Name=NEW_OR_SIGNIFICANTLY_IMPROVED_WORKPLACE_ORGANIZA1
-Start=47
+Start=63
 Len=1
 
 [ValueSet]
@@ -962,6 +753,7 @@ Len=1
 [ValueSet]
 Label=6.1.1-Getting new products to the market quickly
 Name=GETTING_NEW_PRODUCTS_TO_THE_MARKET_QUICKLY_VS1
+Value=0;Not Relevant
 Value=1;Very Poor
 Value=2;Poor
 Value=3;Average
@@ -977,6 +769,7 @@ Len=1
 [ValueSet]
 Label=6.1.2-Making efficient use of R&D expenditure
 Name=MAKING_EFFICIENT_USE_OF_R_D_EXPENDITURE_VS1
+Value=0;Not Relevant
 Value=1;Very Poor
 Value=2;Poor
 Value=3;Average
@@ -992,6 +785,7 @@ Len=1
 [ValueSet]
 Label=6.1.3-Coming up with breakthrough/radical technologies
 Name=COMING_UP_WITH_BREAKTHROUGH_RADICAL_TECHNOLOGIES_VS1
+Value=0;Not Relevant
 Value=1;Very Poor
 Value=2;Poor
 Value=3;Average
@@ -1007,6 +801,7 @@ Len=1
 [ValueSet]
 Label=6.1.4-Bringing breakthrough technologies to the market
 Name=BRINGING_BREAKTHROUGH_TECHNOLOGIES_TO_THE_MARKET_VS1
+Value=0;Not Relevant
 Value=1;Very Poor
 Value=2;Poor
 Value=3;Average
@@ -2326,7 +2121,7 @@ Value=4;Not Relevant
 Label=11-SOURCES OF INFORMATION FOR INNOVATION
 Name=SOURCES_OF_INFORMATION_FOR_INNOVATION
 RecordTypeValue='F'
-RecordLen=20
+RecordLen=19
 
 [Item]
 Label=11.1.1.1-Within the establishment
@@ -2427,15 +2222,9 @@ Value=3;Low
 Value=4;Not Relevant
 
 [Item]
-Label=11.1.3.3-Private
-Name=PRIVATE
-Start=13
-Len=1
-
-[Item]
 Label=11.1.3.4-Universities or other higher education institutes
 Name=UNIVERSITIES_OR_OTHER_HIGHER_EDUCATION_INSTITUTE2
-Start=14
+Start=13
 Len=1
 
 [ValueSet]
@@ -2449,7 +2238,7 @@ Value=4;Not Relevant
 [Item]
 Label=11.1.3.5-Government   or public research institutes
 Name=GOVERNMENT_OR_PUBLIC_RESEARCH_INSTITUTES2
-Start=15
+Start=14
 Len=1
 
 [ValueSet]
@@ -2463,7 +2252,7 @@ Value=4;Not Relevant
 [Item]
 Label=11.1.4.1-Conferences, trade fairs, exhibitions
 Name=CONFERENCES_TRADE_FAIRS_EXHIBITIONS
-Start=16
+Start=15
 Len=1
 
 [ValueSet]
@@ -2477,7 +2266,7 @@ Value=4;Not Relevant
 [Item]
 Label=11.1.4.2-Scientific journals and trade / technical publications
 Name=SCIENTIFIC_JOURNALS_AND_TRADE_TECHNICAL_PUBLICAT
-Start=17
+Start=16
 Len=1
 
 [ValueSet]
@@ -2491,7 +2280,7 @@ Value=4;Not Relevant
 [Item]
 Label=11.1.4.3-Professional and industry associations
 Name=PROFESSIONAL_AND_INDUSTRY_ASSOCIATIONS
-Start=18
+Start=17
 Len=1
 
 [ValueSet]
@@ -2505,7 +2294,7 @@ Value=4;Not Relevant
 [Item]
 Label=11.1.4.4-Technical, industry or service standards
 Name=TECHNICAL_INDUSTRY_OR_SERVICE_STANDARDS
-Start=19
+Start=18
 Len=1
 
 [ValueSet]
@@ -2519,7 +2308,7 @@ Value=4;Not Relevant
 [Item]
 Label=11.1.4.5-Specify Degree of Importance
 Name=SPECIFY_DEGREE_OF_IMPORTANCE
-Start=20
+Start=19
 Len=1
 
 [ValueSet]
@@ -2534,7 +2323,7 @@ Value=4;Not Relevant
 Label=12-PATENT & OTHER PROTECTION METHODS
 Name=PATENT_OTHER_PROTECTION_METHODS
 RecordTypeValue='G'
-RecordLen=44
+RecordLen=27
 
 [Item]
 Label=12.1.1.1-Patents Applied
@@ -2645,9 +2434,127 @@ Start=17
 Len=3
 
 [Item]
+Label=12.4.1-Registration of design
+Name=REGISTRATION_OF_DESIGN
+Start=20
+Len=1
+
+[ValueSet]
+Label=12.4.1-Registration of design
+Name=REGISTRATION_OF_DESIGN_VS1
+Value=1;High
+Value=2;Medium
+Value=3;Low
+Value=4;Not Relevant
+
+[Item]
+Label=12.4.2-Trademark
+Name=TRADEMARK
+Start=21
+Len=1
+
+[ValueSet]
+Label=12.4.2-Trademark
+Name=TRADEMARK_VS1
+Value=1;High
+Value=2;Medium
+Value=3;Low
+Value=4;Not Relevant
+
+[Item]
+Label=12.4.3-Patents
+Name=PATENTS
+Start=22
+Len=1
+
+[ValueSet]
+Label=12.4.3-Patents
+Name=PATENTS_VS1
+Value=1;High
+Value=2;Medium
+Value=3;Low
+Value=4;Not Relevant
+
+[Item]
+Label=12.4.4-Copyright
+Name=COPYRIGHT
+Start=23
+Len=1
+
+[ValueSet]
+Label=12.4.4-Copyright
+Name=COPYRIGHT_VS1
+Value=1;High
+Value=2;Medium
+Value=3;Low
+Value=4;Not Relevant
+
+[Item]
+Label=12.4.5-Confidentiality agreements
+Name=CONFIDENTIALITY_AGREEMENTS
+Start=24
+Len=1
+
+[ValueSet]
+Label=12.4.5-Confidentiality agreements
+Name=CONFIDENTIALITY_AGREEMENTS_VS1
+Value=1;High
+Value=2;Medium
+Value=3;Low
+Value=4;Not Relevant
+
+[Item]
+Label=12.4.6-Trade secret
+Name=TRADE_SECRET
+Start=25
+Len=1
+
+[ValueSet]
+Label=12.4.6-Trade secret
+Name=TRADE_SECRET_VS1
+Value=1;High
+Value=2;Medium
+Value=3;Low
+Value=4;Not Relevant
+
+[Item]
+Label=12.4.7-Complexity of design
+Name=COMPLEXITY_OF_DESIGN
+Start=26
+Len=1
+
+[ValueSet]
+Label=12.4.7-Complexity of design
+Name=COMPLEXITY_OF_DESIGN_VS1
+Value=1;High
+Value=2;Medium
+Value=3;Low
+Value=4;Not Relevant
+
+[Item]
+Label=12.4.8-Please specify
+Name=PLEASE_SPECIFY1
+Start=27
+Len=1
+
+[ValueSet]
+Label=12.4.8-Please specify
+Name=PLEASE_SPECIFY1_VS1
+Value=1;High
+Value=2;Medium
+Value=3;Low
+Value=4;Not Relevant
+
+[Record]
+Label=13-HAMPERING FACTORs
+Name=HAMPERING_FACTORS
+RecordTypeValue='2'
+RecordLen=30
+
+[Item]
 Label=12.4.1.1-Cost too high
 Name=COST_TOO_HIGH
-Start=20
+Start=6
 Len=1
 
 [ValueSet]
@@ -2661,7 +2568,7 @@ Value=4;Not Relevant
 [Item]
 Label=12.4.1.2-Lack of funds within the establishment
 Name=LACK_OF_FUNDS_WITHIN_THE_ESTABLISHMENT
-Start=21
+Start=7
 Len=1
 
 [ValueSet]
@@ -2675,7 +2582,7 @@ Value=4;Not Relevant
 [Item]
 Label=12.4.1.3-Lack of finance  from sources outside the establishment
 Name=LACK_OF_FINANCE_FROM_SOURCES_OUTSIDE_THE_ESTABLI
-Start=22
+Start=8
 Len=1
 
 [ValueSet]
@@ -2689,7 +2596,7 @@ Value=4;Not Relevant
 [Item]
 Label=12.4.1.4-Excessive perceived risk
 Name=EXCESSIVE_PERCEIVED_RISK
-Start=23
+Start=9
 Len=1
 
 [ValueSet]
@@ -2703,7 +2610,7 @@ Value=4;Not Relevant
 [Item]
 Label=12.4.2.1-Lack of qualified personnel
 Name=LACK_OF_QUALIFIED_PERSONNEL
-Start=24
+Start=10
 Len=1
 
 [ValueSet]
@@ -2717,7 +2624,7 @@ Value=4;Not Relevant
 [Item]
 Label=12.4.2.2-Lack of information on technology
 Name=LACK_OF_INFORMATION_ON_TECHNOLOGY
-Start=25
+Start=11
 Len=1
 
 [ValueSet]
@@ -2731,7 +2638,7 @@ Value=4;Not Relevant
 [Item]
 Label=12.4.2.3-Lack of information on markets
 Name=LACK_OF_INFORMATION_ON_MARKETS
-Start=26
+Start=12
 Len=1
 
 [ValueSet]
@@ -2745,7 +2652,7 @@ Value=4;Not Relevant
 [Item]
 Label=12.4.2.4-Difficulties in finding cooperation partners for innovation
 Name=DIFFICULTIES_IN_FINDING_COOPERATION_PARTNERS_FOR
-Start=27
+Start=13
 Len=1
 
 [ValueSet]
@@ -2759,7 +2666,7 @@ Value=4;Not Relevant
 [Item]
 Label=12.4.2.5-Weakness of intellectual property knowledge and rights
 Name=WEAKNESS_OF_INTELLECTUAL_PROPERTY_KNOWLEDGE_AND
-Start=28
+Start=14
 Len=1
 
 [ValueSet]
@@ -2773,7 +2680,7 @@ Value=4;Not Relevant
 [Item]
 Label=12.4.3.1-Market dominated by established enterprise
 Name=MARKET_DOMINATED_BY_ESTABLISHED_ENTERPRISE
-Start=29
+Start=15
 Len=1
 
 [ValueSet]
@@ -2787,7 +2694,7 @@ Value=4;Not Relevant
 [Item]
 Label=12.4.3.2-Uncertain demand for innovative goods and services
 Name=UNCERTAIN_DEMAND_FOR_INNOVATIVE_GOODS_AND_SERVIC
-Start=30
+Start=16
 Len=1
 
 [ValueSet]
@@ -2801,7 +2708,7 @@ Value=4;Not Relevant
 [Item]
 Label=12.4.3.3-Innovation is easy to imitate
 Name=INNOVATION_IS_EASY_TO_IMITATE
-Start=31
+Start=17
 Len=1
 
 [ValueSet]
@@ -2815,7 +2722,7 @@ Value=4;Not Relevant
 [Item]
 Label=12.4.4.1-Organisational rigidities within the enterprise
 Name=ORGANISATIONAL_RIGIDITIES_WITHIN_THE_ENTERPRISE
-Start=32
+Start=18
 Len=1
 
 [ValueSet]
@@ -2829,7 +2736,7 @@ Value=4;Not Relevant
 [Item]
 Label=12.4.4.2-Attitude of personnel towards change
 Name=ATTITUDE_OF_PERSONNEL_TOWARDS_CHANGE
-Start=33
+Start=19
 Len=1
 
 [ValueSet]
@@ -2843,7 +2750,7 @@ Value=4;Not Relevant
 [Item]
 Label=12.4.4.3-Attitude of managers toward change
 Name=ATTITUDE_OF_MANAGERS_TOWARD_CHANGE
-Start=34
+Start=20
 Len=1
 
 [ValueSet]
@@ -2857,7 +2764,7 @@ Value=4;Not Relevant
 [Item]
 Label=12.4.4.4-Managerial structure of enterprise
 Name=MANAGERIAL_STRUCTURE_OF_ENTERPRISE
-Start=35
+Start=21
 Len=1
 
 [ValueSet]
@@ -2871,7 +2778,7 @@ Value=4;Not Relevant
 [Item]
 Label=12.4.4.5-Inability to devote staffs to innovation activities due to
 Name=INABILITY_TO_DEVOTE_STAFFS_TO_INNOVATION_ACTIVIT
-Start=36
+Start=22
 Len=1
 
 [ValueSet]
@@ -2885,7 +2792,7 @@ Value=4;Not Relevant
 [Item]
 Label=12.4.4.6-Lack of infrastructure
 Name=LACK_OF_INFRASTRUCTURE
-Start=37
+Start=23
 Len=1
 
 [ValueSet]
@@ -2899,7 +2806,7 @@ Value=4;Not Relevant
 [Item]
 Label=12.4.4.7-Lack of facilities
 Name=LACK_OF_FACILITIES
-Start=38
+Start=24
 Len=1
 
 [ValueSet]
@@ -2913,7 +2820,7 @@ Value=4;Not Relevant
 [Item]
 Label=12.4.4.8-Lack of networking with research institutions
 Name=LACK_OF_NETWORKING_WITH_RESEARCH_INSTITUTIONS
-Start=39
+Start=25
 Len=1
 
 [ValueSet]
@@ -2927,7 +2834,7 @@ Value=4;Not Relevant
 [Item]
 Label=12.4.5.1-Insufficient flexibilities of regulation or standards
 Name=INSUFFICIENT_FLEXIBILITIES_OF_REGULATION_OR_STAN
-Start=40
+Start=26
 Len=1
 
 [ValueSet]
@@ -2941,7 +2848,7 @@ Value=4;Not Relevant
 [Item]
 Label=12.4.5.2-Limitation of science and technology public policies
 Name=LIMITATION_OF_SCIENCE_AND_TECHNOLOGY_PUBLIC_POLI
-Start=41
+Start=27
 Len=1
 
 [ValueSet]
@@ -2955,7 +2862,7 @@ Value=4;Not Relevant
 [Item]
 Label=12.4.6.1-No need to innovate due to earlier innovations
 Name=NO_NEED_TO_INNOVATE_DUE_TO_EARLIER_INNOVATIONS
-Start=42
+Start=28
 Len=1
 
 [ValueSet]
@@ -2969,7 +2876,7 @@ Value=4;Not Relevant
 [Item]
 Label=12.4.6.2-No need because lack of demand for innovations
 Name=NO_NEED_BECAUSE_LACK_OF_DEMAND_FOR_INNOVATIONS
-Start=43
+Start=29
 Len=1
 
 [ValueSet]
@@ -2983,7 +2890,7 @@ Value=4;Not Relevant
 [Item]
 Label=12.4.6.3-Other
 Name=OTHER
-Start=44
+Start=30
 Len=1
 
 [ValueSet]

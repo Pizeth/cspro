@@ -13,7 +13,7 @@ File=.\Innovation Survey.dcf
 Name=FORM000
 Label=(Id Items)
 Level=1
-Size=1597,300
+Size=441,553
   
 Item=IDENTIFICATION_INFORMATION
   
@@ -23,13 +23,8 @@ Item=IDENTIFICATION_INFORMATION
 Name=FORM001
 Label=1-IDENTIFICATION INFORMATION
 Level=1
-Size=1597,600
+Size=876,848
   
-Item=PROVINCE_IE
-Item=DISTRICT_ID
-Item=COMMUNE_ID
-Item=VILLAGE_ID
-Item=SERIAL_NUMBER_OF_ESTABLISHMENT
 Item=NAME_OF_ESTABLISHMENT
 Item=NAME_OF_INTERVIEWEE
 Item=JOB_TITLE
@@ -44,7 +39,38 @@ Item=TYPE_OF_ESTABLISHMENU
 Item=OWNERSHIP_OF_ESTABLISHMENU
 Item=SECTOR
 Item=NUMBER_OF_EMPLOYEES
+Item=PROVINCE_IE
+Item=DISTRICT_ID
+Item=COMMUNE_ID
+Item=VILLAGE_ID
+Item=SERIAL_NUMBER_OF_ESTABLISHMENT
   
+Box=37,54,842,241,Etched
+Box=37,85,841,86,Etched
+Box=37,113,842,114,Etched
+Box=35,142,842,143,Etched
+Box=35,173,842,174,Etched
+Box=36,204,844,205,Etched
+Box=739,53,740,242,Etched
+Box=535,82,537,239,Etched
+Box=41,292,846,504,Etched
+Box=41,323,845,324,Etched
+Box=41,351,846,352,Etched
+Box=39,380,846,381,Etched
+Box=39,411,846,412,Etched
+Box=40,442,848,443,Etched
+Box=483,320,485,503,Etched
+Box=40,473,848,474,Etched
+Box=44,551,849,823,Etched
+Box=44,582,848,583,Etched
+Box=44,610,849,611,Etched
+Box=42,639,849,640,Etched
+Box=42,670,849,671,Etched
+Box=43,701,851,702,Etched
+Box=43,732,851,733,Etched
+Box=44,759,851,760,Etched
+Box=43,790,846,791,Etched
+Box=480,580,481,821,Etched
 [EndForm]
   
 [Form]
@@ -70,7 +96,7 @@ Item=PERCENTAGE_DERIVED_FROM_EXPORTS_2018
 Name=FORM003
 Label=3-RESEARCH AND DEVELOPMENT  ACTIVITIES
 Level=1
-Size=1597,360
+Size=859,464
   
 Item=ESTABLISHMENT_CARRY_OUT_ANY_RESEARCH_AND_DEVELOP
 Item=DESCRIPTION_OF_YOUR_R_D_ACTIVITIES
@@ -84,13 +110,26 @@ Item=TOTAL_R_D_EXPENDITURE_2016
 Item=TOTAL_R_D_EXPENDITURE_2017
 Item=TOTAL_R_D_EXPENDITURE_2018
   
+Box=39,67,834,439,Raised
+Box=41,100,831,102,Raised
+Box=40,128,832,130,Raised
+Box=40,158,832,159,Raised
+Box=41,187,831,188,Raised
+Box=41,220,831,221,Raised
+Box=40,249,831,250,Raised
+Box=40,280,832,281,Raised
+Box=40,310,830,311,Raised
+Box=40,342,832,343,Raised
+Box=40,372,831,373,Raised
+Box=42,405,830,406,Raised
+Box=716,70,717,438,Raised
 [EndForm]
   
 [Form]
 Name=FORM004
 Label=4-INNOVATION ACTIVITIES
 Level=1
-Size=1597,990
+Size=992,1017
   
 Item=NEW_OR_SIGNIFICANTLY_IMPROVED_INNOVATIONS
 Item=PRODUCT_INNOVATIONS
@@ -125,24 +164,72 @@ Item=SIGNIFICANTLY_IMPROVED_METHODS_IN_THE_FIRM_S_BUS
 Item=NEW_OR_SIGNIFICANTLY_IMPROVED_WORKPLACE_ORGANIZA
 Item=NEW_OR_SIGNIFICANTLY_IMPROVED_WORKPLACE_ORGANIZA1
   
+Box=43,3,967,173,Raised
+Box=44,50,965,52,Raised
+Box=45,81,965,82,Raised
+Box=45,112,966,113,Raised
+Box=44,142,966,143,Raised
+Box=44,18,965,19,Raised
+Box=895,5,896,169,Raised
+Box=43,178,966,232,Raised
+Box=45,201,965,202,Raised
+Box=44,234,966,292,Raised
+Box=896,179,897,230,Raised
+Box=897,237,898,293,Raised
+Box=45,296,966,321,Raised
+Box=44,325,965,412,Raised
+Box=897,297,898,319,Raised
+Box=897,325,898,410,Raised
+Box=46,416,966,502,Raised
+Box=897,417,898,500,Raised
+Box=46,506,966,592,Raised
+Box=47,595,966,681,Raised
+Box=898,507,899,588,Raised
+Box=899,595,900,678,Raised
+Box=47,685,966,712,Raised
+Box=899,686,900,710,Raised
+Box=47,715,965,893,Raised
+Box=48,900,965,992,Raised
+Box=899,714,900,890,Raised
+Box=901,902,902,989,Raised
+Box=47,263,965,264,Etched
+Box=45,352,966,353,Etched
+Box=44,381,964,383,Etched
+Box=47,442,965,443,Etched
+Box=46,472,966,475,Etched
+Box=47,531,965,533,Etched
+Box=47,562,965,565,Etched
+Box=51,623,966,624,Etched
+Box=47,653,965,654,Etched
+Box=49,743,964,744,Etched
+Box=49,771,966,773,Etched
+Box=48,802,964,804,Etched
+Box=48,832,964,833,Etched
+Box=49,863,966,864,Etched
+Box=47,931,966,934,Etched
+Box=49,960,964,961,Etched
 [EndForm]
   
 [Form]
 Name=FORM005
 Label=5-ON-GOING OR ABANDONED INNOVATION ACTIVITIES
 Level=1
-Size=1597,300
+Size=889,181
   
 Item=ABANDONED_OR_SUSPENDED_BEFORE_COMPLETION
 Item=STILL_ON_GOING_AT_THE_END_OF_2018
   
+Box=45,43,864,156,Raised
+Box=45,115,863,116,Raised
+Box=47,83,862,84,Raised
+Box=766,44,768,154,Raised
 [EndForm]
   
 [Form]
 Name=FORM006
 Label=6-INNOVATION ACTIVITIES AND EXPENDITURE
 Level=1
-Size=1597,720
+Size=766,736
   
 Item=GETTING_NEW_PRODUCTS_TO_THE_MARKET_QUICKLY
 Item=MAKING_EFFICIENT_USE_OF_R_D_EXPENDITURE
@@ -168,13 +255,46 @@ Item=PREPARATION_FOR_MARKETING_INNOVATION_ESTIMATED_A
 Item=PREPARATION_FOR_ORGANIZATIONAL_INNOVATION
 Item=PREPARATION_FOR_ORGANIZATIONAL_INNOVATION_ESTIMA
   
+Box=42,9,739,142,Raised
+Box=683,11,684,141,Raised
+Box=43,147,740,233,Raised
+Box=45,174,741,175,Raised
+Box=45,201,739,202,Raised
+Box=683,149,684,230,Raised
+Box=44,235,739,291,Raised
+Box=45,263,737,264,Raised
+Box=684,235,685,290,Raised
+Box=46,296,740,351,Raised
+Box=47,322,739,323,Raised
+Box=47,354,739,412,Raised
+Box=49,384,738,385,Raised
+Box=46,414,738,474,Raised
+Box=47,442,738,443,Raised
+Box=47,476,739,531,Raised
+Box=47,534,738,593,Raised
+Box=47,596,738,648,Raised
+Box=46,655,737,711,Raised
+Box=43,50,740,51,Raised
+Box=43,81,739,82,Raised
+Box=42,111,740,112,Raised
+Box=47,503,741,504,Raised
+Box=47,621,740,622,Raised
+Box=48,683,737,685,Raised
+Box=48,563,737,564,Raised
+Box=683,297,684,349,Raised
+Box=683,357,684,411,Raised
+Box=683,417,685,472,Raised
+Box=684,479,685,527,Raised
+Box=684,536,685,590,Raised
+Box=684,599,685,644,Raised
+Box=685,656,686,709,Raised
 [EndForm]
   
 [Form]
 Name=FORM007
 Label=7-OBJECTIVES AND EFFECTS OF INNOVATION
 Level=1
-Size=1597,810
+Size=575,832
   
 Item=TO_REPLACE_PRODUCTS_BEING_PHASED_OUT
 Item=TO_IMPROVE_PRODUCT_QUALITY
@@ -203,13 +323,39 @@ Item=IMPROVED_QUALITY_OF_GOODS_OR_SERVICES1
 Item=REDUCED_COSTS_PER_UNIT_OF_OUTPUT_OR_SERVICE
 Item=PLEASE_SPECIFY_OTHER
   
+Box=42,5,549,354,Raised
+Box=44,51,550,52,Raised
+Box=42,85,548,86,Raised
+Box=44,111,549,113,Raised
+Box=42,142,548,144,Raised
+Box=42,170,549,171,Raised
+Box=41,199,549,201,Raised
+Box=42,229,548,230,Raised
+Box=42,261,548,262,Raised
+Box=43,292,549,293,Raised
+Box=43,322,549,323,Raised
+Box=43,356,548,681,Raised
+Box=44,381,548,382,Raised
+Box=45,413,547,414,Raised
+Box=43,443,547,444,Raised
+Box=43,472,546,473,Raised
+Box=44,502,548,503,Raised
+Box=43,534,548,535,Raised
+Box=44,563,547,564,Raised
+Box=44,593,548,594,Raised
+Box=44,621,548,622,Raised
+Box=43,651,547,652,Raised
+Box=44,687,548,807,Raised
+Box=46,712,548,714,Raised
+Box=45,740,547,742,Raised
+Box=45,772,547,773,Raised
 [EndForm]
   
 [Form]
 Name=FORM008
 Label=8-GOVERNMENT SUPPORT FOR INNOVATION
 Level=1
-Size=1597,570
+Size=740,881
   
 Item=TECHNICAL_CONSULTANCY_SERVICES
 Item=TECHNICAL_CONSULTANCY_SERVICES_REASON
@@ -230,13 +376,50 @@ Item=PLEASE_SPECIFY_2016_2018_REASON
 Item=USEFULNESS_OF_GOVERNMENT_SUPPORT_FOR_YOUR_INNOVA
 Item=GOVERNMENT_ENCOURAGE_INNOVATION_FURTHER_IN_CAMBO
   
+Box=44,13,714,856,Raised
+Box=45,52,712,53,Raised
+Box=46,83,711,84,Raised
+Box=45,109,713,111,Raised
+Box=47,145,711,147,Raised
+Box=45,171,711,172,Raised
+Box=46,233,712,234,Raised
+Box=46,263,712,264,Raised
+Box=46,325,713,326,Raised
+Box=46,355,712,356,Raised
+Box=46,426,713,427,Raised
+Box=44,456,712,457,Raised
+Box=45,521,712,522,Raised
+Box=45,549,713,550,Raised
+Box=45,608,712,609,Raised
+Box=45,637,714,638,Raised
+Box=45,700,715,701,Raised
+Box=45,728,714,729,Raised
+Box=45,783,712,784,Raised
+Box=46,202,713,203,Raised
+Box=46,292,712,293,Raised
+Box=46,399,714,401,Raised
+Box=46,492,713,493,Raised
+Box=45,581,712,582,Raised
+Box=46,671,713,672,Raised
+Box=46,752,712,753,Raised
+Box=46,819,712,820,Raised
+Box=647,15,649,83,Raised
+Box=647,110,648,170,Raised
+Box=647,202,648,263,Raised
+Box=646,292,647,358,Raised
+Box=647,399,648,455,Raised
+Box=646,491,647,554,Raised
+Box=646,581,647,640,Raised
+Box=647,672,648,727,Raised
+Box=646,752,648,784,Raised
+Box=646,819,647,856,Raised
 [EndForm]
   
 [Form]
 Name=FORM009
 Label=9-FUNDING
 Level=1
-Size=1597,300
+Size=771,262
   
 Item=PRODUCT
 Item=PROCESS
@@ -244,13 +427,20 @@ Item=ORGANIZATIONAL
 Item=MARKETING
 Item=R_D
   
+Box=41,32,746,237,Raised
+Box=42,80,744,81,Raised
+Box=43,113,744,114,Raised
+Box=43,144,744,145,Raised
+Box=42,176,744,177,Raised
+Box=44,207,745,208,Raised
+Box=651,34,654,236,Raised
 [EndForm]
   
 [Form]
 Name=FORM010
 Label=10-INNOVATION CO-OPERATION
 Level=1
-Size=1597,600
+Size=848,702
   
 Item=CO_OPERATION_ARRANGEMENTS_ON_INNOVATION_ACTIVITI
 Item=OTHER_ESTABLISHMENT_WITHIN_YOUR_COMPANY_GROUP
@@ -272,13 +462,36 @@ Item=UNIVERSITIES_OR_OTHER_HIGHER_EDUCATION_INSTITUTE1
 Item=GOVERNMENT_OR_PUBLIC_RESEARCH_INSTITUTES1
 Item=SPECIFY_IMPORTANCE_OF_PARTNER
   
+Box=44,23,823,677,Raised
+Box=46,68,821,69,Raised
+Box=46,103,821,104,Raised
+Box=43,131,823,133,Raised
+Box=46,163,822,164,Raised
+Box=46,192,822,193,Raised
+Box=45,221,821,222,Raised
+Box=45,252,822,254,Raised
+Box=45,284,821,285,Raised
+Box=46,313,821,314,Raised
+Box=45,342,821,343,Raised
+Box=46,372,822,373,Raised
+Box=45,402,821,403,Raised
+Box=45,435,821,436,Raised
+Box=45,464,821,465,Raised
+Box=44,492,823,494,Raised
+Box=45,524,822,525,Raised
+Box=45,555,823,556,Raised
+Box=45,582,823,584,Raised
+Box=45,614,822,615,Raised
+Box=46,643,822,644,Raised
+Box=681,24,683,372,Raised
+Box=682,403,683,675,Raised
 [EndForm]
   
 [Form]
 Name=FORM011
 Label=11-SOURCES OF INFORMATION FOR INNOVATION
 Level=1
-Size=1597,480
+Size=754,675
   
 Item=WITHIN_THE_ESTABLISHMENT
 Item=OTHER_ESTABLISHMENT_WITHIN_THE_COMPANIES_GROUP
@@ -287,7 +500,6 @@ Item=CLIENTS_OR_CUSTOMERS2
 Item=COMPETITORS_AND_OTHER_ESTABLISHMENT_IN_YOUR_INDU
 Item=CONSULTANTS2
 Item=COMMERCIAL_LABORATORIES_AND_PRIVATE_R_D_INSTITUT
-Item=PRIVATE
 Item=UNIVERSITIES_OR_OTHER_HIGHER_EDUCATION_INSTITUTE2
 Item=GOVERNMENT_OR_PUBLIC_RESEARCH_INSTITUTES2
 Item=CONFERENCES_TRADE_FAIRS_EXHIBITIONS
@@ -296,13 +508,32 @@ Item=PROFESSIONAL_AND_INDUSTRY_ASSOCIATIONS
 Item=TECHNICAL_INDUSTRY_OR_SERVICE_STANDARDS
 Item=SPECIFY_DEGREE_OF_IMPORTANCE
   
+Box=43,61,727,650,Raised
+Box=46,105,727,106,Raised
+Box=44,132,726,133,Raised
+Box=44,164,725,165,Raised
+Box=43,223,729,224,Raised
+Box=44,249,728,250,Raised
+Box=44,280,728,281,Raised
+Box=44,342,725,343,Raised
+Box=45,372,726,373,Raised
+Box=45,404,727,405,Raised
+Box=45,433,728,434,Raised
+Box=44,461,727,462,Raised
+Box=44,528,726,529,Raised
+Box=44,558,726,559,Raised
+Box=44,589,725,591,Raised
+Box=45,619,725,620,Raised
+Box=44,192,726,194,Raised
+Box=45,311,727,312,Raised
+Box=45,495,725,496,Raised
 [EndForm]
   
 [Form]
 Name=FORM012
 Label=12-PATENT & OTHER PROTECTION METHODS
 Level=1
-Size=1597,1080
+Size=699,1416
   
 Item=PATENTS_APPLIED
 Item=PATENTS_GRANTED
@@ -314,6 +545,73 @@ Item=COPYRIGHT_APPLIED
 Item=COPYRIGHT_GRANTED
 Item=THE_TITLE_OF_THE_PATENTS
 Item=PERCENT_OF_TURNOVER_OF_OWNED_PATENTS
+Item=REGISTRATION_OF_DESIGN
+Item=TRADEMARK
+Item=PATENTS
+Item=COPYRIGHT
+Item=CONFIDENTIALITY_AGREEMENTS
+Item=TRADE_SECRET
+Item=COMPLEXITY_OF_DESIGN
+Item=PLEASE_SPECIFY1
+  
+Box=41,2,672,359,Raised
+Box=42,36,670,37,Raised
+Box=42,62,670,63,Raised
+Box=43,90,670,91,Raised
+Box=42,144,671,145,Raised
+Box=42,173,671,174,Raised
+Box=42,234,669,235,Raised
+Box=44,265,671,266,Raised
+Box=43,325,671,326,Raised
+Box=41,117,671,118,Raised
+Box=43,207,670,208,Raised
+Box=43,296,670,297,Raised
+Box=610,2,611,90,Raised
+Box=609,117,610,173,Raised
+Box=610,209,611,264,Raised
+Box=610,297,611,358,Raised
+Box=42,373,674,401,Raised
+Box=610,374,612,402,Raised
+Box=42,412,674,440,Raised
+Box=610,413,612,441,Raised
+Box=44,457,673,1391,Raised
+Box=46,498,670,499,Raised
+Box=45,531,672,532,Raised
+Box=44,562,673,563,Raised
+Box=45,594,673,595,Raised
+Box=46,622,672,623,Raised
+Box=45,655,672,656,Raised
+Box=46,684,672,685,Raised
+Box=46,715,671,716,Raised
+Box=45,744,674,746,Raised
+Box=46,773,672,774,Raised
+Box=45,804,672,805,Raised
+Box=45,836,671,838,Raised
+Box=46,866,672,867,Raised
+Box=46,897,671,898,Raised
+Box=46,924,671,926,Raised
+Box=44,989,671,990,Raised
+Box=46,1019,672,1021,Raised
+Box=46,1050,672,1051,Raised
+Box=46,1076,671,1077,Raised
+Box=46,1107,671,1108,Raised
+Box=46,1141,673,1142,Raised
+Box=47,1166,672,1168,Raised
+Box=46,1200,672,1201,Raised
+Box=46,1272,671,1274,Raised
+Box=46,1303,672,1304,Raised
+Box=45,1332,673,1334,Raised
+Box=47,1361,672,1363,Raised
+Box=47,962,673,963,Raised
+Box=46,1239,671,1241,Raised
+[EndForm]
+  
+[Form]
+Name=FORM013
+Label=HAMPERING FACTORS
+Level=1
+Size=567,851
+  
 Item=COST_TOO_HIGH
 Item=LACK_OF_FUNDS_WITHIN_THE_ESTABLISHMENT
 Item=LACK_OF_FINANCE_FROM_SOURCES_OUTSIDE_THE_ESTABLI
@@ -377,237 +675,242 @@ Max=1
   
 [Field]
 Name=PROVINCE_IE
-Position=272,27,301,47
+Position=793,89,822,109
 Item=PROVINCE_IE,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 Form=2
   
 [Text]
-Position=50,30,123,46
+Position=52,91,125,107
 Text=Province ID
+Form=2
  
   
 [Field]
 Name=DISTRICT_ID
-Position=272,57,301,77
+Position=794,117,823,137
 Item=DISTRICT_ID,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 Form=2
   
 [Text]
-Position=50,60,110,76
+Position=55,119,115,135
 Text=District ID
+Form=2
  
   
 [Field]
 Name=COMMUNE_ID
-Position=272,87,301,107
+Position=793,148,822,168
 Item=COMMUNE_ID,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 Form=2
   
 [Text]
-Position=50,90,132,106
+Position=56,151,138,167
 Text=Commune ID
+Form=2
  
   
 [Field]
 Name=VILLAGE_ID
-Position=272,117,301,137
+Position=794,180,823,200
 Item=VILLAGE_ID,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 Form=2
   
 [Text]
-Position=50,120,112,136
+Position=57,180,119,196
 Text=Village ID
+Form=2
  
   
 [Field]
 Name=SERIAL_NUMBER_OF_ESTABLISHMENT
-Position=272,147,329,167
+Position=769,212,826,232
 Item=SERIAL_NUMBER_OF_ESTABLISHMENT,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 Form=2
   
 [Text]
-Position=50,150,250,166
+Position=47,212,247,228
 Text=Serial Number of Establishment
+Form=2
  
   
 [Field]
 Name=NAME_OF_ESTABLISHMENT
-Position=272,177,1082,197
+Position=492,325,837,345
 Item=NAME_OF_ESTABLISHMENT,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 Form=2
   
 [Text]
-Position=50,180,195,196
+Position=51,328,196,344
 Text=Name of Establishment
  
   
 [Field]
 Name=NAME_OF_INTERVIEWEE
-Position=272,207,482,227
+Position=493,355,703,375
 Item=NAME_OF_INTERVIEWEE,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 Form=2
   
 [Text]
-Position=50,210,182,226
+Position=51,358,183,374
 Text=Name of Interviewee
  
   
 [Field]
 Name=JOB_TITLE
-Position=272,237,442,257
+Position=493,385,663,405
 Item=JOB_TITLE,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 Form=2
   
 [Text]
-Position=50,240,105,256
+Position=51,388,106,404
 Text=Job Title
  
   
 [Field]
 Name=TELEPHONE_NUMBER
-Position=272,267,413,287
+Position=494,415,635,435
 Item=TELEPHONE_NUMBER,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 Form=2
   
 [Text]
-Position=50,270,172,286
+Position=51,418,173,434
 Text=Telephone Number
  
   
 [Field]
 Name=EMAIL_ADDRESS
-Position=272,297,482,317
+Position=494,447,704,467
 Item=EMAIL_ADDRESS,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 Form=2
   
 [Text]
-Position=50,300,140,316
+Position=51,451,141,467
 Text=Email Address
  
   
 [Field]
 Name=PHYSICAL_ADDRESS
-Position=272,327,682,347
+Position=494,477,836,497
 Item=PHYSICAL_ADDRESS,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 Form=2
   
 [Text]
-Position=50,330,157,346
+Position=51,478,158,494
 Text=Physical Address
  
   
 [Field]
 Name=YEAR_OF_ESTABLISHMENT
-Position=272,357,329,377
+Position=500,586,557,606
 Item=YEAR_OF_ESTABLISHMENT,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 Form=2
   
 [Text]
-Position=50,360,187,376
+Position=58,587,195,603
 Text=Year of Establishment
  
   
 [Field]
 Name=ESTABLISHMENT_REG_NO
-Position=272,387,329,407
+Position=500,616,585,636
 Item=ESTABLISHMENT_REG_NO,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 Form=2
   
 [Text]
-Position=50,390,188,406
+Position=58,617,196,633
 Text=Establishment Reg No
  
   
 [Field]
 Name=OWNERSHIP_LOCAL
-Position=272,417,315,437
+Position=500,646,543,666
 Item=OWNERSHIP_LOCAL,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 Form=2
   
 [Text]
-Position=50,420,157,436
+Position=58,647,165,663
 Text=Ownership Local
  
   
 [Field]
 Name=OWNERSHIP_FORIEGN
-Position=272,447,315,467
+Position=500,676,543,696
 Item=OWNERSHIP_FORIEGN,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 Form=2
   
 [Text]
-Position=50,450,167,466
+Position=58,677,175,693
 Text=Ownership foriegn
  
   
 [Field]
 Name=TYPE_OF_ESTABLISHMENU
-Position=272,477,287,497
+Position=500,706,515,726
 Item=TYPE_OF_ESTABLISHMENU,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=2
   
 [Text]
-Position=50,480,189,496
+Position=58,707,197,723
 Text=Type of Establishment
  
   
 [Field]
 Name=OWNERSHIP_OF_ESTABLISHMENU
-Position=272,507,301,527
+Position=500,736,529,756
 Item=OWNERSHIP_OF_ESTABLISHMENU,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=2
   
 [Text]
-Position=50,510,226,526
+Position=58,737,234,753
 Text=Ownership of Establishment
  
   
 [Field]
 Name=SECTOR
-Position=272,537,287,557
+Position=500,766,515,786
 Item=SECTOR,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=2
   
 [Text]
-Position=50,540,91,556
+Position=58,767,99,783
 Text=Sector
  
   
 [Field]
 Name=NUMBER_OF_EMPLOYEES
-Position=272,567,329,587
+Position=500,796,557,816
 Item=NUMBER_OF_EMPLOYEES,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 Form=2
   
 [Text]
-Position=50,570,189,586
+Position=58,798,197,814
 Text=Number of employees
  
 [EndGroup]
@@ -622,10 +925,9 @@ Max=1
   
 [Field]
 Name=MAIN_ACTIVITY
-Position=313,27,9218,47
+Position=313,27,398,47
 Item=MAIN_ACTIVITY,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
-DataCaptureType=CheckBox
 Form=3
   
 [Text]
@@ -754,134 +1056,134 @@ Max=1
   
 [Field]
 Name=ESTABLISHMENT_CARRY_OUT_ANY_RESEARCH_AND_DEVELOP
-Position=443,27,486,47
+Position=734,106,777,126
 Item=ESTABLISHMENT_CARRY_OUT_ANY_RESEARCH_AND_DEVELOP,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=4
   
 [Text]
-Position=50,30,421,46
+Position=50,109,421,125
 Text=3.1-Establishment carry out any research and development
  
   
 [Field]
 Name=DESCRIPTION_OF_YOUR_R_D_ACTIVITIES
-Position=443,57,486,77
+Position=734,134,777,154
 Item=DESCRIPTION_OF_YOUR_R_D_ACTIVITIES,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 Form=4
   
 [Text]
-Position=50,60,282,76
+Position=50,137,282,153
 Text=3.2-Description of your R&D activities
  
   
 [Field]
 Name=RESEARCHERS_MALE
-Position=443,87,500,107
+Position=734,163,791,183
 Item=RESEARCHERS_MALE,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 Form=4
   
 [Text]
-Position=50,90,185,106
+Position=50,166,185,182
 Text=3.3-Researchers Male
  
   
 [Field]
 Name=RESEARCHERS_FEMALE
-Position=443,117,500,137
+Position=734,194,791,214
 Item=RESEARCHERS_FEMALE,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 Form=4
   
 [Text]
-Position=50,120,202,136
+Position=50,197,202,213
 Text=3.3-Researchers Female
  
   
 [Field]
 Name=TECHNICIANS_MALE
-Position=443,147,500,167
+Position=734,225,791,245
 Item=TECHNICIANS_MALE,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 Form=4
   
 [Text]
-Position=50,150,183,166
+Position=50,228,183,244
 Text=3.3-Technicians Male
  
   
 [Field]
 Name=TECHNICIANS_FEMALE
-Position=443,177,500,197
+Position=734,255,791,275
 Item=TECHNICIANS_FEMALE,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 Form=4
   
 [Text]
-Position=50,180,200,196
+Position=50,258,200,274
 Text=3.3-Technicians Female
  
   
 [Field]
 Name=OTHER_SUPPORT_STAFF_MALE
-Position=443,207,500,227
+Position=734,285,791,305
 Item=OTHER_SUPPORT_STAFF_MALE,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 Form=4
   
 [Text]
-Position=50,210,223,226
+Position=50,288,223,304
 Text=3.3-Other support staff Male
  
   
 [Field]
 Name=OTHER_SUPPORT_STAFF_FEMALE
-Position=443,237,500,257
+Position=734,317,791,337
 Item=OTHER_SUPPORT_STAFF_FEMALE,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 Form=4
   
 [Text]
-Position=50,240,240,256
+Position=50,320,240,336
 Text=3.3-Other support staff Female
  
   
 [Field]
 Name=TOTAL_R_D_EXPENDITURE_2016
-Position=443,267,528,287
+Position=734,347,819,367
 Item=TOTAL_R_D_EXPENDITURE_2016,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 Form=4
   
 [Text]
-Position=50,270,259,286
+Position=50,350,259,366
 Text=3.4.1-Total R&D expenditure 2016
  
   
 [Field]
 Name=TOTAL_R_D_EXPENDITURE_2017
-Position=443,297,528,317
+Position=734,380,819,400
 Item=TOTAL_R_D_EXPENDITURE_2017,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 Form=4
   
 [Text]
-Position=50,300,259,316
+Position=50,383,259,399
 Text=3.4.2-Total R&D expenditure 2017
  
   
 [Field]
 Name=TOTAL_R_D_EXPENDITURE_2018
-Position=443,327,528,347
+Position=734,411,819,431
 Item=TOTAL_R_D_EXPENDITURE_2018,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 Form=4
   
 [Text]
-Position=50,330,259,346
+Position=50,416,259,432
 Text=3.4.3-Total R&D expenditure 2018
  
 [EndGroup]
@@ -943,7 +1245,7 @@ Form=5
   
 [Text]
 Position=50,120,294,136
-Text=4-4-3-ORGANISATIONAL INNOVATIONS
+Text=4.4-4-ORGANISATIONAL INNOVATIONS
  
   
 [Field]
@@ -956,19 +1258,19 @@ Form=5
   
 [Text]
 Position=50,150,254,166
-Text=4.4-4-MARKETING INNOVATIONS
+Text=4-4-3-MARKETING INNOVATIONS
  
   
 [Field]
 Name=IMPROVED_PRODUCTS
-Position=913,177,928,197
+Position=913,180,928,200
 Item=IMPROVED_PRODUCTS,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=5
   
 [Text]
-Position=50,180,212,196
+Position=50,183,212,199
 Text=4.1.1.1-improved products
  
   
@@ -987,7 +1289,7 @@ Text=4.1.1.2-improved services
   
 [Field]
 Name=NEW_OR_SIGNIFICANTLY_IMPROVED_PRODUCTS
-Position=913,237,928,257
+Position=913,237,956,257
 Item=NEW_OR_SIGNIFICANTLY_IMPROVED_PRODUCTS,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
@@ -1000,7 +1302,7 @@ Text=4.1.2.1-New or significantly improved products
   
 [Field]
 Name=NEW_OR_SIGNIFICANTLY_IMPROVED_SERVICES
-Position=913,267,928,287
+Position=913,267,956,287
 Item=NEW_OR_SIGNIFICANTLY_IMPROVED_SERVICES,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
@@ -1139,7 +1441,7 @@ Text=4.2.1.3-New or significantly improved supporting activities
   
 [Field]
 Name=METHODS_OF_MANUFACTURING_OR_PRODUCING_GOODS_OR_SERVICES
-Position=913,597,928,617
+Position=913,597,956,617
 Item=METHODS_OF_MANUFACTURING_OR_PRODUCING_GOODS_OR_SERVICES,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
@@ -1152,7 +1454,7 @@ Text=4.2.2.1-methods of manufacturing or producing goods or services
   
 [Field]
 Name=LOGISTICS_DELIVERY_OR_DISTRIBUTION_METHODS_FOR_YOUR_INPUTS_GOODS_OR_SERVICES
-Position=913,627,928,647
+Position=913,627,956,647
 Item=LOGISTICS_DELIVERY_OR_DISTRIBUTION_METHODS_FOR_YOUR_INPUTS_GOODS_OR_SERVICES,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
@@ -1165,7 +1467,7 @@ Text=4.2.2.2-Logistics, delivery or distribution methods for your inputs, goods 
   
 [Field]
 Name=SUPPORTING_ACTIVITIES_FOR_YOUR_PROCESSES_SUCH_AS_MAINTENANCE_SYSTEMS_OR_OPERATIONS_FOR_PURCHASING_ACCOUNTING_OR_COMPUTING
-Position=913,657,928,677
+Position=913,657,956,677
 Item=SUPPORTING_ACTIVITIES_FOR_YOUR_PROCESSES_SUCH_AS_MAINTENANCE_SYSTEMS_OR_OPERATIONS_FOR_PURCHASING_ACCOUNTING_OR_COMPUTING,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
@@ -1229,79 +1531,79 @@ Text=4.3.1.3-New or significantly improved product promotion or pricing
   
 [Field]
 Name=PRODUCT_DESIGN_OR_PACKAGING
-Position=913,807,928,827
+Position=913,807,956,827
 Item=PRODUCT_DESIGN_OR_PACKAGING,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=5
   
 [Text]
-Position=50,810,284,826
+Position=96,810,330,826
 Text=(4.3.1)-1-Product design or packaging
  
   
 [Field]
 Name=PRODUCT_DISTRIBUTION_PLACEMENT
-Position=913,837,928,857
+Position=913,837,956,857
 Item=PRODUCT_DISTRIBUTION_PLACEMENT,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=5
   
 [Text]
-Position=50,840,298,856
+Position=96,840,344,856
 Text=(4.3.1)-2-Product distribution/Placement
  
   
 [Field]
 Name=PRODUCT_PROMOTION_OR_PRICING
-Position=913,867,928,887
+Position=913,867,956,887
 Item=PRODUCT_PROMOTION_OR_PRICING,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=5
   
 [Text]
-Position=50,870,285,886
+Position=96,870,331,886
 Text=(4.3.1)-3-Product promotion or pricing
  
   
 [Field]
 Name=SIGNIFICANTLY_IMPROVED_METHODS_IN_THE_FIRM_S_BUS
-Position=913,897,928,917
+Position=915,905,930,925
 Item=SIGNIFICANTLY_IMPROVED_METHODS_IN_THE_FIRM_S_BUS,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=5
   
 [Text]
-Position=50,900,490,916
+Position=52,908,492,924
 Text=4.4.1.1-significantly improved methods in the firm’s business practices
  
   
 [Field]
 Name=NEW_OR_SIGNIFICANTLY_IMPROVED_WORKPLACE_ORGANIZA
-Position=913,927,928,947
+Position=915,935,930,955
 Item=NEW_OR_SIGNIFICANTLY_IMPROVED_WORKPLACE_ORGANIZA,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=5
   
 [Text]
-Position=50,930,437,946
+Position=52,938,439,954
 Text=4.4.1.2-New or significantly improved workplace organization
  
   
 [Field]
 Name=NEW_OR_SIGNIFICANTLY_IMPROVED_WORKPLACE_ORGANIZA1
-Position=913,957,928,977
+Position=915,965,930,985
 Item=NEW_OR_SIGNIFICANTLY_IMPROVED_WORKPLACE_ORGANIZA1,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=5
   
 [Text]
-Position=50,960,437,976
+Position=52,968,439,984
 Text=4.4.1.3-New or significantly improved workplace organization
  
 [EndGroup]
@@ -1316,27 +1618,27 @@ Max=1
   
 [Field]
 Name=ABANDONED_OR_SUSPENDED_BEFORE_COMPLETION
-Position=387,27,402,47
+Position=785,93,800,113
 Item=ABANDONED_OR_SUSPENDED_BEFORE_COMPLETION,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=6
   
 [Text]
-Position=50,30,365,46
+Position=52,94,367,110
 Text=5.1.1-Abandoned or suspended before completion
  
   
 [Field]
 Name=STILL_ON_GOING_AT_THE_END_OF_2018
-Position=387,57,402,77
+Position=785,123,800,143
 Item=STILL_ON_GOING_AT_THE_END_OF_2018,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=6
   
 [Text]
-Position=50,60,284,76
+Position=52,124,286,140
 Text=5.1.2-Still on-going at the end of 2018
  
 [EndGroup]
@@ -1351,7 +1653,7 @@ Max=1
   
 [Field]
 Name=GETTING_NEW_PRODUCTS_TO_THE_MARKET_QUICKLY
-Position=648,27,663,47
+Position=697,27,712,47
 Item=GETTING_NEW_PRODUCTS_TO_THE_MARKET_QUICKLY,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
@@ -1364,7 +1666,7 @@ Text=6.1.1-Getting new products to the market quickly
   
 [Field]
 Name=MAKING_EFFICIENT_USE_OF_R_D_EXPENDITURE
-Position=648,57,663,77
+Position=697,57,712,77
 Item=MAKING_EFFICIENT_USE_OF_R_D_EXPENDITURE,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
@@ -1377,7 +1679,7 @@ Text=6.1.2-Making efficient use of R&D expenditure
   
 [Field]
 Name=COMING_UP_WITH_BREAKTHROUGH_RADICAL_TECHNOLOGIES
-Position=648,87,663,107
+Position=697,87,712,107
 Item=COMING_UP_WITH_BREAKTHROUGH_RADICAL_TECHNOLOGIES,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
@@ -1390,7 +1692,7 @@ Text=6.1.3-Coming up with breakthrough/radical technologies
   
 [Field]
 Name=BRINGING_BREAKTHROUGH_TECHNOLOGIES_TO_THE_MARKET
-Position=648,117,663,137
+Position=697,117,712,137
 Item=BRINGING_BREAKTHROUGH_TECHNOLOGIES_TO_THE_MARKET,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
@@ -1403,7 +1705,7 @@ Text=6.1.4-Bringing breakthrough technologies to the market
   
 [Field]
 Name=IN_HOUSE_R_D_CREATIVE_WORK_UNDERTAKEN_WITHIN_YOU
-Position=648,147,663,167
+Position=697,147,712,167
 Item=IN_HOUSE_R_D_CREATIVE_WORK_UNDERTAKEN_WITHIN_YOU,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
@@ -1416,20 +1718,20 @@ Text=6.2.1.1-In-house R&D Creative work undertaken within your establishment on 
   
 [Field]
 Name=IN_HOUSE_R_D_ESTABLISHMENT_PERFORM_R_D
-Position=648,177,663,197
+Position=697,177,712,197
 Item=IN_HOUSE_R_D_ESTABLISHMENT_PERFORM_R_D,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=7
   
 [Text]
-Position=50,180,367,196
+Position=78,180,395,196
 Text=6.2.1.1-1-In-house R&D establishment perform R&D
  
   
 [Field]
 Name=IN_HOUSE_R_D_ESTIMATION_AMOUNT
-Position=648,207,663,227
+Position=697,207,712,227
 Item=IN_HOUSE_R_D_ESTIMATION_AMOUNT,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
@@ -1442,7 +1744,7 @@ Text=6.2.1.2-In-house R&D Estimation amount
   
 [Field]
 Name=ACQUISITION_OF_R_D
-Position=648,237,663,257
+Position=697,237,712,257
 Item=ACQUISITION_OF_R_D,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
@@ -1455,7 +1757,7 @@ Text=6.2.2.1-Acquisition of R&D
   
 [Field]
 Name=ACQUISITION_OF_R_D_ESTIMATION_AMOUNT
-Position=648,267,663,287
+Position=697,267,712,287
 Item=ACQUISITION_OF_R_D_ESTIMATION_AMOUNT,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
@@ -1468,7 +1770,7 @@ Text=6.2.2.2-Acquisition of R&D  Estimation amount
   
 [Field]
 Name=ACQUISITION_OF_MACHINERY_EQUIPMENT_AND_SOFTWARE
-Position=648,297,663,317
+Position=697,297,712,317
 Item=ACQUISITION_OF_MACHINERY_EQUIPMENT_AND_SOFTWARE,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
@@ -1481,7 +1783,7 @@ Text=6.2.3.1-Acquisition of machinery, equipment and software
   
 [Field]
 Name=ACQUISITION_OF_MACHINERY_EQUIPMENT_AND_SOFTWARE1
-Position=648,327,663,347
+Position=697,327,712,347
 Item=ACQUISITION_OF_MACHINERY_EQUIPMENT_AND_SOFTWARE1,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
@@ -1494,7 +1796,7 @@ Text=6.2.3.2-Acquisition of machinery, equipment and software Estimation amount
   
 [Field]
 Name=ACQUISITION_OF_EXTERNAL_KNOWLEDGE
-Position=648,357,663,377
+Position=697,357,712,377
 Item=ACQUISITION_OF_EXTERNAL_KNOWLEDGE,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
@@ -1507,7 +1809,7 @@ Text=6.2.4.1-Acquisition of external knowledge
   
 [Field]
 Name=ACQUISITION_OF_EXTERNAL_KNOWLEDGE_ESTIMATION_AMO
-Position=648,387,663,407
+Position=697,387,712,407
 Item=ACQUISITION_OF_EXTERNAL_KNOWLEDGE_ESTIMATION_AMO,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
@@ -1520,7 +1822,7 @@ Text=6.2.4.2-Acquisition of external knowledge Estimation amount
   
 [Field]
 Name=TRAINNING
-Position=648,417,663,437
+Position=697,417,712,437
 Item=TRAINNING,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
@@ -1533,7 +1835,7 @@ Text=6.2.5.1-Trainning
   
 [Field]
 Name=TRAINNING_ESTIMATION_AMOUNT
-Position=648,447,663,467
+Position=697,447,712,467
 Item=TRAINNING_ESTIMATION_AMOUNT,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
@@ -1546,7 +1848,7 @@ Text=6.2.5.2-Trainning Estimation amount
   
 [Field]
 Name=MARKET_INTRODUCTION_OF_INNOVATIONS
-Position=648,477,663,497
+Position=697,477,712,497
 Item=MARKET_INTRODUCTION_OF_INNOVATIONS,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
@@ -1559,7 +1861,7 @@ Text=6.2.6.1-Market introduction of innovations
   
 [Field]
 Name=MARKET_INTRODUCTION_OF_INNOVATIONS_ESTIMATED_AMO
-Position=648,507,663,527
+Position=697,507,712,527
 Item=MARKET_INTRODUCTION_OF_INNOVATIONS_ESTIMATED_AMO,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
@@ -1572,7 +1874,7 @@ Text=6.2.6.2-Market introduction of innovations Estimated amount
   
 [Field]
 Name=ALL_FORMS_OF_DESIGN
-Position=648,537,663,557
+Position=697,537,712,557
 Item=ALL_FORMS_OF_DESIGN,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
@@ -1585,7 +1887,7 @@ Text=6.2.7.1-All forms of design
   
 [Field]
 Name=ALL_FORMS_OF_DESIGN_ESTIMATED_AMOUNT
-Position=648,567,663,587
+Position=697,567,712,587
 Item=ALL_FORMS_OF_DESIGN_ESTIMATED_AMOUNT,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
@@ -1598,7 +1900,7 @@ Text=6.2.7.2-All forms of design Estimated amount
   
 [Field]
 Name=PREPARATION_FOR_MARKETING_INNOVATION
-Position=648,597,663,617
+Position=697,598,712,618
 Item=PREPARATION_FOR_MARKETING_INNOVATION,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
@@ -1611,7 +1913,7 @@ Text=6.2.8.1-Preparation for marketing innovation
   
 [Field]
 Name=PREPARATION_FOR_MARKETING_INNOVATION_ESTIMATED_A
-Position=648,627,663,647
+Position=697,627,712,647
 Item=PREPARATION_FOR_MARKETING_INNOVATION_ESTIMATED_A,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
@@ -1624,7 +1926,7 @@ Text=6.2.8.2-Preparation for marketing innovation Estimated amount
   
 [Field]
 Name=PREPARATION_FOR_ORGANIZATIONAL_INNOVATION
-Position=648,657,663,677
+Position=697,657,712,677
 Item=PREPARATION_FOR_ORGANIZATIONAL_INNOVATION,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
@@ -1637,7 +1939,7 @@ Text=6.2.9.1-Preparation for organizational innovation
   
 [Field]
 Name=PREPARATION_FOR_ORGANIZATIONAL_INNOVATION_ESTIMA
-Position=648,687,663,707
+Position=697,687,712,707
 Item=PREPARATION_FOR_ORGANIZATIONAL_INNOVATION_ESTIMA,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
@@ -2006,7 +2308,7 @@ Max=1
   
 [Field]
 Name=TECHNICAL_CONSULTANCY_SERVICES
-Position=491,27,506,47
+Position=663,27,678,47
 Item=TECHNICAL_CONSULTANCY_SERVICES,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
@@ -2019,7 +2321,7 @@ Text=8.1.1.1-Technical consultancy services
   
 [Field]
 Name=TECHNICAL_CONSULTANCY_SERVICES_REASON
-Position=491,57,506,77
+Position=663,57,678,77
 Item=TECHNICAL_CONSULTANCY_SERVICES_REASON,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
@@ -2032,208 +2334,208 @@ Text=8.1.1.2-Technical consultancy services reason
   
 [Field]
 Name=TECHNICAL_SUPPORT_SERVICE
-Position=491,87,506,107
+Position=663,119,678,139
 Item=TECHNICAL_SUPPORT_SERVICE,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=9
   
 [Text]
-Position=50,90,256,106
+Position=50,122,256,138
 Text=8.1.2.1-Technical support service
  
   
 [Field]
 Name=TECHNICAL_SUPPORT_SERVICE_REASON
-Position=491,117,506,137
+Position=663,149,678,169
 Item=TECHNICAL_SUPPORT_SERVICE_REASON,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=9
   
 [Text]
-Position=50,120,307,136
+Position=50,152,307,168
 Text=8.1.2.2-Technical support service Reason
  
   
 [Field]
 Name=DUTY_FREE_IMPORTATION_OF_MACHINERY_OR_EQUIPMENT
-Position=491,147,506,167
+Position=663,208,678,228
 Item=DUTY_FREE_IMPORTATION_OF_MACHINERY_OR_EQUIPMENT,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=9
   
 [Text]
-Position=50,150,408,166
+Position=50,210,408,226
 Text=8.1.3.1-Duty  free importation of machinery or equipment
  
   
 [Field]
 Name=DUTY_FREE_IMPORTATION_OF_MACHINERY_OR_EQUIPMENT1
-Position=491,177,506,197
+Position=663,237,678,257
 Item=DUTY_FREE_IMPORTATION_OF_MACHINERY_OR_EQUIPMENT1,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=9
   
 [Text]
-Position=50,180,459,196
+Position=50,240,459,256
 Text=8.1.3.2-Duty  free importation of machinery or equipment Reason
  
   
 [Field]
 Name=COMMERCIALIZATION_OF_R_D_FUND
-Position=491,207,506,227
+Position=663,301,678,321
 Item=COMMERCIALIZATION_OF_R_D_FUND,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=9
   
 [Text]
-Position=50,210,297,226
+Position=50,303,297,319
 Text=8.1.4.1-Commercialization of R&D Fund
  
   
 [Field]
 Name=COMMERCIALIZATION_OF_R_D_FUND_REASON
-Position=491,237,506,257
+Position=663,330,678,350
 Item=COMMERCIALIZATION_OF_R_D_FUND_REASON,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=9
   
 [Text]
-Position=50,240,348,256
+Position=50,333,348,349
 Text=8.1.4.2-Commercialization of R&D Fund Reason
  
   
 [Field]
 Name=TAX_INCENTIVE
-Position=491,267,506,287
+Position=663,400,678,420
 Item=TAX_INCENTIVE,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=9
   
 [Text]
-Position=50,270,180,286
+Position=50,403,180,419
 Text=8.1.5.1-Tax incentive
  
   
 [Field]
 Name=TAX_INCENTIVE_REASON
-Position=491,297,506,317
+Position=663,430,678,450
 Item=TAX_INCENTIVE_REASON,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=9
   
 [Text]
-Position=50,300,231,316
+Position=50,433,231,449
 Text=8.1.5.2-Tax incentive Reason
  
   
 [Field]
 Name=R_D_GRANT
-Position=491,327,506,347
+Position=663,499,678,519
 Item=R_D_GRANT,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=9
   
 [Text]
-Position=50,330,158,346
+Position=50,496,158,512
 Text=8.1.6.1-R&D grant
  
   
 [Field]
 Name=R_D_GRANT_REASON
-Position=491,357,506,377
+Position=663,527,678,547
 Item=R_D_GRANT_REASON,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=9
   
 [Text]
-Position=50,360,209,376
+Position=50,526,209,542
 Text=8.1.6.2-R&D grant Reason
  
   
 [Field]
 Name=INNOVATION_GRANT
-Position=491,387,506,407
+Position=663,583,678,603
 Item=INNOVATION_GRANT,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=9
   
 [Text]
-Position=50,390,198,406
+Position=50,586,198,602
 Text=8.1.7.1-Innovation grant
  
   
 [Field]
 Name=INNOVATION_GRANT_REASON
-Position=491,417,506,437
+Position=663,613,678,633
 Item=INNOVATION_GRANT_REASON,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=9
   
 [Text]
-Position=50,420,249,436
+Position=50,616,249,632
 Text=8.1.7.2-Innovation grant Reason
  
   
 [Field]
 Name=PLEASE_SPECIFY_2016_2018
-Position=491,447,506,467
+Position=663,674,678,694
 Item=PLEASE_SPECIFY_2016_2018,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=9
   
 [Text]
-Position=50,450,248,466
+Position=50,681,248,697
 Text=8.1.8.1-please specify 2016-2018
  
   
 [Field]
 Name=PLEASE_SPECIFY_2016_2018_REASON
-Position=491,477,506,497
+Position=663,704,678,724
 Item=PLEASE_SPECIFY_2016_2018_REASON,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=9
   
 [Text]
-Position=50,480,295,496
+Position=50,707,295,723
 Text=8.1.8.2-please specify 2016-2018 reason
  
   
 [Field]
 Name=USEFULNESS_OF_GOVERNMENT_SUPPORT_FOR_YOUR_INNOVA
-Position=491,507,506,527
+Position=663,757,678,777
 Item=USEFULNESS_OF_GOVERNMENT_SUPPORT_FOR_YOUR_INNOVA,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=9
   
 [Text]
-Position=50,510,469,526
+Position=50,760,469,776
 Text=8.2-Usefulness of government support for your innovative activities
  
   
 [Field]
 Name=GOVERNMENT_ENCOURAGE_INNOVATION_FURTHER_IN_CAMBO
-Position=491,537,534,557
+Position=663,827,706,847
 Item=GOVERNMENT_ENCOURAGE_INNOVATION_FURTHER_IN_CAMBO,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 Form=9
   
 [Text]
-Position=50,540,424,556
+Position=50,830,424,846
 Text=8.3-Government encourage innovation further in Cambodia
  
 [EndGroup]
@@ -2248,66 +2550,66 @@ Max=1
   
 [Field]
 Name=PRODUCT
-Position=199,27,256,47
+Position=663,90,720,110
 Item=PRODUCT,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=CheckBox
 Form=10
   
 [Text]
-Position=50,30,132,46
+Position=53,93,135,109
 Text=9.1.1-Product
  
   
 [Field]
 Name=PROCESS
-Position=199,57,256,77
+Position=663,120,720,140
 Item=PROCESS,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=CheckBox
 Form=10
   
 [Text]
-Position=50,60,132,76
+Position=53,123,135,139
 Text=9.1.2-Process
  
   
 [Field]
 Name=ORGANIZATIONAL
-Position=199,87,256,107
+Position=663,150,720,170
 Item=ORGANIZATIONAL,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=CheckBox
 Form=10
   
 [Text]
-Position=50,90,177,106
+Position=53,153,180,169
 Text=9.1.3-Organizational
  
   
 [Field]
 Name=MARKETING
-Position=199,117,256,137
+Position=663,180,720,200
 Item=MARKETING,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=CheckBox
 Form=10
   
 [Text]
-Position=50,120,146,136
+Position=53,183,149,199
 Text=9.1.4-Marketing
  
   
 [Field]
 Name=R_D
-Position=199,147,256,167
+Position=663,210,720,230
 Item=R_D,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=CheckBox
 Form=10
   
 [Text]
-Position=50,150,110,166
+Position=53,213,113,229
 Text=9.1.5-R&D
  
 [EndGroup]
@@ -2322,248 +2624,248 @@ Max=1
   
 [Field]
 Name=CO_OPERATION_ARRANGEMENTS_ON_INNOVATION_ACTIVITI
-Position=611,27,626,47
+Position=700,78,715,98
 Item=CO_OPERATION_ARRANGEMENTS_ON_INNOVATION_ACTIVITI,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=11
   
 [Text]
-Position=50,30,545,46
+Position=50,81,545,97
 Text=10.1-Co-operation arrangements on innovation activities with other companies
  
   
 [Field]
 Name=OTHER_ESTABLISHMENT_WITHIN_YOUR_COMPANY_GROUP
-Position=611,57,724,77
+Position=700,108,813,128
 Item=OTHER_ESTABLISHMENT_WITHIN_YOUR_COMPANY_GROUP,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=11
   
 [Text]
-Position=50,60,395,76
+Position=50,111,395,127
 Text=10.1.1-Other establishment within your company group
  
   
 [Field]
 Name=SUPPLIERS_OF_EQUIPMENT_MATERIALS_COMPONENTS_SERV
-Position=611,87,724,107
+Position=700,138,813,158
 Item=SUPPLIERS_OF_EQUIPMENT_MATERIALS_COMPONENTS_SERV,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=11
   
 [Text]
-Position=50,90,524,106
+Position=50,141,524,157
 Text=10.1.2-Suppliers of equipment, materials, components, services or software
  
   
 [Field]
 Name=CLIENTS_OR_CUSTOMERS
-Position=611,117,724,137
+Position=700,168,813,188
 Item=CLIENTS_OR_CUSTOMERS,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=11
   
 [Text]
-Position=50,120,218,136
+Position=50,171,218,187
 Text=10.1.3-Clients or customers
  
   
 [Field]
 Name=COMPETITORS_AND_OTHER_ESTABLISHMENTS_IN_YOUR_IND
-Position=611,147,724,167
+Position=700,198,813,218
 Item=COMPETITORS_AND_OTHER_ESTABLISHMENTS_IN_YOUR_IND,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=11
   
 [Text]
-Position=50,150,431,166
+Position=50,201,431,217
 Text=10.1.4-Competitors and other establishments in your industry
  
   
 [Field]
 Name=CONSULTANTS
-Position=611,177,724,197
+Position=700,228,813,248
 Item=CONSULTANTS,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=11
   
 [Text]
-Position=50,180,163,196
+Position=50,231,163,247
 Text=10.1.5-Consultants
  
   
 [Field]
 Name=COMMERCIAL_LABORATORIES_AND_PRIVATE_R_D_ESTABLIS
-Position=611,207,724,227
+Position=700,258,813,278
 Item=COMMERCIAL_LABORATORIES_AND_PRIVATE_R_D_ESTABLIS,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=11
   
 [Text]
-Position=50,210,446,226
+Position=50,261,446,277
 Text=10.1.6-Commercial laboratories and private R&D establishment
  
   
 [Field]
 Name=UNIVERSITIES_OR_OTHER_HIGHER_EDUCATION_INSTITUTE
-Position=611,237,724,257
+Position=700,288,813,308
 Item=UNIVERSITIES_OR_OTHER_HIGHER_EDUCATION_INSTITUTE,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=11
   
 [Text]
-Position=50,240,389,256
+Position=50,291,389,307
 Text=10.1.7-Universities or other higher education institutes
  
   
 [Field]
 Name=GOVERNMENT_OR_PUBLIC_RESEARCH_INSTITUTES
-Position=611,267,724,287
+Position=700,318,813,338
 Item=GOVERNMENT_OR_PUBLIC_RESEARCH_INSTITUTES,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=11
   
 [Text]
-Position=50,270,347,286
+Position=50,321,347,337
 Text=10.1.8-Government or public research institutes
  
   
 [Field]
 Name=SPECIFY_TYPE_OF_PARTNER
-Position=611,297,724,317
+Position=700,348,813,368
 Item=SPECIFY_TYPE_OF_PARTNER,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=11
   
 [Text]
-Position=50,300,238,316
+Position=50,351,238,367
 Text=10.1.9-Specify Type of partner
  
   
 [Field]
 Name=OTHER_ESTABLISHMENT_WITHIN_YOUR_COMPANY_GROUP1
-Position=611,327,626,347
+Position=700,408,715,428
 Item=OTHER_ESTABLISHMENT_WITHIN_YOUR_COMPANY_GROUP1,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=11
   
 [Text]
-Position=50,330,395,346
+Position=50,411,395,427
 Text=10.2.1-Other establishment within your company group
  
   
 [Field]
 Name=SOFTWARE_SUPPLIERS_OF_EQUIPMENT_MATERIALS_COMPON
-Position=611,357,626,377
+Position=700,438,715,458
 Item=SOFTWARE_SUPPLIERS_OF_EQUIPMENT_MATERIALS_COMPON,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=11
   
 [Text]
-Position=50,360,589,376
+Position=50,441,589,457
 Text=10.2.2-Software (Suppliers of equipment, materials, components, services or software
  
   
 [Field]
 Name=CLIENTS_OR_CUSTOMERS1
-Position=611,387,626,407
+Position=700,468,715,488
 Item=CLIENTS_OR_CUSTOMERS1,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=11
   
 [Text]
-Position=50,390,218,406
+Position=50,471,218,487
 Text=10.2.3-Clients or customers
  
   
 [Field]
 Name=COMPETITORS_AND_OTHER_ESTABLISHMENTS_IN_YOUR_IND1
-Position=611,417,626,437
+Position=700,498,715,518
 Item=COMPETITORS_AND_OTHER_ESTABLISHMENTS_IN_YOUR_IND1,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=11
   
 [Text]
-Position=50,420,431,436
+Position=50,501,431,517
 Text=10.2.4-Competitors and other establishments in your industry
  
   
 [Field]
 Name=CONSULTANTS1
-Position=611,447,626,467
+Position=700,528,715,548
 Item=CONSULTANTS1,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=11
   
 [Text]
-Position=50,450,163,466
+Position=50,531,163,547
 Text=10.2.5-Consultants
  
   
 [Field]
 Name=COMMERCIAL_LABORATORIES_AND_PRIVATE_R_D_ESTABLIS1
-Position=611,477,626,497
+Position=700,558,715,578
 Item=COMMERCIAL_LABORATORIES_AND_PRIVATE_R_D_ESTABLIS1,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=11
   
 [Text]
-Position=50,480,446,496
+Position=50,561,446,577
 Text=10.2.6-Commercial laboratories and private R&D establishment
  
   
 [Field]
 Name=UNIVERSITIES_OR_OTHER_HIGHER_EDUCATION_INSTITUTE1
-Position=611,507,626,527
+Position=700,588,715,608
 Item=UNIVERSITIES_OR_OTHER_HIGHER_EDUCATION_INSTITUTE1,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=11
   
 [Text]
-Position=50,510,389,526
+Position=50,591,389,607
 Text=10.2.7-Universities or other higher education institutes
  
   
 [Field]
 Name=GOVERNMENT_OR_PUBLIC_RESEARCH_INSTITUTES1
-Position=611,537,626,557
+Position=700,618,715,638
 Item=GOVERNMENT_OR_PUBLIC_RESEARCH_INSTITUTES1,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=11
   
 [Text]
-Position=50,540,347,556
+Position=50,621,347,637
 Text=10.2.8-Government or public research institutes
  
   
 [Field]
 Name=SPECIFY_IMPORTANCE_OF_PARTNER
-Position=611,567,626,587
+Position=700,648,715,668
 Item=SPECIFY_IMPORTANCE_OF_PARTNER,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=11
   
 [Text]
-Position=50,570,279,586
+Position=50,651,279,667
 Text=10.2.9-Specify Importance of partner
  
 [EndGroup]
@@ -2578,195 +2880,183 @@ Max=1
   
 [Field]
 Name=WITHIN_THE_ESTABLISHMENT
-Position=534,27,549,47
+Position=681,109,696,129
 Item=WITHIN_THE_ESTABLISHMENT,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=12
   
 [Text]
-Position=50,30,258,46
+Position=51,112,259,128
 Text=11.1.1.1-Within the establishment
  
   
 [Field]
 Name=OTHER_ESTABLISHMENT_WITHIN_THE_COMPANIES_GROUP
-Position=534,57,549,77
+Position=681,139,696,159
 Item=OTHER_ESTABLISHMENT_WITHIN_THE_COMPANIES_GROUP,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=12
   
 [Text]
-Position=50,60,413,76
+Position=51,142,414,158
 Text=11.1.1.2-Other establishment  within the companies group
  
   
 [Field]
 Name=SOFTWARE_SUPPLIERS_OF_EQUIPMENT_MATERIALS_SERVIC
-Position=534,87,549,107
+Position=681,197,696,217
 Item=SOFTWARE_SUPPLIERS_OF_EQUIPMENT_MATERIALS_SERVIC,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=12
   
 [Text]
-Position=50,90,512,106
+Position=51,200,513,216
 Text=11.1.2.1-software (Suppliers of equipment, materials, services or software
  
   
 [Field]
 Name=CLIENTS_OR_CUSTOMERS2
-Position=534,117,549,137
+Position=681,227,696,247
 Item=CLIENTS_OR_CUSTOMERS2,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=12
   
 [Text]
-Position=50,120,229,136
+Position=51,230,230,246
 Text=11.1.2.2-Clients or customers
  
   
 [Field]
 Name=COMPETITORS_AND_OTHER_ESTABLISHMENT_IN_YOUR_INDU
-Position=534,147,549,167
+Position=681,257,696,277
 Item=COMPETITORS_AND_OTHER_ESTABLISHMENT_IN_YOUR_INDU,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=12
   
 [Text]
-Position=50,150,436,166
+Position=51,260,437,276
 Text=11.1.2.3-Competitors and other establishment in your industry
  
   
 [Field]
 Name=CONSULTANTS2
-Position=534,177,549,197
+Position=680,320,695,340
 Item=CONSULTANTS2,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=12
   
 [Text]
-Position=50,180,174,196
+Position=51,320,175,336
 Text=11.1.3.1-Consultants
  
   
 [Field]
 Name=COMMERCIAL_LABORATORIES_AND_PRIVATE_R_D_INSTITUT
-Position=534,207,549,227
+Position=681,347,696,367
 Item=COMMERCIAL_LABORATORIES_AND_PRIVATE_R_D_INSTITUT,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=12
   
 [Text]
-Position=50,210,425,226
+Position=51,350,426,366
 Text=11.1.3.2-Commercial laboratories and private R&D institutes
  
   
 [Field]
-Name=PRIVATE
-Position=534,237,549,257
-Item=PRIVATE,INNOVATION_SURVEY_DICT
-FieldLabelType=DictionaryLabel
-Form=12
-  
-[Text]
-Position=50,240,146,256
-Text=11.1.3.3-Private
- 
-  
-[Field]
 Name=UNIVERSITIES_OR_OTHER_HIGHER_EDUCATION_INSTITUTE2
-Position=534,267,549,287
+Position=681,407,696,427
 Item=UNIVERSITIES_OR_OTHER_HIGHER_EDUCATION_INSTITUTE2,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=12
   
 [Text]
-Position=50,270,400,286
+Position=51,410,401,426
 Text=11.1.3.4-Universities or other higher education institutes
  
   
 [Field]
 Name=GOVERNMENT_OR_PUBLIC_RESEARCH_INSTITUTES2
-Position=534,297,549,317
+Position=681,437,696,457
 Item=GOVERNMENT_OR_PUBLIC_RESEARCH_INSTITUTES2,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=12
   
 [Text]
-Position=50,300,366,316
+Position=51,440,367,456
 Text=11.1.3.5-Government   or public research institutes
  
   
 [Field]
 Name=CONFERENCES_TRADE_FAIRS_EXHIBITIONS
-Position=534,327,549,347
+Position=681,500,696,520
 Item=CONFERENCES_TRADE_FAIRS_EXHIBITIONS,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=12
   
 [Text]
-Position=50,330,330,346
+Position=51,506,331,522
 Text=11.1.4.1-Conferences, trade fairs, exhibitions
  
   
 [Field]
 Name=SCIENTIFIC_JOURNALS_AND_TRADE_TECHNICAL_PUBLICAT
-Position=534,357,549,377
+Position=681,533,696,553
 Item=SCIENTIFIC_JOURNALS_AND_TRADE_TECHNICAL_PUBLICAT,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=12
   
 [Text]
-Position=50,360,431,376
+Position=51,536,432,552
 Text=11.1.4.2-Scientific journals and trade / technical publications
  
   
 [Field]
 Name=PROFESSIONAL_AND_INDUSTRY_ASSOCIATIONS
-Position=534,387,549,407
+Position=681,563,696,583
 Item=PROFESSIONAL_AND_INDUSTRY_ASSOCIATIONS,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=12
   
 [Text]
-Position=50,390,342,406
+Position=51,566,343,582
 Text=11.1.4.3-Professional and industry associations
  
   
 [Field]
 Name=TECHNICAL_INDUSTRY_OR_SERVICE_STANDARDS
-Position=534,417,549,437
+Position=681,593,696,613
 Item=TECHNICAL_INDUSTRY_OR_SERVICE_STANDARDS,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=12
   
 [Text]
-Position=50,420,352,436
+Position=51,596,353,612
 Text=11.1.4.4-Technical, industry or service standards
  
   
 [Field]
 Name=SPECIFY_DEGREE_OF_IMPORTANCE
-Position=534,447,549,467
+Position=681,623,696,643
 Item=SPECIFY_DEGREE_OF_IMPORTANCE,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=12
   
 [Text]
-Position=50,450,290,466
+Position=51,626,291,642
 Text=11.1.4.5-Specify Degree of Importance
  
 [EndGroup]
@@ -2781,454 +3071,567 @@ Max=1
   
 [Field]
 Name=PATENTS_APPLIED
-Position=481,27,496,47
+Position=623,41,638,61
 Item=PATENTS_APPLIED,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=13
   
 [Text]
-Position=50,30,201,46
+Position=50,42,201,58
 Text=12.1.1.1-Patents Applied
  
   
 [Field]
 Name=PATENTS_GRANTED
-Position=481,57,496,77
+Position=623,70,638,90
 Item=PATENTS_GRANTED,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=13
   
 [Text]
-Position=50,60,203,76
+Position=50,71,203,87
 Text=12.1.1.2-Patents Granted
  
   
 [Field]
 Name=INDUSTRIAL_DESIGN_APPLIED
-Position=481,87,496,107
+Position=623,122,638,142
 Item=INDUSTRIAL_DESIGN_APPLIED,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=13
   
 [Text]
-Position=50,90,260,106
+Position=50,123,260,139
 Text=12.1.2.1-Industrial Design Applied
  
   
 [Field]
 Name=INDUSTRIAL_DESIGN_GRANTED
-Position=481,117,496,137
+Position=623,152,638,172
 Item=INDUSTRIAL_DESIGN_GRANTED,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=13
   
 [Text]
-Position=50,120,262,136
+Position=50,153,262,169
 Text=12.1.2.2-Industrial Design Granted
  
   
 [Field]
 Name=TRADEMARK_APPLIED
-Position=481,147,496,167
+Position=623,212,638,232
 Item=TRADEMARK_APPLIED,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=13
   
 [Text]
-Position=50,150,223,166
+Position=50,214,223,230
 Text=12.1.3.1-Trademark Applied
  
   
 [Field]
 Name=TRADEMARK_GRANTED
-Position=481,177,496,197
+Position=623,241,638,261
 Item=TRADEMARK_GRANTED,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=13
   
 [Text]
-Position=50,180,225,196
+Position=50,244,225,260
 Text=12.1.3.2-Trademark Granted
  
   
 [Field]
 Name=COPYRIGHT_APPLIED
-Position=481,207,496,227
+Position=623,301,638,321
 Item=COPYRIGHT_APPLIED,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=13
   
 [Text]
-Position=50,210,215,226
+Position=50,304,215,320
 Text=12.1.4.1-Copyright Applied
  
   
 [Field]
 Name=COPYRIGHT_GRANTED
-Position=481,237,496,257
+Position=623,331,638,351
 Item=COPYRIGHT_GRANTED,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=13
   
 [Text]
-Position=50,240,217,256
+Position=50,334,217,350
 Text=12.1.4.2-Copyright Granted
  
   
 [Field]
 Name=THE_TITLE_OF_THE_PATENTS
-Position=481,267,524,287
+Position=622,377,665,397
 Item=THE_TITLE_OF_THE_PATENTS,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 Form=13
   
 [Text]
-Position=50,270,222,286
+Position=51,380,223,396
 Text=12.2-The title of the Patents
  
   
 [Field]
 Name=PERCENT_OF_TURNOVER_OF_OWNED_PATENTS
-Position=481,297,524,317
+Position=622,416,665,436
 Item=PERCENT_OF_TURNOVER_OF_OWNED_PATENTS,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 Form=13
   
 [Text]
-Position=50,300,314,316
+Position=51,419,315,435
 Text=12.3-Percent of turnover of owned patents
  
   
 [Field]
-Name=COST_TOO_HIGH
-Position=481,327,496,347
-Item=COST_TOO_HIGH,INNOVATION_SURVEY_DICT
+Name=REGISTRATION_OF_DESIGN
+Position=264,507,279,527
+Item=REGISTRATION_OF_DESIGN,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=13
   
 [Text]
-Position=50,330,184,346
+Position=52,510,230,526
+Text=12.4.1-Registration of design
+ 
+  
+[Field]
+Name=TRADEMARK
+Position=234,538,249,558
+Item=TRADEMARK,INNOVATION_SURVEY_DICT
+FieldLabelType=DictionaryLabel
+DataCaptureType=RadioButton
+Form=13
+  
+[Text]
+Position=52,541,161,557
+Text=12.4.2-Trademark
+ 
+  
+[Field]
+Name=PATENTS
+Position=234,570,249,590
+Item=PATENTS,INNOVATION_SURVEY_DICT
+FieldLabelType=DictionaryLabel
+DataCaptureType=RadioButton
+Form=13
+  
+[Text]
+Position=52,573,139,589
+Text=12.4.3-Patents
+ 
+  
+[Field]
+Name=COPYRIGHT
+Position=234,600,249,620
+Item=COPYRIGHT,INNOVATION_SURVEY_DICT
+FieldLabelType=DictionaryLabel
+DataCaptureType=RadioButton
+Form=13
+  
+[Text]
+Position=52,603,153,619
+Text=12.4.4-Copyright
+ 
+  
+[Field]
+Name=CONFIDENTIALITY_AGREEMENTS
+Position=296,627,311,647
+Item=CONFIDENTIALITY_AGREEMENTS,INNOVATION_SURVEY_DICT
+FieldLabelType=DictionaryLabel
+DataCaptureType=RadioButton
+Form=13
+  
+[Text]
+Position=53,630,264,646
+Text=12.4.5-Confidentiality agreements
+ 
+  
+[Field]
+Name=TRADE_SECRET
+Position=236,659,251,679
+Item=TRADE_SECRET,INNOVATION_SURVEY_DICT
+FieldLabelType=DictionaryLabel
+DataCaptureType=RadioButton
+Form=13
+  
+[Text]
+Position=54,662,173,678
+Text=12.4.6-Trade secret
+ 
+  
+[Field]
+Name=COMPLEXITY_OF_DESIGN
+Position=236,688,251,708
+Item=COMPLEXITY_OF_DESIGN,INNOVATION_SURVEY_DICT
+FieldLabelType=DictionaryLabel
+DataCaptureType=RadioButton
+Form=13
+  
+[Text]
+Position=54,691,228,707
+Text=12.4.7-Complexity of design
+ 
+  
+[Field]
+Name=PLEASE_SPECIFY1
+Position=236,721,251,741
+Item=PLEASE_SPECIFY1,INNOVATION_SURVEY_DICT
+FieldLabelType=DictionaryLabel
+DataCaptureType=RadioButton
+Form=13
+  
+[Text]
+Position=54,724,185,740
+Text=12.4.8-Please specify
+ 
+[EndGroup]
+  
+[Group]
+Required=Yes
+Name=HAMPERING_FACTORS_FORM
+Label=HAMPERING FACTORS
+Form=14
+LogicControl=No
+Max=1
+  
+[Field]
+Name=COST_TOO_HIGH
+Position=527,86,542,106
+Item=COST_TOO_HIGH,INNOVATION_SURVEY_DICT
+FieldLabelType=DictionaryLabel
+DataCaptureType=RadioButton
+Form=14
+  
+[Text]
+Position=96,89,230,105
 Text=12.4.1.1-Cost too high
  
   
 [Field]
 Name=LACK_OF_FUNDS_WITHIN_THE_ESTABLISHMENT
-Position=481,357,496,377
+Position=527,116,542,136
 Item=LACK_OF_FUNDS_WITHIN_THE_ESTABLISHMENT,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
-Form=13
+Form=14
   
 [Text]
-Position=50,360,344,376
+Position=96,119,390,135
 Text=12.4.1.2-Lack of funds within the establishment
  
   
 [Field]
 Name=LACK_OF_FINANCE_FROM_SOURCES_OUTSIDE_THE_ESTABLI
-Position=481,387,496,407
+Position=527,146,542,166
 Item=LACK_OF_FINANCE_FROM_SOURCES_OUTSIDE_THE_ESTABLI,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
-Form=13
+Form=14
   
 [Text]
-Position=50,390,453,406
+Position=96,149,499,165
 Text=12.4.1.3-Lack of finance  from sources outside the establishment
  
   
 [Field]
 Name=EXCESSIVE_PERCEIVED_RISK
-Position=481,417,496,437
+Position=527,176,542,196
 Item=EXCESSIVE_PERCEIVED_RISK,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
-Form=13
+Form=14
   
 [Text]
-Position=50,420,256,436
+Position=96,179,302,195
 Text=12.4.1.4-Excessive perceived risk
  
   
 [Field]
 Name=LACK_OF_QUALIFIED_PERSONNEL
-Position=481,447,496,467
+Position=527,206,542,226
 Item=LACK_OF_QUALIFIED_PERSONNEL,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
-Form=13
+Form=14
   
 [Text]
-Position=50,450,274,466
+Position=96,209,320,225
 Text=12.4.2.1-Lack of qualified personnel
  
   
 [Field]
 Name=LACK_OF_INFORMATION_ON_TECHNOLOGY
-Position=481,477,496,497
+Position=527,236,542,256
 Item=LACK_OF_INFORMATION_ON_TECHNOLOGY,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
-Form=13
+Form=14
   
 [Text]
-Position=50,480,318,496
+Position=96,239,364,255
 Text=12.4.2.2-Lack of information on technology
  
   
 [Field]
 Name=LACK_OF_INFORMATION_ON_MARKETS
-Position=481,507,496,527
+Position=527,266,542,286
 Item=LACK_OF_INFORMATION_ON_MARKETS,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
-Form=13
+Form=14
   
 [Text]
-Position=50,510,298,526
+Position=96,269,344,285
 Text=12.4.2.3-Lack of information on markets
  
   
 [Field]
 Name=DIFFICULTIES_IN_FINDING_COOPERATION_PARTNERS_FOR
-Position=481,537,496,557
+Position=527,296,542,316
 Item=DIFFICULTIES_IN_FINDING_COOPERATION_PARTNERS_FOR,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
-Form=13
+Form=14
   
 [Text]
-Position=50,540,459,556
+Position=96,299,505,315
 Text=12.4.2.4-Difficulties in finding cooperation partners for innovation
  
   
 [Field]
 Name=WEAKNESS_OF_INTELLECTUAL_PROPERTY_KNOWLEDGE_AND
-Position=481,567,496,587
+Position=527,326,542,346
 Item=WEAKNESS_OF_INTELLECTUAL_PROPERTY_KNOWLEDGE_AND,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
-Form=13
+Form=14
   
 [Text]
-Position=50,570,454,586
+Position=96,329,500,345
 Text=12.4.2.5-Weakness of intellectual property knowledge and rights
  
   
 [Field]
 Name=MARKET_DOMINATED_BY_ESTABLISHED_ENTERPRISE
-Position=481,597,496,617
+Position=527,356,542,376
 Item=MARKET_DOMINATED_BY_ESTABLISHED_ENTERPRISE,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
-Form=13
+Form=14
   
 [Text]
-Position=50,600,379,616
+Position=96,359,425,375
 Text=12.4.3.1-Market dominated by established enterprise
  
   
 [Field]
 Name=UNCERTAIN_DEMAND_FOR_INNOVATIVE_GOODS_AND_SERVIC
-Position=481,627,496,647
+Position=527,386,542,406
 Item=UNCERTAIN_DEMAND_FOR_INNOVATIVE_GOODS_AND_SERVIC,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
-Form=13
+Form=14
   
 [Text]
-Position=50,630,434,646
+Position=96,389,480,405
 Text=12.4.3.2-Uncertain demand for innovative goods and services
  
   
 [Field]
 Name=INNOVATION_IS_EASY_TO_IMITATE
-Position=481,657,496,677
+Position=527,416,542,436
 Item=INNOVATION_IS_EASY_TO_IMITATE,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
-Form=13
+Form=14
   
 [Text]
-Position=50,660,279,676
+Position=96,419,325,435
 Text=12.4.3.3-Innovation is easy to imitate
  
   
 [Field]
 Name=ORGANISATIONAL_RIGIDITIES_WITHIN_THE_ENTERPRISE
-Position=481,687,496,707
+Position=527,446,542,466
 Item=ORGANISATIONAL_RIGIDITIES_WITHIN_THE_ENTERPRISE,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
-Form=13
+Form=14
   
 [Text]
-Position=50,690,388,706
+Position=96,449,434,465
 Text=12.4.4.1-Organisational rigidities within the enterprise
  
   
 [Field]
 Name=ATTITUDE_OF_PERSONNEL_TOWARDS_CHANGE
-Position=481,717,496,737
+Position=527,476,542,496
 Item=ATTITUDE_OF_PERSONNEL_TOWARDS_CHANGE,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
-Form=13
+Form=14
   
 [Text]
-Position=50,720,338,736
+Position=96,479,384,495
 Text=12.4.4.2-Attitude of personnel towards change
  
   
 [Field]
 Name=ATTITUDE_OF_MANAGERS_TOWARD_CHANGE
-Position=481,747,496,767
+Position=527,506,542,526
 Item=ATTITUDE_OF_MANAGERS_TOWARD_CHANGE,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
-Form=13
+Form=14
   
 [Text]
-Position=50,750,332,766
+Position=96,509,378,525
 Text=12.4.4.3-Attitude of managers toward change
  
   
 [Field]
 Name=MANAGERIAL_STRUCTURE_OF_ENTERPRISE
-Position=481,777,496,797
+Position=527,536,542,556
 Item=MANAGERIAL_STRUCTURE_OF_ENTERPRISE,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
-Form=13
+Form=14
   
 [Text]
-Position=50,780,316,796
+Position=96,539,362,555
 Text=12.4.4.4-Managerial structure of enterprise
  
   
 [Field]
 Name=INABILITY_TO_DEVOTE_STAFFS_TO_INNOVATION_ACTIVIT
-Position=481,807,496,827
+Position=527,566,542,586
 Item=INABILITY_TO_DEVOTE_STAFFS_TO_INNOVATION_ACTIVIT,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
-Form=13
+Form=14
   
 [Text]
-Position=50,810,442,826
+Position=96,569,488,585
 Text=12.4.4.5-Inability to devote staffs to innovation activities due to
  
   
 [Field]
 Name=LACK_OF_INFRASTRUCTURE
-Position=481,837,496,857
+Position=527,596,542,616
 Item=LACK_OF_INFRASTRUCTURE,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
-Form=13
+Form=14
   
 [Text]
-Position=50,840,235,856
+Position=96,599,281,615
 Text=12.4.4.6-Lack of infrastructure
  
   
 [Field]
 Name=LACK_OF_FACILITIES
-Position=481,867,496,887
+Position=527,626,542,646
 Item=LACK_OF_FACILITIES,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
-Form=13
+Form=14
   
 [Text]
-Position=50,870,204,886
+Position=96,629,250,645
 Text=12.4.4.7-Lack of facilities
  
   
 [Field]
 Name=LACK_OF_NETWORKING_WITH_RESEARCH_INSTITUTIONS
-Position=481,897,496,917
+Position=527,656,542,676
 Item=LACK_OF_NETWORKING_WITH_RESEARCH_INSTITUTIONS,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
-Form=13
+Form=14
   
 [Text]
-Position=50,900,384,916
+Position=96,659,430,675
 Text=12.4.4.8-Lack of networking with research institutions
  
   
 [Field]
 Name=INSUFFICIENT_FLEXIBILITIES_OF_REGULATION_OR_STAN
-Position=481,927,496,947
+Position=527,686,542,706
 Item=INSUFFICIENT_FLEXIBILITIES_OF_REGULATION_OR_STAN,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
-Form=13
+Form=14
   
 [Text]
-Position=50,930,411,946
+Position=96,689,457,705
 Text=12.4.5.1-Insufficient flexibilities of regulation or standards
  
   
 [Field]
 Name=LIMITATION_OF_SCIENCE_AND_TECHNOLOGY_PUBLIC_POLI
-Position=481,957,496,977
+Position=527,716,542,736
 Item=LIMITATION_OF_SCIENCE_AND_TECHNOLOGY_PUBLIC_POLI,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
-Form=13
+Form=14
   
 [Text]
-Position=50,960,431,976
+Position=96,719,477,735
 Text=12.4.5.2-Limitation of science and technology public policies
  
   
 [Field]
 Name=NO_NEED_TO_INNOVATE_DUE_TO_EARLIER_INNOVATIONS
-Position=481,987,496,1007
+Position=527,746,542,766
 Item=NO_NEED_TO_INNOVATE_DUE_TO_EARLIER_INNOVATIONS,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
-Form=13
+Form=14
   
 [Text]
-Position=50,990,396,1006
+Position=96,749,442,765
 Text=12.4.6.1-No need to innovate due to earlier innovations
  
   
 [Field]
 Name=NO_NEED_BECAUSE_LACK_OF_DEMAND_FOR_INNOVATIONS
-Position=481,1017,496,1037
+Position=527,776,542,796
 Item=NO_NEED_BECAUSE_LACK_OF_DEMAND_FOR_INNOVATIONS,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
-Form=13
+Form=14
   
 [Text]
-Position=50,1020,411,1036
+Position=96,779,457,795
 Text=12.4.6.2-No need because lack of demand for innovations
  
   
 [Field]
 Name=OTHER
-Position=481,1047,496,1067
+Position=527,806,542,826
 Item=OTHER,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
-Form=13
+Form=14
   
 [Text]
-Position=50,1050,136,1066
+Position=96,809,182,825
 Text=12.4.6.3-Other
  
 [EndGroup]

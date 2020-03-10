@@ -1,0 +1,49 @@
+﻿Application     E:\Telegram\Innovation Survey\New Innovation Data Entry.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> E:\Project\CSPro\Innovation Survey\DB\innovation survey.csdb
+
+Date            Mar  9, 2020
+Start Time      16:26:52
+End Time        16:27:21
+
+CSPRO Process Summary
+
+System messages:
+
+ Number    Frequency   Message text
+ ------    ---------   ------------
+  99990            1   Operator entered a value out of range                                                 
+
+CSPRO Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     E:\Telegram\Innovation Survey\New Innovation Data Entry.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> E:\Project\CSPro\Innovation Survey\DB\innovation survey.csdb
+
+Date            Mar  9, 2020
+Start Time      16:27:31
+End Time        16:31:27
+
+CSPRO Process Summary
+
+CSPRO Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     E:\Telegram\Innovation Survey\New Innovation Data Entry.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> E:\Project\CSPro\Innovation Survey\DB\innovation survey.csdb
+
+Date            Mar 10, 2020
+Start Time      10:04:37
+End Time        10:07:33
+
+CSPRO Process Summary
+
+System messages:
+
+ Number    Frequency   Message text
+ ------    ---------   ------------
+   1010            1   Application error: protected field %n out of range - value is %f                      
+  99990            6   Operator entered a value out of range                                                 
+
+CSPRO Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
