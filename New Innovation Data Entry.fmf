@@ -779,7 +779,7 @@ Text=Job Title
   
 [Field]
 Name=TELEPHONE_NUMBER
-Position=494,415,635,435
+Position=494,415,789,435
 Item=TELEPHONE_NUMBER,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 Form=2
@@ -1056,7 +1056,7 @@ Max=1
   
 [Field]
 Name=ESTABLISHMENT_CARRY_OUT_ANY_RESEARCH_AND_DEVELOP
-Position=734,106,777,126
+Position=734,106,749,126
 Item=ESTABLISHMENT_CARRY_OUT_ANY_RESEARCH_AND_DEVELOP,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
@@ -3071,7 +3071,7 @@ Max=1
   
 [Field]
 Name=PATENTS_APPLIED
-Position=623,41,638,61
+Position=623,41,666,61
 Item=PATENTS_APPLIED,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
@@ -3084,7 +3084,7 @@ Text=12.1.1.1-Patents Applied
   
 [Field]
 Name=PATENTS_GRANTED
-Position=623,70,638,90
+Position=623,70,666,90
 Item=PATENTS_GRANTED,INNOVATION_SURVEY_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
